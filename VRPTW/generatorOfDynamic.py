@@ -88,7 +88,7 @@ def main():
         sys.exit(1)
 
     input_dir = "./solomonInstances"
-    output_dir = "./solomonInstances_modif"
+    output_dir = "./solomonInstances_notDyn"
     process_all_instances(input_dir, output_dir, percent_dynamic)
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ struct Customer {
     int demand;
     int service;
     pair<int, int> tw;
+    int orderVisibleTime = 0;
 };
 
 struct EvalData{
@@ -63,20 +64,21 @@ class VRPTW : public FitnessFunction{
 
         static const int N = 100; 
     
-        vector<SolomonInstance> solomonInstances;
+        vector<SolomonInstance> trainingSet;
+        vector<SolomonInstance> testSet;
 
         // Customer customers[N + 1];
         // double c[N + 1][N + 1];
 
-        VRPTW();
+        VRPTW(string solomonInstanceFolder);
 
         double fitness(Node *expr) override;
 
         solution metaAlgorithmSerial(Node *expr, SolomonInstance *instance);
         solution metaAlgorithmParallel(Node *expr, SolomonInstance *instance, int vehicles, bool &success);
 
-        solution closestFirst(SolomonInstance *instance, Node *expr);
-        solution earliestOrUrgentFirst(SolomonInstance *instance, Node *expr, int vehicles, bool &success);
+        // solution closestFirst(SolomonInstance *instance, Node *expr);
+        // solution earliestOrUrgentFirst(SolomonInstance *instance, Node *expr, int vehicles, bool &success);
 
         double eval(Node *expr);
         double cost(solution sol);
@@ -89,5 +91,5 @@ class VRPTW : public FitnessFunction{
 
         EvalData evalData;
 
-        void readSolomonInstances();
+        vector<SolomonInstance> readSolomonInstances(vector<string> paths, string folder);
 };

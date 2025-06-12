@@ -3,8 +3,9 @@
 #include "VRPTW.h"
 using namespace std;
 
-VRPTW::VRPTW(){
-    readSolomonInstances();
+VRPTW::VRPTW(string solomonInstanceFolder){
+    trainingSet = readSolomonInstances(trainingSetPaths, solomonInstanceFolder);
+    testSet = readSolomonInstances(testSetPaths, solomonInstanceFolder);
 }
 
 double VRPTW::fitness(Node *expr){
@@ -193,6 +194,7 @@ solution VRPTW::metaAlgorithmParallel(Node *expr, SolomonInstance *instance, int
         evalData.veh_time = veh_time[first_available];
         for(int i=1; i < N+1; i++){
             if(!notVisited[i]) continue;
+            //if(instance->customers[i].orderVisibleTime > veh_time[first_available]) continue;
             evalData.next = instance->customers[i];
             evalData.distance = instance->c[sol.routes[first_available].back()][i];
             evalData.dist_from_depot = instance->c[0][i];
@@ -205,10 +207,14 @@ solution VRPTW::metaAlgorithmParallel(Node *expr, SolomonInstance *instance, int
             }
         }
 
-        if(bestNextId == -1){
-            cout << "greskaaaaa" << endl;
-            exit(1);
-        }
+        // if(bestNextId == -1){
+        //     cout << "tu sam" << endl;
+        //     veh_time[first_available] += instance->c[sol.routes[first_available].back()][0];
+        //     sol.distance[first_available] += instance->c[sol.routes[first_available].back()][0];
+        //     available_veh--;
+        //     available[first_available] = false;
+        //     continue;
+        // }
 
         Customer cust = instance->customers[bestNextId];
         double dist = instance->c[sol.routes[first_available].back()][bestNextId];
@@ -290,16 +296,18 @@ void VRPTW::printRoutes(solution sol) {
     cout << "-----------------------------------------" << endl;
 }
 
-void VRPTW::readSolomonInstances() {
-    for(int i=0; i < trainingSetPaths.size(); i++){
+vector<SolomonInstance> VRPTW::readSolomonInstances(vector<string> paths, string folder) {
+    vector<SolomonInstance> solomonInstances;
+    for(int i=0; i < paths.size(); i++){
 
-        string filename = "./solomonInstances" + trainingSetPaths[i];
+        string filename = folder + paths[i];
         ifstream file(filename);
         string line;
     
         if (!file.is_open()) {
             cout << "Failed to open file: " << filename << endl;
-            return;
+            exit(1);
+            return solomonInstances;
         }
 
         SolomonInstance instance;
@@ -326,7 +334,7 @@ void VRPTW::readSolomonInstances() {
             int x, y, readyTime, dueTime;
             int i = 0;
             if (iss >> customer.id >> x >> y >> customer.demand >> readyTime >>
-                dueTime >> customer.service) {
+                dueTime >> customer.service >> customer.orderVisibleTime) {
                 customer.x = {x, y};
                 customer.tw = {readyTime, dueTime};
                 instance.customers[customer.id] = customer;
@@ -338,182 +346,184 @@ void VRPTW::readSolomonInstances() {
 
         file.close();
     }
+
+    return solomonInstances;
  }
 
-solution VRPTW::closestFirst(SolomonInstance *instance, Node *expr){
-    bool notVisited[N+1];
-    for(int i=0; i < N+1; i++){
-        notVisited[i] = true;
-    }
-    int len = N;
-    solution sol;
-    int r = 0;
-    while (len > 0){
-        vector<int> route = {0};
-        int r_demand = 0;
-        double time = 0;
-        double r_distance = 0;
-        bool flag = false;
+// solution VRPTW::closestFirst(SolomonInstance *instance, Node *expr){
+//     bool notVisited[N+1];
+//     for(int i=0; i < N+1; i++){
+//         notVisited[i] = true;
+//     }
+//     int len = N;
+//     solution sol;
+//     int r = 0;
+//     while (len > 0){
+//         vector<int> route = {0};
+//         int r_demand = 0;
+//         double time = 0;
+//         double r_distance = 0;
+//         bool flag = false;
 
-        while (len > 0){
+//         while (len > 0){
 
-            vector<int> feasible = {};
-            for(int i=1; i < N+1; i++){
-                if(!notVisited[i]) continue;
-                Customer cust = instance->customers[i];
-                if(cust.demand + r_demand > instance->Q) 
-                    continue;;
-                double dist = instance->c[route.back()][i];
-                if(time + dist > cust.tw.second)
-                    continue;
-                if(time + dist + cust.service + instance->c[0][i] > instance->customers[0].tw.second)
-                    continue;
-                feasible.push_back(i);
-            }
+//             vector<int> feasible = {};
+//             for(int i=1; i < N+1; i++){
+//                 if(!notVisited[i]) continue;
+//                 Customer cust = instance->customers[i];
+//                 if(cust.demand + r_demand > instance->Q) 
+//                     continue;;
+//                 double dist = instance->c[route.back()][i];
+//                 if(time + dist > cust.tw.second)
+//                     continue;
+//                 if(time + dist + cust.service + instance->c[0][i] > instance->customers[0].tw.second)
+//                     continue;
+//                 feasible.push_back(i);
+//             }
 
-            if(feasible.size() == 0) break;
+//             if(feasible.size() == 0) break;
 
 
-            double bestNext = DBL_MAX;
-            int bestNextId = -1;
-            evalData.rem_q = instance->Q - r_demand;
-            evalData.veh_time = time;
-            for(auto id: feasible){
-                evalData.next = instance->customers[id];
-                evalData.distance = instance->c[route.back()][id];
-                evalData.dist_from_depot = instance->c[0][id];
-                double fit = eval(expr);
-                if(fit < bestNext){
-                    bestNext = fit;
-                    bestNextId = id;
-                }
-            }
+//             double bestNext = DBL_MAX;
+//             int bestNextId = -1;
+//             evalData.rem_q = instance->Q - r_demand;
+//             evalData.veh_time = time;
+//             for(auto id: feasible){
+//                 evalData.next = instance->customers[id];
+//                 evalData.distance = instance->c[route.back()][id];
+//                 evalData.dist_from_depot = instance->c[0][id];
+//                 double fit = eval(expr);
+//                 if(fit < bestNext){
+//                     bestNext = fit;
+//                     bestNextId = id;
+//                 }
+//             }
 
-            notVisited[bestNextId] = false;
-            len--;
+//             notVisited[bestNextId] = false;
+//             len--;
 
-            Customer cust = instance->customers[bestNextId];
-            r_demand += cust.demand;
-            time += (instance->c[route.back()][bestNextId]);
-            if(time < cust.tw.first){
-                time = cust.tw.first + cust.service;
-            } else {
-                time += cust.service;
-            }
-            r_distance += instance->c[route.back()][bestNextId];
-            route.push_back(bestNextId);
+//             Customer cust = instance->customers[bestNextId];
+//             r_demand += cust.demand;
+//             time += (instance->c[route.back()][bestNextId]);
+//             if(time < cust.tw.first){
+//                 time = cust.tw.first + cust.service;
+//             } else {
+//                 time += cust.service;
+//             }
+//             r_distance += instance->c[route.back()][bestNextId];
+//             route.push_back(bestNextId);
 
-        }
+//         }
 
-        time += instance->c[route.back()][0];
-        r_distance += instance->c[route.back()][0];
-        sol.routes.push_back(route);
-        sol.demand.push_back(r_demand);
-        sol.distance.push_back(r_distance);
-        r++;
-        sol.used_vehicles = r;
-    }
+//         time += instance->c[route.back()][0];
+//         r_distance += instance->c[route.back()][0];
+//         sol.routes.push_back(route);
+//         sol.demand.push_back(r_demand);
+//         sol.distance.push_back(r_distance);
+//         r++;
+//         sol.used_vehicles = r;
+//     }
 
-    return sol;
-}
+//     return sol;
+// }
 
-solution VRPTW::earliestOrUrgentFirst(SolomonInstance *instance, Node *expr, int vehicles, bool &success){
-    bool notVisited[N+1];
-    for(int i=0; i < N+1; i++){
-        notVisited[i] = true;
-    }
-    int len = N, available_veh = vehicles;
-    bool available[vehicles];
-    double veh_time[vehicles];
-    priority_queue<pair<double, int>, vector<pair<double, int>>, greater<>> pq;
-    for (int i = 0; i < vehicles; ++i) {
-        pq.push({0.0, i});
-    }
-    memset(veh_time, 0, sizeof(veh_time));
-    memset(available, true, sizeof(available));
-    solution sol;
-    sol.used_vehicles = vehicles;
-    for(int i=0; i < vehicles; i++){
-        vector<int> pom = {0};
-        sol.routes.push_back(pom);
-        sol.demand.push_back(0);
-        sol.distance.push_back(0);
-    }
-    while(len > 0 && available_veh > 0){
+// solution VRPTW::earliestOrUrgentFirst(SolomonInstance *instance, Node *expr, int vehicles, bool &success){
+//     bool notVisited[N+1];
+//     for(int i=0; i < N+1; i++){
+//         notVisited[i] = true;
+//     }
+//     int len = N, available_veh = vehicles;
+//     bool available[vehicles];
+//     double veh_time[vehicles];
+//     priority_queue<pair<double, int>, vector<pair<double, int>>, greater<>> pq;
+//     for (int i = 0; i < vehicles; ++i) {
+//         pq.push({0.0, i});
+//     }
+//     memset(veh_time, 0, sizeof(veh_time));
+//     memset(available, true, sizeof(available));
+//     solution sol;
+//     sol.used_vehicles = vehicles;
+//     for(int i=0; i < vehicles; i++){
+//         vector<int> pom = {0};
+//         sol.routes.push_back(pom);
+//         sol.demand.push_back(0);
+//         sol.distance.push_back(0);
+//     }
+//     while(len > 0 && available_veh > 0){
 
-        auto [least_time, first_available] = pq.top();
-        pq.pop();
+//         auto [least_time, first_available] = pq.top();
+//         pq.pop();
 
-        vector<int> feasible = {};
+//         vector<int> feasible = {};
 
-        for(int i=1; i < N+1; i++){
-            if(!notVisited[i]) continue;
-            Customer cust = instance->customers[i];
-            double dist = instance->c[sol.routes[first_available].back()][i];
-            if ((cust.demand + sol.demand[first_available] > instance->Q) || 
-                (veh_time[first_available] + dist > cust.tw.second) || 
-                (veh_time[first_available] + dist + cust.service + instance->c[0][i] > instance->customers[0].tw.second)){
-                    continue;
-            }
-            feasible.push_back(i);
-        }
+//         for(int i=1; i < N+1; i++){
+//             if(!notVisited[i]) continue;
+//             Customer cust = instance->customers[i];
+//             double dist = instance->c[sol.routes[first_available].back()][i];
+//             if ((cust.demand + sol.demand[first_available] > instance->Q) || 
+//                 (veh_time[first_available] + dist > cust.tw.second) || 
+//                 (veh_time[first_available] + dist + cust.service + instance->c[0][i] > instance->customers[0].tw.second)){
+//                     continue;
+//             }
+//             feasible.push_back(i);
+//         }
 
-        if(feasible.size() == 0){
-            veh_time[first_available] += instance->c[sol.routes[first_available].back()][0];
-            sol.distance[first_available] += instance->c[sol.routes[first_available].back()][0];
-            available_veh--;
-            available[first_available] = false;
-            continue;
-        }
+//         if(feasible.size() == 0){
+//             veh_time[first_available] += instance->c[sol.routes[first_available].back()][0];
+//             sol.distance[first_available] += instance->c[sol.routes[first_available].back()][0];
+//             available_veh--;
+//             available[first_available] = false;
+//             continue;
+//         }
 
-        double bestNext = DBL_MAX;
-        int bestNextId = -1;
-        evalData.rem_q = instance->Q - sol.demand[first_available];
-        evalData.veh_time = veh_time[first_available];
-        for(auto i: feasible){
-            if(!notVisited[i]) continue;
-            evalData.next = instance->customers[i];
-            evalData.distance = instance->c[sol.routes[first_available].back()][i];
-            evalData.dist_from_depot = instance->c[0][i];
-            double fit = eval(expr);
-            if(fit < bestNext){
-                bestNext = fit;
-                bestNextId = i;
-            }
-        }
+//         double bestNext = DBL_MAX;
+//         int bestNextId = -1;
+//         evalData.rem_q = instance->Q - sol.demand[first_available];
+//         evalData.veh_time = veh_time[first_available];
+//         for(auto i: feasible){
+//             if(!notVisited[i]) continue;
+//             evalData.next = instance->customers[i];
+//             evalData.distance = instance->c[sol.routes[first_available].back()][i];
+//             evalData.dist_from_depot = instance->c[0][i];
+//             double fit = eval(expr);
+//             if(fit < bestNext){
+//                 bestNext = fit;
+//                 bestNextId = i;
+//             }
+//         }
 
-        Customer cust = instance->customers[bestNextId];
+//         Customer cust = instance->customers[bestNextId];
 
-        notVisited[bestNextId] = false;
-        len--;
+//         notVisited[bestNextId] = false;
+//         len--;
 
-        sol.demand[first_available] += cust.demand;
-        veh_time[first_available] += (instance->c[sol.routes[first_available].back()][bestNextId]);
-        if(veh_time[first_available] < cust.tw.first){
-            veh_time[first_available] = cust.tw.first + cust.service;
-        } else {
-            veh_time[first_available] += cust.service;
-        }
-        pq.push({veh_time[first_available], first_available});
-        sol.distance[first_available] += instance->c[sol.routes[first_available].back()][bestNextId];
-        sol.routes[first_available].push_back(bestNextId);
-    }
+//         sol.demand[first_available] += cust.demand;
+//         veh_time[first_available] += (instance->c[sol.routes[first_available].back()][bestNextId]);
+//         if(veh_time[first_available] < cust.tw.first){
+//             veh_time[first_available] = cust.tw.first + cust.service;
+//         } else {
+//             veh_time[first_available] += cust.service;
+//         }
+//         pq.push({veh_time[first_available], first_available});
+//         sol.distance[first_available] += instance->c[sol.routes[first_available].back()][bestNextId];
+//         sol.routes[first_available].push_back(bestNextId);
+//     }
 
-    if(available_veh > 0){
-        for(int i=0; i < vehicles; i++){
-            if(!available[i]) continue;
-            sol.distance[i] += instance->c[sol.routes[i].back()][0];
-            available_veh--;
-            available[i] = false;
-        }
-    }
-    if(len > 0){
-        //nisam uspio obici sve kupce sa dostupnim vozilima
-        success = false;
-        return sol;
-    }
-    success = true;
-    return sol;
-}
+//     if(available_veh > 0){
+//         for(int i=0; i < vehicles; i++){
+//             if(!available[i]) continue;
+//             sol.distance[i] += instance->c[sol.routes[i].back()][0];
+//             available_veh--;
+//             available[i] = false;
+//         }
+//     }
+//     if(len > 0){
+//         //nisam uspio obici sve kupce sa dostupnim vozilima
+//         success = false;
+//         return sol;
+//     }
+//     success = true;
+//     return sol;
+// }
 
 
