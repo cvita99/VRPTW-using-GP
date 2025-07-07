@@ -5,24 +5,76 @@ using namespace std;
 
 void serial();
 void parallel();
+void cloesetFirst();
+void urgentOrEarliestFirst();
+
+Node *funcForBest();
+
+Node* funcForBest() {
+    Node* expr1 = new Node("max");
+    expr1->leftChild = new Node("q");
+    expr1->rightChild = new Node("slack_t");
+    
+    Node* expr2 = new Node("-");
+    expr2->leftChild = new Node("d");
+    expr2->rightChild = new Node("q");
+    
+    Node* expr3 = new Node("*");
+    expr3->leftChild = expr1;
+    expr3->rightChild = expr2;
+    
+    Node* expr4 = new Node("*");
+    expr4->leftChild = expr3;
+    expr4->rightChild = new Node("q");
+    
+    // Right side of the denominator
+    Node* expr5 = new Node("*");
+    expr5->leftChild = new Node("slack_t");
+    expr5->rightChild = new Node("dt");
+    
+    Node* expr6 = new Node("*");
+    expr6->leftChild = new Node("t_rem");
+    expr6->rightChild = new Node("q");
+    
+    Node* expr7 = new Node("*");
+    expr7->leftChild = expr5;
+    expr7->rightChild = expr6;
+    
+    Node* expr8 = new Node("+");
+    expr8->leftChild = new Node("d");
+    expr8->rightChild = new Node("wt");
+    
+    Node* expr9 = new Node("*");
+    expr9->leftChild = expr8;
+    expr9->rightChild = new Node("t_rem");
+    
+    Node* expr10 = new Node("min");
+    expr10->leftChild = expr7;
+    expr10->rightChild = expr9;
+    
+    // Final division
+    Node* root = new Node("/");
+    root->leftChild = expr4;
+    root->rightChild = expr10;
+
+    return root;
+}
 
 int main(){
     auto start = chrono::high_resolution_clock::now();
 
-    for(int i = 0; i < 10; i++){
-        printf("################################");
-        printf("################################");
-        printf("################################");
-        printf("################################");
-        printf("################################");
-        printf("RUN %d", i);
-        serial();
+    for(int i = 0; i < 5; i++){
+        printf("################################\n");
+        printf("################################\n");
+        printf("################################\n");
+        printf("RUN %d\n", i);
+        parallel();
     }
-    
 
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> elapsed = end - start;
-    cout << "Program ran for " << elapsed.count() << " seconds.\n";
+    cout << "Elapsed time: " << fixed << setprecision(3)
+              << elapsed.count() << " seconds" << endl;
 
     return 0;
 }
@@ -38,7 +90,15 @@ void serial(){
             return sum / vrptw->trainingSet.size();
     };
 
-    GeneticProgramming *solver = new GeneticProgramming(5, 200, 20000, 0.2, vrptw);
+    vrptw->fitnessFuncTest = [vrptw](Node* expr) -> double {
+        double sum = 0;
+        for(int i=0; i < vrptw->testSet.size(); i++){
+            sum += vrptw->cost(vrptw->metaAlgorithmSerial(expr, &vrptw->testSet[i]));
+        }
+        return sum / vrptw->testSet.size();
+    };
+
+    GeneticProgramming *solver = new GeneticProgramming(4, 200, 20000, 0.2, vrptw);
     solver->functions = { "+", "*", "/", "-", "min", "max"};
     solver->terminals = {"d", "rt", "dt", "dem", "t", "q", "t_rem", "d_depot", "wt", "slack_t", "t_ready"}; 
     solver->run();
@@ -47,7 +107,7 @@ void serial(){
 
     double testSetFitness = 0;
     for(int i=0; i < vrptw->testSet.size(); i++){
-        cout << vrptw->trainingSetPaths[i] << endl;
+        cout << vrptw->testSetPaths[i] << endl;
         solution sol = vrptw->metaAlgorithmSerial(solver->best, &vrptw->testSet[i]);
         testSetFitness += vrptw->cost(sol);
         vrptw->printRoutes(sol);
@@ -58,24 +118,48 @@ void serial(){
 }
 
 void parallel(){
-    VRPTW *vrptw = new VRPTW("./solomonInstances_dynamic");
+    VRPTW *vrptw = new VRPTW("./solomonInstances_notDyn"); 
 
     vrptw->fitnessFunc = [vrptw](Node* expr) -> double {
         double sum = 0;
         for (int i = 0; i < vrptw->trainingSet.size(); i++) {
-            int veh = vrptw->expectedNumOfVehicles[i];
+            int veh = vrptw->expectedNumOfVehiclesTrain[i];
             bool flag = false;
             solution sol;
             while (!flag) {
-                veh++;
                 sol = vrptw->metaAlgorithmParallel(expr, &vrptw->trainingSet[i], veh, flag);
+                if(veh > vrptw->N){
+                    cout << "nemoguce obici sve kupce na vrijeme" << endl;
+                    cout << vrptw->trainingSetPaths[i] << endl;
+                    exit(1);
+                }
+                veh++;
             }
             sum += vrptw->cost(sol);
         }
         return sum / vrptw->trainingSet.size();
     };
 
-    GeneticProgramming *solver = new GeneticProgramming(5, 200, 6000, 0.2, vrptw);
+    vrptw->fitnessFuncTest = [vrptw](Node* expr) -> double {
+        double testSetFitness = 0;
+        for(int i=0; i < vrptw->testSet.size(); i++){
+            int veh = vrptw->expectedNumOfVehiclesTest[i];
+            bool flag = false;
+            solution sol;
+            while(!flag){
+                sol = vrptw->metaAlgorithmParallel(expr, &vrptw->testSet[i], veh, flag);
+                if(veh > vrptw->N){
+                    cout << "nemoguce obici sve kupce na vrijeme" << endl;
+                    exit(1);
+                }
+                veh++;
+            }
+            testSetFitness += vrptw->cost(sol);
+        }
+        return testSetFitness / vrptw->testSet.size();
+    };
+
+    GeneticProgramming *solver = new GeneticProgramming(4, 200, 3000, 0.2, vrptw);
     solver->functions = { "+", "*", "/", "-", "min", "max"};
     solver->terminals = {"d", "rt", "dt", "dem", "t", "q", "t_rem", "d_depot", "wt", "slack_t", "t_ready", "next_veh"}; 
     solver->run();
@@ -83,13 +167,12 @@ void parallel(){
     double testSetFitness = 0;
     for(int i=0; i < vrptw->testSet.size(); i++){
         cout << vrptw->testSetPaths[i] << endl;
-        int veh = vrptw->expectedNumOfVehicles[i];
+        int veh = vrptw->expectedNumOfVehiclesTest[i];
         bool flag = false;
         solution sol;
         while(!flag){
-            veh++;
             sol = vrptw->metaAlgorithmParallel(solver->best, &vrptw->testSet[i], veh, flag);
-            
+            veh++;
         }
         testSetFitness += vrptw->cost(sol);
         vrptw->printRoutes(sol);
@@ -101,18 +184,18 @@ void parallel(){
 
 void cloesetFirst(){
     VRPTW *vrptw = new VRPTW("./solomonInstances_notDyn");
-    Node *closestFirst = new Node("d");
+    Node *closestFirstTree = new Node("d");
 
     double testSetFitness = 0;
     for(int i=0; i < vrptw->testSet.size(); i++){
-        cout << vrptw->trainingSetPaths[i] << endl;
-        solution sol = vrptw->metaAlgorithmSerial(closestFirst, &vrptw->testSet[i]);
+        cout << vrptw->testSetPaths[i] << endl;
+        solution sol = vrptw->metaAlgorithmSerial(closestFirstTree, &vrptw->testSet[i]);
         testSetFitness += vrptw->cost(sol);
         vrptw->printRoutes(sol);
     }
 
     cout << "Closest First" << endl; 
-    cout << "[Training fitness: " << vrptw->fitness(closestFirst) << "]\n";
+    //cout << "[Training fitness: " << vrptw->fitness(closestFirstTree) << "]\n";
     cout << "[Test fitness: " << testSetFitness / vrptw->testSet.size() << "]\n";
 }
 
@@ -121,28 +204,29 @@ void urgentOrEarliestFirst(){
     Node *urgentFirst = new Node("slack_t");
     Node *earliestFirst = new Node("rt");
 
-    string earlyOrUrgent = "early"; //urget
+    string earlyOrUrgent = "urgent"; //urget
+    cout << earlyOrUrgent << endl;
 
     double sum = 0;
-    for(int i=0; i < vrptw->testSet.size(); i++){
+    for(int i=0; i < vrptw->trainingSetPaths.size(); i++){
         cout << vrptw->trainingSetPaths[i] << endl;
-        int veh = vrptw->expectedNumOfVehicles[i];
+        int veh = vrptw->expectedNumOfVehiclesTrain[i];
         bool flag = false;
         solution sol;
         while(!flag){
             veh++;
             if(earlyOrUrgent == "early"){
-                sol = vrptw->metaAlgorithmParallel(earliestFirst, &vrptw->testSet[i], veh, flag);
+                sol = vrptw->metaAlgorithmParallel(earliestFirst, &vrptw->trainingSet[i], veh, flag);
             } else {
-                sol = vrptw->metaAlgorithmParallel(urgentFirst, &vrptw->testSet[i], veh, flag);
+                sol = vrptw->metaAlgorithmParallel(urgentFirst, &vrptw->trainingSet[i], veh, flag);
             }
         }
 
         sum+=vrptw->cost(sol);
-        vrptw->printRoutes(sol);
+        //vrptw->printRoutes(sol);
     }
 
-    cout << "COST: " << sum / vrptw->testSet.size() << endl;
+    cout << "[Test fitness: " << sum / vrptw->testSet.size() << "]\n";
 }
 
 // best after gp serial: 

@@ -1,0 +1,53 @@
+Parallel metaalgorithm depth 5
+---------------------------
+run1
+[Training fitness: 112955]
+[Test fitness: 103589]
+---------------------------
+run2
+[Training fitness: 105379]
+[Test fitness: 105337]
+---------------------------
+run3
+[Training fitness: 105384]
+[Test fitness: 110213]
+---------------------------
+run4
+[Training fitness: 107599]
+[Test fitness: 103869]
+---------------------------
+run5
+[Training fitness: 113845]
+[Test fitness: 120086]
+---------------------------
+run6
+[Training fitness: 115103]
+[Test fitness: 111829]
+---------------------------
+run7
+[Training fitness: 112574]
+[Test fitness: 105067]
+---------------------------
+run8
+[Training fitness: 113267]
+[Test fitness: 112905]
+---------------------------
+run9
+[Training fitness: 106195]
+[Test fitness: 118739]
+---------------------------
+run10
+[Training fitness: 115804]
+[Test fitness: 112862]
+
+Depth 5
+Training Fitness
+    Min: 105379
+    Max: 115804
+    Mean: 111510.5
+
+Test Fitness
+    Min: 103589
+    Max: 120086
+    Mean: 110849.6
+

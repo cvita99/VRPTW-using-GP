@@ -1,0 +1,2495 @@
+################################
+################################
+################################
+RUN 0
+initializing
+finding best expr in initial population
+best in initial population: 
+((((d / d) / (wt + t_rem)) / ((dem / d) min (t * rt))) / (((q / slack_t) / (d_depot max d_depot)) * ((dem min d_depot) + (t * d))))
+fitness 189552
+[TRAINING]: iteration 0: best sol so far: 189552
+[TEST]: iteration 0: best sol so far: 190956
+((((d / d) / (wt + t_rem)) / ((dem / d) min (t * rt))) / (((q / slack_t) / (d_depot max d_depot)) * ((dem min d_depot) + (t * d))))
+[TRAINING]: iteration 500: best sol so far: 136973
+[TEST]: iteration 500: best sol so far: 124946
+(t_ready max (d - ((t_rem + t_ready) - (rt * t_ready))))
+[TRAINING]: iteration 1000: best sol so far: 121370
+[TEST]: iteration 1000: best sol so far: 105880
+((((slack_t + dt) * (d_depot - q)) * ((wt min q) / t_ready)) / (((slack_t * d_depot) * (d * dem)) min ((t_rem + t_ready) - (q * t_ready))))
+[TRAINING]: iteration 1500: best sol so far: 113184
+[TEST]: iteration 1500: best sol so far: 104208
+((((slack_t + dt) * (d - q)) * ((dt min q) / t_ready)) / (((slack_t * d) * (dem - t_ready)) min ((t_rem + t_ready) - (t_ready * t_ready))))
+[TRAINING]: iteration 2000: best sol so far: 112815
+[TEST]: iteration 2000: best sol so far: 101943
+((((rt min dt) * (wt - q)) * ((rt / d) / t)) / (((slack_t * d) * d_depot) min ((t_rem + t_ready) - (dt * t_ready))))
+[TRAINING]: iteration 2500: best sol so far: 109325
+[TEST]: iteration 2500: best sol so far: 104332
+((((dt + dt) * (d - q)) * ((wt min q) / t_ready)) / (((slack_t * d) * (t_rem * q)) min (dt * t_rem)))
+[TRAINING]: iteration 3000: best sol so far: 101020
+[TEST]: iteration 3000: best sol so far: 94937.4
+((((rt + q) * (d - q)) * ((dem min d) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + t_rem) * t_rem)))
+[TRAINING]: iteration 3500: best sol so far: 98561.9
+[TEST]: iteration 3500: best sol so far: 87195.1
+((((rt + dt) * (d - q)) * ((rt min d_depot) / t_ready)) / (((slack_t * d) * t_rem) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 4000: best sol so far: 96316.9
+[TEST]: iteration 4000: best sol so far: 86531.5
+((((rt + q) * (wt - slack_t)) * ((t_ready min t_ready) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + t_rem) * t_rem)))
+[TRAINING]: iteration 4500: best sol so far: 93980.4
+[TEST]: iteration 4500: best sol so far: 84025.7
+((((rt + q) * (dem - q)) * ((rt min d_depot) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 5000: best sol so far: 92051.9
+[TEST]: iteration 5000: best sol so far: 79231
+((((rt + q) * (d - q)) * ((rt min t_ready) / t_ready)) / (((slack_t * d) * dt) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 5500: best sol so far: 90173.3
+[TEST]: iteration 5500: best sol so far: 81388.1
+(((q * (d - q)) * ((t_ready min t_ready) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 6000: best sol so far: 90171.8
+[TEST]: iteration 6000: best sol so far: 81373.8
+((((t + q) * (d - q)) * ((rt min t_ready) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 6500: best sol so far: 90171.8
+[TEST]: iteration 6500: best sol so far: 81373.8
+((((t + q) * (d - q)) * ((rt min t_ready) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 7000: best sol so far: 90171.8
+[TEST]: iteration 7000: best sol so far: 81373.8
+((((t + q) * (d - q)) * ((rt min t_ready) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 7500: best sol so far: 89406.4
+[TEST]: iteration 7500: best sol so far: 81754.6
+((((q max slack_t) * (d - q)) * ((rt min t_ready) / t_ready)) / (((slack_t * d) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 8000: best sol so far: 89395.7
+[TEST]: iteration 8000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 8500: best sol so far: 89395.7
+[TEST]: iteration 8500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 9000: best sol so far: 89395.7
+[TEST]: iteration 9000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 9500: best sol so far: 89395.7
+[TEST]: iteration 9500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 10000: best sol so far: 89395.7
+[TEST]: iteration 10000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 10500: best sol so far: 89395.7
+[TEST]: iteration 10500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 11000: best sol so far: 89395.7
+[TEST]: iteration 11000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 11500: best sol so far: 89395.7
+[TEST]: iteration 11500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 12000: best sol so far: 89395.7
+[TEST]: iteration 12000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 12500: best sol so far: 89395.7
+[TEST]: iteration 12500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 13000: best sol so far: 89395.7
+[TEST]: iteration 13000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 13500: best sol so far: 89395.7
+[TEST]: iteration 13500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 14000: best sol so far: 89395.7
+[TEST]: iteration 14000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 14500: best sol so far: 89395.7
+[TEST]: iteration 14500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 15000: best sol so far: 89395.7
+[TEST]: iteration 15000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 15500: best sol so far: 89395.7
+[TEST]: iteration 15500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 16000: best sol so far: 89395.7
+[TEST]: iteration 16000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 16500: best sol so far: 89395.7
+[TEST]: iteration 16500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 17000: best sol so far: 89395.7
+[TEST]: iteration 17000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 17500: best sol so far: 89395.7
+[TEST]: iteration 17500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 18000: best sol so far: 89395.7
+[TEST]: iteration 18000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 18500: best sol so far: 89395.7
+[TEST]: iteration 18500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 19000: best sol so far: 89395.7
+[TEST]: iteration 19000: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+[TRAINING]: iteration 19500: best sol so far: 89395.7
+[TEST]: iteration 19500: best sol so far: 82090.2
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+best after gp: 
+((((q max slack_t) * (d - q)) * q) / (((slack_t * dt) * (t_rem * q)) min ((d + wt) * t_rem)))
+best fitness: 89395.7
+[Training fitness: 89395.7]
+/c1/c101.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 5, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+3. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 
+4. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 21, 
+5. route: 0, 24, 32, 31, 35, 37, 38, 39, 36, 34, 22, 
+6. route: 0, 3, 98, 95, 94, 92, 93, 97, 100, 99, 
+7. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+8. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+9. route: 0, 33, 25, 27, 29, 30, 28, 26, 23, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+11. route: 0, 96, 
+Total distance: 971.064
+-----------------------------------------
+/c1/c102.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 47, 
+2. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+3. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 
+5. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+6. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+7. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+8. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+9. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+Total distance: 852.948
+-----------------------------------------
+/c1/c103.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 47, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 
+8. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+9. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+Total distance: 852.948
+-----------------------------------------
+/c1/c104.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 52, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 69, 66, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 1, 75, 47, 
+4. route: 0, 43, 42, 41, 40, 44, 45, 46, 48, 50, 51, 49, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 
+8. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+9. route: 0, 55, 57, 54, 56, 53, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+11. route: 0, 2, 
+Total distance: 935.532
+-----------------------------------------
+/c2/c201.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 35, 38, 39, 36, 34, 52, 49, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 69, 66, 
+3. route: 0, 5, 3, 7, 8, 11, 10, 9, 6, 4, 1, 2, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 45, 46, 48, 50, 51, 47, 21, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+7. route: 0, 98, 96, 95, 94, 93, 92, 97, 100, 99, 
+8. route: 0, 32, 33, 31, 37, 30, 28, 26, 23, 22, 
+9. route: 0, 57, 55, 54, 56, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+11. route: 0, 53, 
+Total distance: 980.569
+-----------------------------------------
+/c2/c202.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 20, 22, 24, 27, 30, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 9, 25, 43, 42, 41, 48, 21, 
+3. route: 0, 67, 63, 62, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 11, 10, 8, 90, 
+Total distance: 686.904
+-----------------------------------------
+/c2/c203.txt
+Printing routes for 4 vehicles
+1. route: 0, 93, 5, 75, 2, 67, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 21, 8, 
+2. route: 0, 63, 62, 74, 24, 27, 30, 20, 29, 6, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 90, 87, 
+3. route: 0, 22, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 83, 86, 82, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 96, 
+4. route: 0, 32, 
+Total distance: 812.414
+-----------------------------------------
+/c2/c204.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 63, 67, 62, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 50, 51, 52, 47, 43, 42, 41, 48, 21, 8, 10, 
+3. route: 0, 20, 22, 24, 27, 30, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 17, 15, 19, 16, 14, 12, 13, 9, 11, 25, 90, 
+Total distance: 663.134
+-----------------------------------------
+/r1/r101.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 83, 82, 86, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 
+2. route: 0, 20, 22, 24, 27, 30, 29, 67, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 
+3. route: 0, 63, 62, 74, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 87, 96, 90, 21, 
+Total distance: 847.579
+-----------------------------------------
+/r1/r102.txt
+Printing routes for 14 vehicles
+1. route: 0, 92, 42, 15, 44, 84, 5, 60, 83, 18, 82, 
+2. route: 0, 28, 27, 69, 62, 88, 31, 10, 90, 63, 32, 70, 
+3. route: 0, 33, 81, 76, 79, 78, 34, 35, 71, 20, 51, 
+4. route: 0, 89, 45, 11, 49, 47, 48, 19, 7, 52, 
+5. route: 0, 26, 39, 23, 67, 56, 75, 74, 72, 73, 21, 58, 
+6. route: 0, 94, 95, 97, 59, 96, 99, 6, 98, 37, 85, 91, 100, 
+7. route: 0, 12, 54, 24, 29, 9, 66, 1, 50, 3, 
+8. route: 0, 36, 64, 46, 17, 86, 16, 
+9. route: 0, 2, 57, 43, 38, 14, 61, 13, 93, 
+10. route: 0, 65, 30, 68, 4, 25, 
+11. route: 0, 40, 53, 55, 80, 77, 
+12. route: 0, 87, 41, 
+13. route: 0, 8, 
+14. route: 0, 22, 
+Total distance: 1540.99
+-----------------------------------------
+/r1/r103.txt
+Printing routes for 11 vehicles
+1. route: 0, 92, 59, 93, 85, 44, 38, 14, 91, 16, 61, 17, 
+2. route: 0, 27, 28, 69, 62, 10, 90, 63, 32, 20, 66, 
+3. route: 0, 89, 6, 94, 95, 97, 99, 96, 84, 5, 60, 83, 45, 18, 
+4. route: 0, 26, 12, 80, 68, 76, 79, 9, 81, 33, 78, 34, 
+5. route: 0, 40, 21, 73, 72, 23, 67, 39, 55, 25, 56, 
+6. route: 0, 52, 88, 31, 11, 19, 47, 36, 49, 64, 
+7. route: 0, 1, 50, 3, 29, 24, 54, 4, 74, 22, 41, 
+8. route: 0, 2, 57, 15, 43, 87, 42, 37, 98, 13, 58, 
+9. route: 0, 70, 30, 51, 71, 35, 65, 77, 
+10. route: 0, 7, 82, 48, 8, 46, 86, 100, 
+11. route: 0, 75, 53, 
+Total distance: 1211.49
+-----------------------------------------
+/r1/r104.txt
+Printing routes for 14 vehicles
+1. route: 0, 27, 28, 69, 31, 52, 88, 10, 20, 32, 70, 
+2. route: 0, 95, 92, 59, 98, 99, 5, 61, 85, 93, 37, 97, 
+3. route: 0, 83, 45, 82, 7, 47, 49, 48, 60, 89, 
+4. route: 0, 2, 21, 72, 73, 75, 22, 41, 74, 56, 4, 80, 
+5. route: 0, 33, 29, 12, 76, 79, 78, 34, 35, 77, 
+6. route: 0, 42, 15, 14, 44, 16, 86, 91, 100, 13, 58, 
+7. route: 0, 62, 11, 19, 63, 90, 66, 1, 
+8. route: 0, 39, 23, 67, 57, 43, 17, 
+9. route: 0, 30, 51, 81, 9, 3, 50, 68, 24, 
+10. route: 0, 36, 64, 8, 46, 
+11. route: 0, 71, 65, 26, 54, 25, 
+12. route: 0, 40, 53, 87, 94, 96, 
+13. route: 0, 18, 6, 84, 
+14. route: 0, 38, 55, 
+Total distance: 1653.94
+-----------------------------------------
+/r1/r105.txt
+Printing routes for 12 vehicles
+1. route: 0, 28, 27, 52, 31, 88, 7, 8, 84, 17, 45, 60, 
+2. route: 0, 95, 59, 98, 61, 16, 85, 93, 99, 96, 6, 89, 
+3. route: 0, 69, 76, 12, 21, 73, 72, 40, 26, 54, 55, 
+4. route: 0, 2, 75, 22, 41, 87, 57, 15, 43, 100, 91, 
+5. route: 0, 83, 5, 82, 18, 94, 97, 37, 92, 13, 58, 
+6. route: 0, 30, 70, 51, 81, 33, 79, 3, 50, 1, 77, 
+7. route: 0, 29, 78, 71, 9, 34, 35, 65, 
+8. route: 0, 63, 11, 19, 47, 49, 36, 64, 
+9. route: 0, 62, 53, 86, 44, 42, 74, 
+10. route: 0, 14, 38, 46, 48, 32, 
+11. route: 0, 23, 39, 67, 25, 4, 56, 24, 80, 
+12. route: 0, 90, 10, 20, 66, 68, 
+Total distance: 1521.46
+-----------------------------------------
+/r1/r106.txt
+Printing routes for 13 vehicles
+1. route: 0, 27, 28, 69, 62, 88, 7, 18, 83, 60, 5, 93, 59, 
+2. route: 0, 92, 98, 37, 42, 44, 16, 61, 85, 91, 100, 97, 95, 96, 
+3. route: 0, 52, 31, 30, 33, 79, 78, 81, 51, 20, 32, 
+4. route: 0, 12, 29, 76, 53, 40, 73, 74, 56, 75, 72, 
+5. route: 0, 1, 11, 64, 36, 49, 47, 46, 82, 
+6. route: 0, 45, 15, 87, 6, 94, 13, 2, 21, 
+7. route: 0, 39, 23, 67, 22, 41, 57, 43, 58, 
+8. route: 0, 19, 48, 99, 84, 17, 86, 14, 89, 
+9. route: 0, 63, 90, 9, 71, 66, 35, 34, 77, 
+10. route: 0, 65, 3, 50, 68, 80, 24, 54, 26, 
+11. route: 0, 38, 10, 70, 
+12. route: 0, 8, 55, 25, 
+13. route: 0, 4, 
+Total distance: 1614.22
+-----------------------------------------
+/r2/r201.txt
+Printing routes for 11 vehicles
+1. route: 0, 27, 28, 76, 12, 80, 68, 3, 79, 81, 33, 50, 
+2. route: 0, 52, 88, 31, 69, 1, 30, 51, 9, 78, 34, 77, 
+3. route: 0, 95, 92, 59, 99, 93, 85, 98, 37, 100, 16, 91, 14, 
+4. route: 0, 21, 73, 72, 75, 22, 41, 2, 87, 94, 96, 97, 13, 
+5. route: 0, 83, 5, 61, 84, 17, 45, 8, 82, 48, 47, 89, 
+6. route: 0, 62, 7, 18, 60, 6, 53, 40, 58, 26, 54, 
+7. route: 0, 42, 15, 57, 43, 44, 86, 38, 
+8. route: 0, 29, 24, 55, 25, 39, 23, 67, 56, 
+9. route: 0, 19, 11, 63, 90, 32, 10, 70, 20, 66, 
+10. route: 0, 71, 35, 65, 64, 36, 
+11. route: 0, 46, 49, 74, 4, 
+Total distance: 1352.85
+-----------------------------------------
+/r2/r202.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 42, 45, 36, 11, 62, 33, 27, 69, 30, 88, 64, 76, 79, 78, 9, 40, 53, 6, 84, 5, 60, 83, 18, 10, 90, 63, 66, 20, 68, 80, 4, 74, 72, 73, 21, 75, 25, 54, 
+2. route: 0, 28, 26, 39, 15, 43, 44, 14, 91, 85, 98, 37, 99, 96, 94, 95, 87, 23, 67, 22, 41, 57, 2, 8, 82, 48, 49, 19, 47, 46, 7, 52, 89, 13, 56, 55, 24, 29, 35, 71, 51, 81, 34, 3, 77, 
+3. route: 0, 12, 50, 1, 65, 32, 31, 38, 86, 16, 61, 97, 17, 100, 93, 58, 70, 
+Total distance: 1432.07
+-----------------------------------------
+/r2/r203.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 93, 85, 91, 98, 37, 97, 95, 94, 6, 96, 44, 15, 23, 67, 69, 11, 76, 79, 9, 81, 33, 53, 84, 5, 60, 83, 18, 52, 89, 13, 2, 57, 42, 100, 16, 61, 17, 45, 46, 47, 36, 49, 64, 63, 
+2. route: 0, 27, 28, 26, 12, 80, 68, 3, 50, 1, 62, 10, 90, 32, 30, 70, 31, 88, 7, 82, 8, 99, 87, 38, 14, 43, 41, 22, 75, 56, 39, 55, 54, 24, 29, 78, 34, 35, 71, 66, 20, 51, 77, 4, 74, 72, 73, 21, 40, 58, 25, 
+3. route: 0, 48, 19, 86, 65, 
+Total distance: 1231.63
+-----------------------------------------
+/r2/r204.txt
+Printing routes for 3 vehicles
+1. route: 0, 27, 69, 28, 95, 59, 92, 5, 83, 82, 47, 31, 52, 63, 11, 19, 7, 98, 61, 16, 14, 44, 86, 85, 99, 94, 6, 40, 53, 3, 33, 9, 34, 78, 20, 66, 32, 70, 1, 77, 68, 80, 24, 55, 25, 4, 74, 58, 13, 
+2. route: 0, 72, 23, 39, 2, 15, 42, 21, 75, 12, 76, 29, 79, 71, 51, 30, 81, 73, 87, 57, 22, 41, 67, 56, 26, 50, 10, 36, 48, 60, 89, 93, 91, 100, 17, 35, 
+3. route: 0, 62, 64, 88, 45, 38, 8, 84, 18, 90, 65, 49, 46, 96, 97, 37, 43, 54, 
+Total distance: 1602.38
+-----------------------------------------
+/r2/r205.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 98, 42, 14, 16, 45, 36, 62, 11, 69, 27, 76, 39, 67, 99, 87, 40, 53, 28, 61, 6, 18, 7, 82, 90, 10, 31, 52, 94, 95, 97, 2, 13, 83, 5, 60, 96, 93, 37, 100, 91, 89, 
+2. route: 0, 33, 29, 65, 71, 64, 63, 30, 88, 44, 38, 86, 85, 8, 84, 19, 47, 49, 81, 51, 20, 66, 12, 21, 56, 74, 72, 4, 68, 3, 77, 50, 34, 26, 58, 80, 
+3. route: 0, 75, 15, 23, 73, 57, 78, 79, 9, 22, 41, 43, 46, 48, 55, 54, 24, 35, 32, 70, 1, 17, 25, 
+Total distance: 1785.95
+-----------------------------------------
+/r2/r206.txt
+Printing routes for 3 vehicles
+1. route: 0, 27, 28, 69, 31, 52, 82, 83, 5, 61, 16, 44, 14, 42, 15, 57, 2, 87, 95, 92, 98, 85, 99, 59, 94, 6, 18, 7, 88, 62, 11, 64, 19, 47, 36, 49, 8, 84, 17, 46, 10, 20, 50, 26, 56, 54, 55, 25, 4, 74, 
+2. route: 0, 72, 21, 75, 23, 39, 67, 73, 12, 76, 33, 79, 78, 81, 9, 71, 65, 30, 51, 29, 3, 40, 53, 58, 38, 86, 22, 41, 97, 37, 100, 91, 96, 93, 60, 89, 13, 43, 68, 80, 77, 24, 
+3. route: 0, 45, 63, 90, 34, 70, 66, 35, 1, 32, 48, 
+Total distance: 1349.43
+-----------------------------------------
+/rc1/rc101.txt
+Printing routes for 16 vehicles
+1. route: 0, 92, 95, 64, 83, 99, 52, 57, 74, 58, 
+2. route: 0, 65, 82, 69, 88, 98, 53, 10, 12, 17, 60, 
+3. route: 0, 42, 39, 36, 38, 40, 41, 72, 54, 96, 93, 
+4. route: 0, 45, 5, 3, 1, 8, 6, 7, 2, 70, 100, 
+5. route: 0, 14, 47, 15, 16, 9, 59, 97, 75, 
+6. route: 0, 62, 67, 71, 94, 56, 91, 80, 
+7. route: 0, 63, 85, 33, 30, 28, 26, 31, 34, 32, 
+8. route: 0, 61, 81, 90, 66, 68, 
+9. route: 0, 11, 78, 73, 46, 4, 
+10. route: 0, 44, 37, 43, 35, 
+11. route: 0, 27, 29, 51, 20, 24, 48, 
+12. route: 0, 23, 21, 19, 49, 89, 50, 
+13. route: 0, 76, 84, 77, 
+14. route: 0, 86, 87, 13, 
+15. route: 0, 18, 22, 55, 
+16. route: 0, 79, 25, 
+Total distance: 2034.11
+-----------------------------------------
+/rc1/rc102.txt
+Printing routes for 14 vehicles
+1. route: 0, 65, 83, 64, 92, 67, 94, 96, 54, 93, 91, 80, 
+2. route: 0, 95, 62, 63, 85, 51, 76, 49, 20, 24, 
+3. route: 0, 69, 98, 82, 52, 99, 86, 57, 74, 58, 
+4. route: 0, 72, 71, 42, 44, 38, 41, 37, 35, 
+5. route: 0, 2, 45, 5, 8, 7, 6, 46, 4, 3, 1, 
+6. route: 0, 14, 47, 15, 16, 11, 12, 9, 10, 13, 17, 
+7. route: 0, 39, 36, 40, 61, 81, 68, 55, 100, 70, 
+8. route: 0, 59, 75, 87, 97, 77, 25, 
+9. route: 0, 88, 53, 78, 73, 60, 
+10. route: 0, 23, 21, 18, 19, 22, 48, 89, 
+11. route: 0, 31, 29, 27, 28, 30, 32, 34, 26, 
+12. route: 0, 33, 84, 90, 66, 56, 
+13. route: 0, 79, 43, 
+14. route: 0, 50, 
+Total distance: 1778.93
+-----------------------------------------
+/rc1/rc103.txt
+Printing routes for 12 vehicles
+1. route: 0, 69, 82, 98, 88, 2, 7, 6, 46, 8, 45, 
+2. route: 0, 65, 83, 52, 99, 86, 59, 87, 97, 58, 74, 
+3. route: 0, 95, 92, 67, 71, 94, 96, 54, 41, 39, 68, 
+4. route: 0, 64, 63, 51, 85, 76, 89, 33, 
+5. route: 0, 72, 61, 81, 90, 53, 78, 60, 55, 
+6. route: 0, 14, 47, 17, 16, 15, 12, 11, 10, 9, 13, 
+7. route: 0, 62, 31, 29, 28, 30, 32, 34, 26, 27, 
+8. route: 0, 5, 73, 79, 3, 1, 4, 100, 70, 
+9. route: 0, 44, 42, 38, 40, 36, 35, 37, 43, 
+10. route: 0, 21, 23, 19, 49, 18, 48, 22, 20, 24, 
+11. route: 0, 75, 77, 57, 84, 56, 66, 80, 
+12. route: 0, 25, 50, 93, 91, 
+Total distance: 1618.36
+-----------------------------------------
+/rc1/rc104.txt
+Printing routes for 12 vehicles
+1. route: 0, 69, 98, 88, 82, 99, 52, 86, 74, 57, 83, 66, 91, 
+2. route: 0, 65, 64, 95, 84, 85, 63, 76, 51, 20, 24, 
+3. route: 0, 92, 67, 62, 94, 71, 93, 96, 54, 72, 39, 
+4. route: 0, 61, 70, 100, 81, 90, 80, 56, 68, 
+5. route: 0, 12, 14, 47, 17, 16, 15, 11, 10, 9, 13, 
+6. route: 0, 44, 42, 40, 38, 37, 36, 35, 41, 43, 
+7. route: 0, 2, 45, 5, 8, 7, 6, 46, 4, 3, 1, 
+8. route: 0, 19, 21, 23, 25, 18, 48, 49, 22, 77, 
+9. route: 0, 73, 78, 79, 53, 60, 55, 
+10. route: 0, 59, 58, 87, 97, 75, 
+11. route: 0, 30, 32, 28, 26, 27, 29, 31, 34, 33, 
+12. route: 0, 89, 50, 
+Total distance: 1505.2
+-----------------------------------------
+/rc2/rc201.txt
+Printing routes for 5 vehicles
+1. route: 0, 92, 65, 82, 98, 45, 5, 39, 69, 11, 47, 14, 12, 16, 88, 61, 81, 53, 52, 90, 57, 10, 97, 66, 68, 54, 96, 50, 26, 89, 48, 
+2. route: 0, 42, 36, 72, 33, 28, 27, 29, 31, 62, 63, 64, 67, 71, 40, 41, 84, 95, 49, 20, 85, 56, 94, 55, 4, 3, 1, 35, 37, 93, 80, 91, 70, 100, 
+3. route: 0, 83, 21, 59, 75, 15, 23, 19, 76, 30, 34, 51, 22, 18, 86, 7, 46, 43, 74, 13, 17, 60, 24, 25, 58, 
+4. route: 0, 2, 44, 38, 99, 87, 9, 78, 6, 32, 77, 
+5. route: 0, 73, 79, 8, 
+Total distance: 2467.93
+-----------------------------------------
+/rc2/rc202.txt
+Printing routes for 4 vehicles
+1. route: 0, 65, 92, 95, 63, 62, 33, 28, 27, 29, 31, 30, 83, 64, 82, 98, 88, 12, 16, 73, 7, 6, 8, 79, 46, 3, 4, 1, 10, 13, 97, 74, 58, 77, 24, 25, 48, 89, 80, 
+2. route: 0, 72, 39, 42, 36, 45, 5, 2, 14, 47, 15, 59, 52, 99, 11, 9, 75, 87, 86, 57, 18, 22, 49, 20, 56, 66, 50, 26, 32, 54, 68, 70, 100, 60, 17, 
+3. route: 0, 69, 23, 21, 19, 76, 67, 71, 44, 38, 40, 61, 81, 94, 51, 85, 84, 34, 96, 37, 35, 43, 55, 91, 93, 
+4. route: 0, 90, 53, 78, 41, 
+Total distance: 1740.58
+-----------------------------------------
+/rc2/rc203.txt
+Printing routes for 4 vehicles
+1. route: 0, 69, 83, 64, 95, 92, 67, 62, 63, 76, 19, 21, 23, 52, 82, 98, 47, 12, 14, 16, 15, 11, 87, 86, 57, 99, 65, 53, 9, 10, 78, 45, 4, 1, 54, 39, 35, 68, 55, 60, 100, 70, 
+2. route: 0, 72, 42, 44, 36, 2, 5, 88, 61, 71, 31, 29, 28, 30, 33, 85, 51, 18, 49, 22, 90, 79, 6, 46, 41, 37, 43, 32, 56, 91, 80, 93, 
+3. route: 0, 59, 38, 75, 73, 7, 8, 81, 94, 84, 50, 34, 27, 26, 96, 20, 24, 25, 48, 77, 58, 74, 66, 89, 
+4. route: 0, 40, 3, 97, 13, 17, 
+Total distance: 2037.35
+-----------------------------------------
+/rc2/rc204.txt
+Printing routes for 3 vehicles
+1. route: 0, 69, 98, 82, 65, 83, 64, 95, 92, 67, 62, 85, 63, 76, 51, 84, 19, 21, 23, 18, 49, 22, 20, 24, 52, 99, 11, 12, 15, 16, 47, 14, 9, 86, 57, 59, 97, 10, 13, 17, 60, 55, 100, 70, 68, 54, 93, 91, 80, 
+2. route: 0, 2, 45, 5, 88, 61, 44, 42, 39, 38, 40, 36, 41, 72, 71, 94, 81, 90, 53, 73, 79, 7, 6, 8, 46, 4, 3, 1, 78, 66, 56, 50, 34, 26, 32, 96, 35, 
+3. route: 0, 31, 29, 27, 28, 30, 33, 75, 87, 89, 25, 48, 77, 58, 74, 37, 43, 
+Total distance: 1442.36
+-----------------------------------------
+[Training fitness: 89395.7]
+[Test fitness: 82090.2]
+################################
+################################
+################################
+RUN 1
+initializing
+finding best expr in initial population
+best in initial population: 
+((((wt + d) min (dt min d_depot)) min ((dem max t_ready) min (wt / slack_t))) min (((d / t) min (q + dt)) * ((d_depot + q) max (dem * dem))))
+fitness 136981
+[TRAINING]: iteration 0: best sol so far: 136981
+[TEST]: iteration 0: best sol so far: 125303
+((((wt + d) min (dt min d_depot)) min ((dem max t_ready) min (wt / slack_t))) min (((d / t) min (q + dt)) * ((d_depot + q) max (dem * dem))))
+[TRAINING]: iteration 500: best sol so far: 136981
+[TEST]: iteration 500: best sol so far: 125303
+((((wt + d) min (dt min d_depot)) min ((t max t_rem) min (wt / slack_t))) min (((d / t) min (q + wt)) * ((q * t_rem) max (dem * d_depot))))
+[TRAINING]: iteration 1000: best sol so far: 136625
+[TEST]: iteration 1000: best sol so far: 127470
+((((rt max dt) * (dem + rt)) * ((t max t_rem) min (wt / slack_t))) / (((d / t) min (t_rem + wt)) * ((dt min t_ready) max (dem + rt))))
+[TRAINING]: iteration 1500: best sol so far: 135904
+[TEST]: iteration 1500: best sol so far: 126384
+((((rt max dem) * (dem + rt)) * ((t max t_rem) min (wt / slack_t))) / (((t_rem / rt) min (d + wt)) * ((dt min t_ready) max (dem + rt))))
+[TRAINING]: iteration 2000: best sol so far: 134303
+[TEST]: iteration 2000: best sol so far: 125296
+((((rt max dt) * dt) * ((t_ready max dt) min (wt / slack_t))) / (((rt / t) min (q + q)) * ((dt min t_ready) max (dem + rt))))
+[TRAINING]: iteration 2500: best sol so far: 131769
+[TEST]: iteration 2500: best sol so far: 124609
+((((dt max dt) * dt) * ((t max t_rem) min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * (wt max (dem + q))))
+[TRAINING]: iteration 3000: best sol so far: 129619
+[TEST]: iteration 3000: best sol so far: 123883
+((((d_depot max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((dt min t_ready) max (dem + wt))))
+[TRAINING]: iteration 3500: best sol so far: 129611
+[TEST]: iteration 3500: best sol so far: 123890
+((((d_depot max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((d min t_ready) max (dem + wt))))
+[TRAINING]: iteration 4000: best sol so far: 129242
+[TEST]: iteration 4000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 4500: best sol so far: 129242
+[TEST]: iteration 4500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 5000: best sol so far: 129242
+[TEST]: iteration 5000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 5500: best sol so far: 129242
+[TEST]: iteration 5500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 6000: best sol so far: 129242
+[TEST]: iteration 6000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 6500: best sol so far: 129242
+[TEST]: iteration 6500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 7000: best sol so far: 129242
+[TEST]: iteration 7000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 7500: best sol so far: 129242
+[TEST]: iteration 7500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 8000: best sol so far: 129242
+[TEST]: iteration 8000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 8500: best sol so far: 129242
+[TEST]: iteration 8500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 9000: best sol so far: 129242
+[TEST]: iteration 9000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 9500: best sol so far: 129242
+[TEST]: iteration 9500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 10000: best sol so far: 129242
+[TEST]: iteration 10000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 10500: best sol so far: 129242
+[TEST]: iteration 10500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 11000: best sol so far: 129242
+[TEST]: iteration 11000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 11500: best sol so far: 129242
+[TEST]: iteration 11500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 12000: best sol so far: 129242
+[TEST]: iteration 12000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 12500: best sol so far: 129242
+[TEST]: iteration 12500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 13000: best sol so far: 129242
+[TEST]: iteration 13000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 13500: best sol so far: 129242
+[TEST]: iteration 13500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 14000: best sol so far: 129242
+[TEST]: iteration 14000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 14500: best sol so far: 129242
+[TEST]: iteration 14500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 15000: best sol so far: 129242
+[TEST]: iteration 15000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 15500: best sol so far: 129242
+[TEST]: iteration 15500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 16000: best sol so far: 129242
+[TEST]: iteration 16000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 16500: best sol so far: 129242
+[TEST]: iteration 16500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 17000: best sol so far: 129242
+[TEST]: iteration 17000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 17500: best sol so far: 129242
+[TEST]: iteration 17500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 18000: best sol so far: 129242
+[TEST]: iteration 18000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 18500: best sol so far: 129242
+[TEST]: iteration 18500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 19000: best sol so far: 129242
+[TEST]: iteration 19000: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (wt + dt)) * ((wt max wt) max (dem + wt))))
+[TRAINING]: iteration 19500: best sol so far: 129242
+[TEST]: iteration 19500: best sol so far: 123520
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (dt + t_ready)) * ((dt / t_ready) max (dem + wt))))
+best after gp: 
+((((t max dt) * (dem + rt)) * (dt min (wt / slack_t))) / (((rt / slack_t) min (dt + t_ready)) * ((dt / t_ready) max (dem + wt))))
+best fitness: 129242
+[Training fitness: 129242]
+/c1/c101.txt
+Printing routes for 11 vehicles
+1. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 47, 
+2. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+3. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 49, 
+4. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+5. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 75, 
+6. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+7. route: 0, 67, 65, 63, 62, 70, 61, 64, 68, 66, 69, 
+8. route: 0, 81, 78, 76, 71, 72, 77, 79, 80, 91, 
+9. route: 0, 90, 87, 86, 83, 74, 73, 88, 89, 
+10. route: 0, 98, 96, 95, 94, 82, 84, 85, 99, 
+11. route: 0, 92, 93, 97, 100, 
+Total distance: 1303.81
+-----------------------------------------
+/c1/c102.txt
+Printing routes for 12 vehicles
+1. route: 0, 5, 3, 7, 8, 10, 11, 6, 12, 4, 1, 47, 49, 
+2. route: 0, 13, 17, 18, 19, 15, 9, 26, 34, 2, 52, 
+3. route: 0, 20, 24, 25, 27, 29, 16, 14, 51, 22, 21, 75, 
+4. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 50, 69, 
+5. route: 0, 42, 43, 41, 40, 44, 46, 45, 48, 59, 66, 
+6. route: 0, 55, 54, 53, 62, 30, 28, 61, 68, 91, 
+7. route: 0, 57, 63, 70, 56, 58, 60, 
+8. route: 0, 67, 65, 71, 74, 72, 73, 23, 89, 
+9. route: 0, 78, 81, 76, 82, 77, 64, 79, 80, 
+10. route: 0, 87, 86, 83, 92, 84, 85, 88, 99, 100, 
+11. route: 0, 90, 96, 94, 93, 97, 
+12. route: 0, 98, 95, 
+Total distance: 2032.11
+-----------------------------------------
+/c1/c103.txt
+Printing routes for 13 vehicles
+1. route: 0, 3, 5, 7, 8, 10, 9, 6, 4, 2, 1, 21, 47, 
+2. route: 0, 13, 17, 18, 19, 11, 14, 12, 23, 22, 49, 75, 
+3. route: 0, 20, 24, 25, 27, 15, 16, 26, 34, 50, 52, 
+4. route: 0, 32, 33, 31, 29, 30, 28, 36, 48, 51, 69, 
+5. route: 0, 42, 41, 35, 37, 38, 39, 45, 59, 66, 
+6. route: 0, 43, 54, 40, 44, 46, 58, 60, 68, 91, 
+7. route: 0, 57, 55, 53, 56, 70, 61, 64, 80, 
+8. route: 0, 67, 63, 62, 71, 72, 73, 77, 79, 
+9. route: 0, 78, 65, 76, 74, 84, 85, 88, 89, 
+10. route: 0, 81, 86, 83, 82, 92, 93, 97, 99, 
+11. route: 0, 87, 90, 94, 100, 
+12. route: 0, 96, 95, 
+13. route: 0, 98, 
+Total distance: 2013.9
+-----------------------------------------
+/c1/c104.txt
+Printing routes for 12 vehicles
+1. route: 0, 3, 5, 7, 8, 10, 9, 6, 4, 2, 1, 21, 47, 
+2. route: 0, 13, 17, 18, 19, 11, 14, 12, 22, 34, 49, 75, 
+3. route: 0, 20, 24, 25, 27, 15, 16, 26, 23, 50, 52, 69, 
+4. route: 0, 32, 33, 31, 29, 30, 28, 36, 48, 51, 
+5. route: 0, 42, 41, 35, 37, 38, 39, 45, 59, 66, 
+6. route: 0, 43, 54, 40, 44, 46, 58, 60, 64, 80, 
+7. route: 0, 55, 57, 53, 56, 61, 72, 77, 68, 91, 
+8. route: 0, 65, 63, 62, 70, 71, 73, 79, 88, 89, 
+9. route: 0, 67, 76, 74, 82, 84, 85, 97, 99, 
+10. route: 0, 78, 81, 83, 92, 93, 100, 
+11. route: 0, 87, 86, 90, 94, 
+12. route: 0, 96, 98, 95, 
+Total distance: 1876.34
+-----------------------------------------
+/c2/c201.txt
+Printing routes for 11 vehicles
+1. route: 0, 3, 5, 7, 8, 10, 9, 4, 2, 1, 21, 22, 47, 
+2. route: 0, 13, 17, 18, 11, 14, 6, 12, 23, 34, 49, 52, 
+3. route: 0, 20, 19, 15, 16, 27, 26, 28, 36, 50, 66, 69, 
+4. route: 0, 24, 25, 29, 30, 35, 37, 38, 39, 48, 51, 75, 
+5. route: 0, 32, 31, 33, 40, 44, 45, 46, 59, 64, 68, 
+6. route: 0, 42, 41, 43, 53, 56, 58, 60, 61, 79, 80, 
+7. route: 0, 55, 54, 57, 62, 70, 72, 77, 89, 91, 
+8. route: 0, 65, 63, 67, 71, 73, 74, 85, 
+9. route: 0, 76, 78, 81, 82, 83, 84, 88, 97, 99, 
+10. route: 0, 86, 87, 90, 92, 93, 100, 
+11. route: 0, 96, 94, 95, 98, 
+Total distance: 1761.13
+-----------------------------------------
+/c2/c202.txt
+Printing routes for 4 vehicles
+1. route: 0, 5, 20, 1, 2, 6, 29, 32, 31, 33, 7, 3, 4, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 21, 48, 87, 
+2. route: 0, 22, 24, 27, 30, 61, 64, 66, 68, 35, 37, 38, 39, 36, 53, 56, 58, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 77, 78, 90, 96, 
+3. route: 0, 63, 62, 67, 72, 74, 97, 69, 92, 49, 54, 55, 89, 60, 84, 86, 83, 82, 85, 76, 71, 70, 73, 80, 79, 81, 
+4. route: 0, 93, 75, 99, 100, 94, 65, 95, 98, 91, 88, 
+Total distance: 1606.53
+-----------------------------------------
+/c2/c203.txt
+Printing routes for 4 vehicles
+1. route: 0, 5, 2, 20, 1, 6, 29, 31, 32, 33, 3, 7, 4, 26, 28, 18, 23, 16, 14, 19, 12, 15, 17, 13, 9, 25, 8, 10, 11, 21, 41, 77, 
+2. route: 0, 22, 24, 27, 30, 61, 64, 66, 35, 37, 38, 49, 34, 36, 39, 53, 40, 44, 57, 45, 46, 50, 51, 52, 47, 43, 42, 73, 48, 78, 87, 90, 
+3. route: 0, 62, 63, 67, 72, 74, 75, 68, 65, 69, 55, 54, 89, 56, 58, 59, 60, 82, 83, 85, 71, 70, 76, 80, 79, 81, 96, 
+4. route: 0, 93, 99, 100, 97, 92, 94, 95, 98, 91, 88, 84, 86, 
+Total distance: 1678.98
+-----------------------------------------
+/c2/c204.txt
+Printing routes for 4 vehicles
+1. route: 0, 5, 20, 2, 1, 6, 22, 29, 31, 32, 33, 7, 3, 4, 18, 16, 14, 19, 12, 15, 8, 9, 13, 10, 11, 17, 21, 25, 41, 42, 48, 77, 
+2. route: 0, 24, 27, 30, 61, 35, 37, 38, 64, 36, 26, 28, 34, 23, 39, 40, 44, 46, 45, 50, 51, 52, 47, 70, 43, 73, 78, 81, 87, 90, 96, 
+3. route: 0, 62, 63, 67, 72, 66, 97, 68, 65, 49, 55, 53, 54, 56, 58, 57, 59, 60, 83, 82, 85, 76, 71, 80, 79, 
+4. route: 0, 93, 74, 75, 99, 100, 69, 92, 94, 95, 98, 89, 88, 91, 84, 86, 
+Total distance: 1864.44
+-----------------------------------------
+/r1/r101.txt
+Printing routes for 5 vehicles
+1. route: 0, 2, 1, 5, 6, 20, 22, 24, 29, 7, 3, 4, 34, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 21, 41, 42, 48, 77, 
+2. route: 0, 27, 30, 61, 32, 33, 31, 35, 37, 38, 39, 36, 49, 28, 53, 56, 40, 44, 46, 45, 51, 50, 52, 43, 47, 70, 73, 78, 79, 81, 87, 90, 
+3. route: 0, 62, 63, 67, 64, 66, 69, 68, 65, 92, 54, 55, 58, 60, 59, 57, 83, 82, 84, 76, 71, 85, 80, 
+4. route: 0, 74, 72, 75, 93, 97, 94, 95, 98, 100, 89, 91, 88, 86, 96, 
+5. route: 0, 99, 
+Total distance: 1617.99
+-----------------------------------------
+/r1/r102.txt
+Printing routes for 20 vehicles
+1. route: 0, 36, 6, 10, 13, 58, 28, 
+2. route: 0, 42, 9, 4, 25, 77, 
+3. route: 0, 45, 11, 8, 68, 70, 
+4. route: 0, 65, 30, 55, 93, 
+5. route: 0, 92, 23, 35, 80, 3, 
+6. route: 0, 39, 15, 22, 17, 100, 37, 
+7. route: 0, 1, 27, 38, 74, 2, 12, 
+8. route: 0, 5, 62, 53, 56, 7, 
+9. route: 0, 14, 49, 16, 18, 89, 
+10. route: 0, 19, 40, 41, 20, 
+11. route: 0, 21, 44, 66, 26, 
+12. route: 0, 24, 84, 29, 34, 
+13. route: 0, 31, 33, 76, 78, 79, 32, 48, 
+14. route: 0, 43, 67, 46, 
+15. route: 0, 47, 64, 50, 51, 52, 94, 
+16. route: 0, 54, 69, 87, 57, 59, 60, 61, 
+17. route: 0, 63, 99, 71, 81, 
+18. route: 0, 72, 88, 73, 75, 83, 
+19. route: 0, 82, 85, 86, 90, 95, 
+20. route: 0, 91, 96, 97, 98, 
+Total distance: 3382.48
+-----------------------------------------
+/r1/r103.txt
+Printing routes for 17 vehicles
+1. route: 0, 92, 11, 8, 4, 58, 
+2. route: 0, 1, 15, 53, 55, 25, 77, 
+3. route: 0, 2, 62, 9, 13, 100, 
+4. route: 0, 3, 23, 67, 5, 6, 18, 
+5. route: 0, 7, 38, 84, 74, 12, 
+6. route: 0, 10, 44, 87, 14, 16, 17, 
+7. route: 0, 19, 69, 76, 79, 20, 21, 
+8. route: 0, 22, 24, 26, 27, 28, 29, 50, 
+9. route: 0, 30, 99, 31, 32, 33, 51, 
+10. route: 0, 34, 35, 36, 37, 59, 
+11. route: 0, 39, 40, 41, 42, 43, 52, 
+12. route: 0, 45, 46, 47, 48, 49, 54, 
+13. route: 0, 56, 57, 60, 61, 63, 
+14. route: 0, 64, 65, 66, 68, 80, 
+15. route: 0, 70, 71, 72, 73, 75, 85, 
+16. route: 0, 78, 81, 82, 83, 86, 89, 94, 
+17. route: 0, 88, 90, 91, 93, 95, 96, 97, 98, 
+Total distance: 2780.71
+-----------------------------------------
+/r1/r104.txt
+Printing routes for 23 vehicles
+1. route: 0, 5, 2, 3, 4, 1, 58, 
+2. route: 0, 14, 7, 6, 17, 13, 89, 
+3. route: 0, 33, 8, 10, 20, 24, 
+4. route: 0, 36, 9, 25, 55, 80, 
+5. route: 0, 39, 12, 18, 26, 54, 77, 
+6. route: 0, 42, 11, 19, 32, 35, 
+7. route: 0, 45, 15, 22, 37, 48, 
+8. route: 0, 47, 16, 38, 43, 60, 93, 
+9. route: 0, 59, 21, 23, 34, 68, 
+10. route: 0, 63, 29, 50, 66, 70, 
+11. route: 0, 65, 30, 46, 91, 100, 
+12. route: 0, 72, 27, 31, 49, 
+13. route: 0, 83, 28, 40, 41, 56, 74, 
+14. route: 0, 92, 51, 53, 96, 97, 
+15. route: 0, 95, 52, 44, 57, 
+16. route: 0, 64, 62, 78, 
+17. route: 0, 82, 61, 73, 
+18. route: 0, 67, 75, 94, 
+19. route: 0, 98, 69, 76, 79, 
+20. route: 0, 71, 81, 90, 
+21. route: 0, 86, 84, 85, 
+22. route: 0, 88, 87, 
+23. route: 0, 99, 
+Total distance: 3097.12
+-----------------------------------------
+/r1/r105.txt
+Printing routes for 22 vehicles
+1. route: 0, 5, 2, 4, 3, 1, 13, 58, 
+2. route: 0, 11, 6, 8, 10, 32, 70, 
+3. route: 0, 14, 7, 9, 20, 33, 77, 
+4. route: 0, 15, 12, 17, 36, 
+5. route: 0, 23, 16, 22, 24, 
+6. route: 0, 27, 21, 18, 25, 39, 55, 
+7. route: 0, 38, 30, 35, 66, 
+8. route: 0, 42, 19, 26, 45, 
+9. route: 0, 44, 31, 34, 48, 
+10. route: 0, 47, 40, 37, 41, 56, 74, 
+11. route: 0, 59, 28, 29, 43, 60, 
+12. route: 0, 62, 52, 49, 46, 68, 
+13. route: 0, 63, 51, 53, 50, 80, 89, 
+14. route: 0, 64, 57, 54, 
+15. route: 0, 65, 67, 93, 
+16. route: 0, 69, 72, 61, 84, 91, 92, 100, 
+17. route: 0, 83, 71, 78, 79, 
+18. route: 0, 95, 75, 73, 76, 96, 
+19. route: 0, 88, 82, 81, 97, 
+20. route: 0, 98, 90, 
+21. route: 0, 86, 85, 99, 
+22. route: 0, 87, 94, 
+Total distance: 3315.49
+-----------------------------------------
+/r1/r106.txt
+Printing routes for 22 vehicles
+1. route: 0, 1, 2, 3, 5, 14, 
+2. route: 0, 7, 12, 6, 4, 13, 26, 
+3. route: 0, 16, 9, 10, 17, 
+4. route: 0, 19, 18, 20, 21, 37, 
+5. route: 0, 28, 15, 8, 24, 50, 
+6. route: 0, 29, 22, 31, 32, 70, 
+7. route: 0, 33, 11, 30, 25, 54, 
+8. route: 0, 34, 36, 43, 
+9. route: 0, 39, 38, 46, 47, 48, 
+10. route: 0, 42, 23, 35, 52, 89, 
+11. route: 0, 45, 27, 40, 41, 56, 59, 95, 
+12. route: 0, 63, 51, 49, 58, 
+13. route: 0, 65, 57, 60, 82, 
+14. route: 0, 71, 53, 55, 68, 72, 
+15. route: 0, 75, 44, 61, 74, 77, 
+16. route: 0, 83, 62, 64, 66, 80, 
+17. route: 0, 85, 67, 73, 91, 93, 96, 
+18. route: 0, 92, 69, 76, 78, 81, 94, 98, 
+19. route: 0, 86, 88, 90, 97, 
+20. route: 0, 99, 84, 100, 
+21. route: 0, 79, 
+22. route: 0, 87, 
+Total distance: 3375.03
+-----------------------------------------
+/r2/r201.txt
+Printing routes for 18 vehicles
+1. route: 0, 2, 5, 1, 3, 4, 13, 58, 
+2. route: 0, 11, 6, 7, 8, 10, 70, 
+3. route: 0, 12, 9, 14, 15, 37, 89, 
+4. route: 0, 16, 18, 17, 19, 20, 
+5. route: 0, 21, 23, 22, 24, 25, 26, 54, 
+6. route: 0, 27, 28, 29, 30, 31, 32, 48, 
+7. route: 0, 33, 36, 34, 68, 
+8. route: 0, 38, 35, 50, 77, 
+9. route: 0, 39, 40, 41, 42, 43, 56, 
+10. route: 0, 44, 45, 46, 47, 49, 60, 93, 
+11. route: 0, 52, 51, 53, 55, 59, 96, 
+12. route: 0, 62, 57, 61, 72, 74, 
+13. route: 0, 63, 64, 65, 66, 80, 
+14. route: 0, 67, 69, 71, 
+15. route: 0, 75, 73, 76, 78, 79, 81, 
+16. route: 0, 82, 83, 84, 85, 86, 91, 92, 97, 100, 
+17. route: 0, 95, 88, 87, 94, 98, 
+18. route: 0, 99, 90, 
+Total distance: 2703.45
+-----------------------------------------
+/r2/r202.txt
+Printing routes for 5 vehicles
+1. route: 0, 33, 36, 15, 11, 23, 6, 8, 9, 22, 10, 4, 13, 17, 25, 35, 58, 70, 77, 80, 
+2. route: 0, 39, 27, 42, 45, 30, 38, 40, 41, 49, 53, 56, 55, 66, 68, 74, 93, 100, 1, 2, 3, 5, 60, 
+3. route: 0, 65, 92, 62, 44, 64, 67, 78, 79, 84, 7, 12, 14, 16, 18, 19, 20, 21, 24, 26, 28, 29, 
+4. route: 0, 31, 32, 34, 69, 37, 76, 88, 99, 43, 87, 46, 47, 48, 50, 51, 52, 54, 57, 59, 61, 63, 71, 72, 73, 75, 81, 82, 
+5. route: 0, 83, 85, 86, 89, 90, 91, 94, 95, 96, 97, 98, 
+Total distance: 3310.56
+-----------------------------------------
+/r2/r203.txt
+Printing routes for 4 vehicles
+1. route: 0, 92, 1, 2, 11, 15, 23, 8, 9, 53, 79, 84, 55, 13, 4, 74, 25, 58, 77, 100, 3, 5, 
+2. route: 0, 6, 7, 10, 12, 62, 44, 67, 38, 76, 87, 99, 14, 16, 17, 18, 19, 20, 21, 22, 24, 26, 27, 28, 29, 30, 31, 33, 
+3. route: 0, 32, 34, 69, 35, 36, 37, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 50, 51, 52, 54, 56, 57, 59, 60, 61, 63, 64, 
+4. route: 0, 65, 66, 68, 70, 71, 72, 73, 75, 78, 80, 81, 82, 83, 85, 86, 88, 89, 90, 91, 93, 94, 95, 96, 97, 98, 
+Total distance: 2802.31
+-----------------------------------------
+/r2/r204.txt
+Printing routes for 6 vehicles
+1. route: 0, 5, 11, 2, 14, 12, 15, 6, 7, 8, 9, 13, 4, 3, 10, 17, 1, 20, 24, 25, 32, 35, 48, 58, 
+2. route: 0, 23, 27, 28, 29, 21, 19, 16, 22, 18, 30, 33, 36, 26, 34, 37, 39, 54, 55, 56, 60, 68, 70, 77, 
+3. route: 0, 42, 45, 31, 38, 44, 41, 40, 47, 51, 53, 49, 46, 50, 43, 66, 74, 80, 89, 91, 93, 100, 
+4. route: 0, 59, 62, 63, 52, 64, 65, 61, 67, 57, 69, 76, 78, 79, 84, 92, 96, 97, 
+5. route: 0, 72, 83, 95, 82, 75, 71, 73, 85, 81, 86, 88, 
+6. route: 0, 98, 87, 90, 94, 99, 
+Total distance: 3365.23
+-----------------------------------------
+/r2/r205.txt
+Printing routes for 6 vehicles
+1. route: 0, 2, 5, 7, 12, 14, 1, 11, 3, 6, 8, 9, 16, 10, 20, 21, 4, 13, 17, 24, 25, 26, 32, 70, 
+2. route: 0, 28, 29, 19, 27, 15, 18, 23, 30, 22, 31, 34, 37, 35, 43, 46, 48, 50, 54, 58, 59, 89, 
+3. route: 0, 33, 36, 39, 42, 44, 45, 38, 40, 41, 47, 49, 51, 52, 55, 56, 57, 60, 68, 72, 77, 80, 91, 93, 96, 
+4. route: 0, 63, 65, 61, 62, 64, 67, 71, 53, 73, 66, 75, 82, 74, 83, 100, 
+5. route: 0, 92, 95, 98, 69, 85, 81, 76, 86, 78, 79, 84, 90, 94, 97, 
+6. route: 0, 99, 88, 87, 
+Total distance: 3507.85
+-----------------------------------------
+/r2/r206.txt
+Printing routes for 5 vehicles
+1. route: 0, 2, 5, 11, 12, 7, 9, 6, 8, 14, 3, 1, 4, 10, 13, 17, 20, 24, 25, 26, 32, 35, 48, 89, 
+2. route: 0, 15, 19, 16, 21, 18, 22, 23, 27, 28, 29, 30, 31, 33, 34, 36, 37, 41, 43, 46, 54, 55, 58, 60, 70, 
+3. route: 0, 39, 42, 44, 45, 38, 40, 47, 51, 49, 50, 52, 53, 56, 57, 59, 66, 68, 74, 77, 80, 91, 93, 100, 
+4. route: 0, 62, 63, 64, 61, 65, 67, 69, 71, 72, 73, 75, 78, 79, 81, 84, 96, 97, 
+5. route: 0, 82, 83, 92, 88, 76, 95, 90, 85, 86, 87, 94, 98, 99, 
+Total distance: 3059.19
+-----------------------------------------
+/rc1/rc101.txt
+Printing routes for 25 vehicles
+1. route: 0, 2, 5, 7, 1, 3, 17, 60, 
+2. route: 0, 12, 14, 16, 6, 24, 
+3. route: 0, 21, 19, 9, 10, 25, 
+4. route: 0, 26, 4, 70, 100, 
+5. route: 0, 28, 13, 80, 
+6. route: 0, 29, 18, 20, 48, 91, 
+7. route: 0, 31, 22, 32, 
+8. route: 0, 33, 27, 30, 34, 37, 
+9. route: 0, 36, 8, 35, 
+10. route: 0, 39, 42, 46, 43, 93, 96, 
+11. route: 0, 45, 38, 40, 50, 
+12. route: 0, 47, 41, 54, 68, 
+13. route: 0, 52, 59, 51, 56, 66, 
+14. route: 0, 63, 23, 57, 55, 
+15. route: 0, 65, 71, 49, 75, 
+16. route: 0, 72, 61, 73, 58, 
+17. route: 0, 82, 62, 67, 81, 85, 
+18. route: 0, 83, 44, 89, 
+19. route: 0, 95, 11, 53, 94, 
+20. route: 0, 98, 64, 76, 84, 77, 
+21. route: 0, 92, 15, 78, 74, 
+22. route: 0, 69, 86, 87, 97, 
+23. route: 0, 88, 90, 
+24. route: 0, 99, 
+25. route: 0, 79, 
+Total distance: 3876
+-----------------------------------------
+/rc1/rc102.txt
+Printing routes for 23 vehicles
+1. route: 0, 5, 2, 7, 3, 6, 1, 4, 60, 
+2. route: 0, 14, 8, 10, 13, 17, 
+3. route: 0, 27, 18, 20, 24, 25, 
+4. route: 0, 28, 22, 48, 58, 
+5. route: 0, 29, 19, 32, 
+6. route: 0, 31, 30, 33, 26, 34, 50, 70, 
+7. route: 0, 36, 9, 55, 80, 
+8. route: 0, 39, 12, 46, 100, 
+9. route: 0, 42, 16, 54, 91, 
+10. route: 0, 45, 11, 35, 
+11. route: 0, 47, 15, 37, 43, 93, 
+12. route: 0, 59, 21, 23, 49, 56, 66, 
+13. route: 0, 63, 38, 40, 68, 
+14. route: 0, 65, 44, 41, 74, 
+15. route: 0, 72, 51, 57, 77, 
+16. route: 0, 92, 52, 53, 73, 78, 
+17. route: 0, 95, 61, 67, 84, 89, 
+18. route: 0, 83, 62, 64, 81, 96, 
+19. route: 0, 75, 79, 
+20. route: 0, 76, 85, 90, 
+21. route: 0, 82, 69, 71, 94, 
+22. route: 0, 98, 86, 87, 97, 
+23. route: 0, 88, 99, 
+Total distance: 3546.72
+-----------------------------------------
+/rc1/rc103.txt
+Printing routes for 20 vehicles
+1. route: 0, 5, 2, 4, 6, 3, 1, 8, 45, 55, 68, 
+2. route: 0, 11, 7, 9, 10, 13, 17, 
+3. route: 0, 14, 15, 12, 16, 20, 24, 25, 
+4. route: 0, 23, 19, 21, 18, 22, 32, 
+5. route: 0, 27, 28, 29, 26, 30, 33, 56, 80, 
+6. route: 0, 31, 35, 36, 37, 39, 70, 100, 
+7. route: 0, 38, 40, 34, 48, 
+8. route: 0, 42, 41, 44, 46, 43, 93, 
+9. route: 0, 47, 49, 50, 66, 91, 
+10. route: 0, 59, 51, 53, 60, 
+11. route: 0, 62, 52, 54, 96, 
+12. route: 0, 63, 57, 58, 74, 77, 
+13. route: 0, 64, 61, 65, 69, 78, 
+14. route: 0, 72, 67, 71, 76, 89, 
+15. route: 0, 83, 73, 79, 88, 
+16. route: 0, 92, 75, 84, 
+17. route: 0, 95, 82, 81, 90, 
+18. route: 0, 98, 85, 94, 
+19. route: 0, 86, 87, 97, 
+20. route: 0, 99, 
+Total distance: 2924.38
+-----------------------------------------
+/rc1/rc104.txt
+Printing routes for 20 vehicles
+1. route: 0, 2, 1, 5, 4, 3, 6, 7, 13, 
+2. route: 0, 11, 8, 9, 10, 14, 17, 
+3. route: 0, 12, 15, 16, 18, 19, 20, 24, 80, 
+4. route: 0, 21, 22, 23, 25, 28, 
+5. route: 0, 27, 29, 30, 26, 31, 32, 33, 63, 
+6. route: 0, 36, 34, 35, 39, 
+7. route: 0, 42, 38, 40, 41, 37, 43, 44, 45, 
+8. route: 0, 47, 46, 48, 
+9. route: 0, 52, 51, 50, 54, 55, 60, 
+10. route: 0, 59, 53, 49, 56, 66, 91, 
+11. route: 0, 62, 57, 58, 68, 70, 100, 
+12. route: 0, 64, 61, 65, 69, 72, 93, 
+13. route: 0, 75, 67, 92, 96, 
+14. route: 0, 77, 71, 95, 
+15. route: 0, 82, 73, 74, 78, 
+16. route: 0, 83, 76, 81, 90, 
+17. route: 0, 89, 84, 85, 94, 
+18. route: 0, 98, 88, 86, 79, 
+19. route: 0, 87, 97, 
+20. route: 0, 99, 
+Total distance: 3062.02
+-----------------------------------------
+/rc2/rc201.txt
+Printing routes for 8 vehicles
+1. route: 0, 2, 5, 12, 7, 14, 19, 3, 16, 1, 6, 20, 10, 24, 4, 17, 25, 48, 58, 
+2. route: 0, 21, 28, 15, 11, 23, 26, 9, 34, 37, 13, 32, 50, 60, 70, 100, 
+3. route: 0, 31, 36, 27, 29, 44, 18, 8, 46, 57, 43, 54, 35, 68, 89, 77, 80, 91, 
+4. route: 0, 42, 33, 39, 47, 30, 22, 41, 72, 85, 56, 66, 55, 74, 96, 93, 
+5. route: 0, 45, 52, 59, 63, 61, 51, 40, 49, 75, 94, 97, 
+6. route: 0, 65, 82, 83, 95, 98, 69, 62, 64, 38, 71, 53, 73, 78, 90, 
+7. route: 0, 92, 76, 67, 79, 81, 
+8. route: 0, 88, 86, 99, 87, 84, 
+Total distance: 4295.23
+-----------------------------------------
+/rc2/rc202.txt
+Printing routes for 6 vehicles
+1. route: 0, 5, 14, 2, 11, 12, 7, 15, 6, 8, 9, 3, 10, 20, 1, 4, 13, 17, 24, 25, 48, 58, 
+2. route: 0, 33, 36, 16, 18, 19, 21, 22, 23, 30, 34, 40, 26, 32, 35, 37, 43, 54, 55, 60, 70, 77, 
+3. route: 0, 39, 27, 28, 29, 31, 42, 38, 44, 51, 41, 46, 49, 50, 56, 66, 68, 74, 80, 89, 91, 93, 100, 
+4. route: 0, 45, 47, 52, 59, 61, 62, 53, 57, 67, 78, 79, 84, 96, 97, 
+5. route: 0, 63, 65, 69, 64, 71, 72, 73, 75, 76, 81, 85, 94, 
+6. route: 0, 92, 83, 95, 82, 98, 88, 99, 86, 87, 90, 
+Total distance: 3457.22
+-----------------------------------------
+/rc2/rc203.txt
+Printing routes for 7 vehicles
+1. route: 0, 5, 11, 2, 12, 14, 15, 6, 8, 7, 9, 13, 4, 17, 3, 10, 1, 24, 25, 35, 55, 70, 100, 
+2. route: 0, 23, 27, 16, 19, 21, 22, 18, 30, 33, 36, 20, 26, 32, 39, 48, 58, 74, 77, 
+3. route: 0, 42, 28, 31, 29, 38, 41, 40, 44, 45, 47, 51, 46, 34, 37, 43, 54, 56, 60, 68, 80, 91, 93, 
+4. route: 0, 59, 62, 52, 63, 61, 53, 64, 57, 65, 49, 50, 66, 78, 89, 
+5. route: 0, 69, 72, 82, 67, 75, 71, 73, 76, 84, 92, 96, 97, 
+6. route: 0, 83, 95, 88, 98, 99, 79, 85, 81, 86, 87, 90, 
+7. route: 0, 94, 
+Total distance: 3743.29
+-----------------------------------------
+/rc2/rc204.txt
+Printing routes for 5 vehicles
+1. route: 0, 2, 5, 11, 12, 7, 9, 6, 8, 14, 3, 1, 10, 4, 13, 17, 20, 24, 25, 26, 32, 35, 55, 60, 
+2. route: 0, 15, 19, 16, 18, 21, 22, 23, 27, 28, 29, 30, 31, 33, 34, 36, 37, 38, 39, 40, 41, 43, 46, 48, 54, 58, 
+3. route: 0, 42, 45, 44, 47, 51, 52, 49, 50, 53, 56, 57, 59, 66, 68, 70, 74, 77, 80, 89, 91, 
+4. route: 0, 62, 63, 61, 64, 65, 67, 69, 71, 72, 73, 75, 78, 79, 84, 93, 96, 97, 100, 
+5. route: 0, 82, 83, 92, 88, 76, 85, 81, 86, 87, 90, 94, 95, 98, 99, 
+Total distance: 3204.09
+-----------------------------------------
+[Training fitness: 129242]
+[Test fitness: 123520]
+Elapsed time: 3950.029 seconds
+################################
+################################
+################################
+RUN 0
+initializing
+finding best expr in initial population
+best in initial population: 
+((((dem - t_rem) * (rt / wt)) / ((slack_t max t) + (wt + dt))) min (((slack_t + wt) - (t / slack_t)) + ((t / t_rem) + (d_depot min rt))))
+fitness 190393
+[TRAINING]: iteration 0: best sol so far: 190393
+[TEST]: iteration 0: best sol so far: 188195
+((((dem - t_rem) * (rt / wt)) / ((slack_t max t) + (wt + dt))) min (((slack_t + wt) - (t / slack_t)) + ((t / t_rem) + (d_depot min rt))))
+[TRAINING]: iteration 500: best sol so far: 129410
+[TEST]: iteration 500: best sol so far: 114242
+((((d - t_rem) * (t - d)) max (dem max (wt min t_rem))) * d)
+[TRAINING]: iteration 1000: best sol so far: 107266
+[TEST]: iteration 1000: best sol so far: 98553.9
+((((d - t_rem) * rt) max (slack_t + (d max wt))) * d)
+[TRAINING]: iteration 1500: best sol so far: 98515
+[TEST]: iteration 1500: best sol so far: 83975.8
+((((d - t_rem) * (t - t_ready)) max (dem max t_rem)) * d)
+[TRAINING]: iteration 2000: best sol so far: 98515
+[TEST]: iteration 2000: best sol so far: 83975.8
+((((d - t_rem) * (t - t_ready)) max (dem max t_rem)) * d)
+[TRAINING]: iteration 2500: best sol so far: 98287.5
+[TEST]: iteration 2500: best sol so far: 93269.1
+((((d - t_rem) * (t_ready max dt)) max (t_rem + (d max wt))) max ((t / t) - (q - (q - wt))))
+[TRAINING]: iteration 3000: best sol so far: 96372.7
+[TEST]: iteration 3000: best sol so far: 82546.6
+((((d - t_rem) * (t - t_ready)) max (t_rem max d)) * d)
+[TRAINING]: iteration 3500: best sol so far: 94540.5
+[TEST]: iteration 3500: best sol so far: 84307.1
+((((d - t_rem) * dt) max (t_rem + (wt * wt))) * d)
+[TRAINING]: iteration 4000: best sol so far: 94181.8
+[TEST]: iteration 4000: best sol so far: 82876.1
+((((d - t_rem) * (q + q)) max (t_rem + (wt * wt))) * d)
+[TRAINING]: iteration 4500: best sol so far: 94181.8
+[TEST]: iteration 4500: best sol so far: 82876.1
+((((d - t_rem) * (q + q)) max (t_rem + (wt * wt))) * d)
+[TRAINING]: iteration 5000: best sol so far: 93105.4
+[TEST]: iteration 5000: best sol so far: 82878.7
+((((d - t_rem) * (d_depot * dt)) max (t_rem + (wt * wt))) * d)
+[TRAINING]: iteration 5500: best sol so far: 92704.6
+[TEST]: iteration 5500: best sol so far: 82876.2
+((((d - t_rem) * (d_depot * dt)) max (t_rem max (wt * wt))) * d)
+[TRAINING]: iteration 6000: best sol so far: 92704.6
+[TEST]: iteration 6000: best sol so far: 82876.2
+((((d - t_rem) * (d_depot * dt)) max (t_rem max (wt * wt))) * d)
+[TRAINING]: iteration 6500: best sol so far: 92704.6
+[TEST]: iteration 6500: best sol so far: 82876.2
+((((d - t_rem) * (d_depot * dt)) max (t_rem max (wt * wt))) * d)
+[TRAINING]: iteration 7000: best sol so far: 92704.6
+[TEST]: iteration 7000: best sol so far: 82876.2
+((((d - t_rem) * (d_depot * dt)) max (t_rem max (wt * wt))) * d)
+[TRAINING]: iteration 7500: best sol so far: 92704.6
+[TEST]: iteration 7500: best sol so far: 82876.2
+((((d - t_rem) * (d_depot * dt)) max (t_rem max (wt * wt))) * d)
+[TRAINING]: iteration 8000: best sol so far: 92704.6
+[TEST]: iteration 8000: best sol so far: 82876.2
+((((d - t_rem) * (d_depot * dt)) max (t_rem max (wt * wt))) * d)
+[TRAINING]: iteration 8500: best sol so far: 92074
+[TEST]: iteration 8500: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 9000: best sol so far: 92074
+[TEST]: iteration 9000: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 9500: best sol so far: 92074
+[TEST]: iteration 9500: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 10000: best sol so far: 92074
+[TEST]: iteration 10000: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 10500: best sol so far: 92074
+[TEST]: iteration 10500: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 11000: best sol so far: 92074
+[TEST]: iteration 11000: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 11500: best sol so far: 92074
+[TEST]: iteration 11500: best sol so far: 84709.5
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * d)
+[TRAINING]: iteration 12000: best sol so far: 91722.8
+[TEST]: iteration 12000: best sol so far: 84719.2
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * (d min q))
+[TRAINING]: iteration 12500: best sol so far: 91722.8
+[TEST]: iteration 12500: best sol so far: 84719.2
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * (d min q))
+[TRAINING]: iteration 13000: best sol so far: 91722.8
+[TEST]: iteration 13000: best sol so far: 84719.2
+((((d - t_rem) * (d_depot * dt)) max ((slack_t max d) max (wt * wt))) * (d min q))
+[TRAINING]: iteration 13500: best sol so far: 91721.9
+[TEST]: iteration 13500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 14000: best sol so far: 91721.9
+[TEST]: iteration 14000: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 14500: best sol so far: 91721.9
+[TEST]: iteration 14500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 15000: best sol so far: 91721.9
+[TEST]: iteration 15000: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 15500: best sol so far: 91721.9
+[TEST]: iteration 15500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 16000: best sol so far: 91721.9
+[TEST]: iteration 16000: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 16500: best sol so far: 91721.9
+[TEST]: iteration 16500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 17000: best sol so far: 91721.9
+[TEST]: iteration 17000: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 17500: best sol so far: 91721.9
+[TEST]: iteration 17500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 18000: best sol so far: 91721.9
+[TEST]: iteration 18000: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 18500: best sol so far: 91721.9
+[TEST]: iteration 18500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 19000: best sol so far: 91721.9
+[TEST]: iteration 19000: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+[TRAINING]: iteration 19500: best sol so far: 91721.9
+[TEST]: iteration 19500: best sol so far: 84719.2
+((((d - t_rem) * (q * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - d_depot) min q))
+best after gp: 
+((((d - t_rem) * (t * dt)) max ((slack_t max d) max (wt * wt))) * (((d + d_depot) - (t min d_depot)) min q))
+best fitness: 91716.4
+[Training fitness: 91716.4]
+/c1/c101.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 5, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+3. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 
+4. route: 0, 24, 13, 18, 19, 15, 16, 14, 12, 99, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 21, 
+6. route: 0, 3, 98, 95, 94, 92, 93, 97, 100, 22, 
+7. route: 0, 57, 55, 54, 53, 56, 58, 60, 36, 
+8. route: 0, 32, 33, 31, 35, 37, 38, 39, 26, 34, 
+9. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+10. route: 0, 96, 25, 27, 29, 30, 28, 59, 
+11. route: 0, 17, 23, 
+Total distance: 1183.97
+-----------------------------------------
+/c1/c102.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 75, 
+2. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 49, 
+3. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 47, 
+5. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 59, 69, 
+6. route: 0, 57, 55, 54, 53, 56, 58, 60, 77, 
+7. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+8. route: 0, 90, 87, 86, 81, 71, 70, 73, 79, 80, 91, 
+9. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 
+10. route: 0, 78, 76, 83, 82, 84, 85, 88, 89, 66, 
+11. route: 0, 99, 
+Total distance: 1139.85
+-----------------------------------------
+/c1/c103.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 37, 38, 39, 36, 34, 69, 49, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 1, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 99, 21, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 47, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 23, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 80, 
+8. route: 0, 32, 33, 31, 35, 56, 58, 60, 59, 
+9. route: 0, 57, 55, 54, 53, 70, 73, 77, 79, 2, 
+10. route: 0, 81, 78, 76, 71, 30, 28, 26, 22, 
+Total distance: 1257.82
+-----------------------------------------
+/c1/c104.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 25, 24, 27, 29, 37, 38, 39, 36, 34, 22, 
+2. route: 0, 65, 67, 63, 62, 40, 44, 46, 45, 48, 51, 50, 52, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+4. route: 0, 43, 42, 41, 54, 53, 56, 58, 60, 68, 66, 
+5. route: 0, 90, 87, 86, 81, 71, 70, 73, 77, 79, 80, 69, 
+6. route: 0, 17, 13, 18, 19, 15, 16, 14, 12, 26, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 89, 
+8. route: 0, 57, 55, 31, 35, 74, 72, 61, 64, 91, 21, 47, 
+9. route: 0, 32, 33, 78, 83, 84, 85, 88, 23, 49, 
+10. route: 0, 76, 82, 30, 28, 59, 
+Total distance: 1371.71
+-----------------------------------------
+/c2/c201.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 35, 38, 39, 36, 34, 22, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 59, 91, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 15, 16, 14, 12, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 4, 2, 
+6. route: 0, 13, 17, 18, 19, 94, 92, 93, 97, 100, 
+7. route: 0, 98, 96, 95, 81, 71, 70, 73, 77, 79, 80, 75, 
+8. route: 0, 32, 33, 31, 57, 53, 56, 
+9. route: 0, 55, 54, 78, 76, 37, 30, 28, 26, 23, 21, 
+10. route: 0, 9, 6, 58, 60, 66, 69, 1, 
+11. route: 0, 99, 
+Total distance: 1420.18
+-----------------------------------------
+/c2/c202.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 20, 27, 30, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 21, 
+2. route: 0, 22, 24, 67, 63, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 96, 87, 
+3. route: 0, 62, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 90, 
+Total distance: 708.884
+-----------------------------------------
+/c2/c203.txt
+Printing routes for 4 vehicles
+1. route: 0, 93, 5, 75, 63, 67, 2, 20, 29, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 
+2. route: 0, 24, 27, 22, 30, 62, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 21, 
+3. route: 0, 74, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 96, 87, 90, 
+4. route: 0, 6, 
+Total distance: 809.718
+-----------------------------------------
+/c2/c204.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 63, 67, 62, 74, 72, 61, 64, 66, 69, 68, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 13, 17, 25, 11, 10, 8, 
+3. route: 0, 24, 27, 30, 29, 22, 20, 6, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 21, 9, 90, 
+Total distance: 727.981
+-----------------------------------------
+/r1/r101.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 22, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 
+2. route: 0, 20, 24, 27, 30, 67, 63, 62, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 
+3. route: 0, 74, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 87, 96, 90, 21, 
+Total distance: 731.239
+-----------------------------------------
+/r1/r102.txt
+Printing routes for 13 vehicles
+1. route: 0, 92, 42, 15, 87, 6, 94, 95, 13, 97, 37, 100, 
+2. route: 0, 33, 69, 30, 9, 66, 35, 71, 51, 
+3. route: 0, 45, 36, 64, 49, 47, 48, 19, 7, 
+4. route: 0, 39, 23, 67, 22, 56, 74, 75, 72, 73, 
+5. route: 0, 28, 27, 62, 11, 8, 82, 17, 16, 61, 
+6. route: 0, 89, 18, 44, 38, 14, 43, 86, 91, 85, 
+7. route: 0, 26, 12, 88, 53, 68, 3, 77, 80, 
+8. route: 0, 52, 31, 76, 79, 78, 34, 81, 20, 32, 
+9. route: 0, 65, 90, 10, 63, 1, 70, 
+10. route: 0, 96, 59, 98, 40, 41, 55, 4, 25, 
+11. route: 0, 50, 29, 24, 54, 21, 2, 57, 93, 5, 
+12. route: 0, 60, 83, 46, 84, 58, 
+13. route: 0, 99, 
+Total distance: 1611.02
+-----------------------------------------
+/r1/r103.txt
+Printing routes for 11 vehicles
+1. route: 0, 92, 59, 15, 87, 53, 40, 74, 22, 41, 73, 
+2. route: 0, 27, 28, 69, 62, 8, 45, 17, 86, 16, 61, 
+3. route: 0, 89, 6, 94, 44, 38, 14, 43, 42, 13, 97, 95, 
+4. route: 0, 26, 12, 23, 67, 39, 55, 4, 25, 54, 
+5. route: 0, 52, 18, 11, 19, 47, 36, 49, 64, 63, 
+6. route: 0, 1, 50, 33, 76, 79, 9, 81, 78, 34, 29, 
+7. route: 0, 96, 93, 85, 91, 99, 84, 5, 60, 83, 46, 48, 
+8. route: 0, 31, 88, 7, 82, 10, 90, 32, 66, 71, 51, 
+9. route: 0, 21, 72, 75, 56, 2, 57, 37, 98, 100, 58, 
+10. route: 0, 70, 30, 20, 35, 65, 3, 68, 80, 77, 
+11. route: 0, 24, 
+Total distance: 1302.06
+-----------------------------------------
+/r1/r104.txt
+Printing routes for 14 vehicles
+1. route: 0, 27, 28, 69, 31, 52, 88, 10, 20, 32, 70, 
+2. route: 0, 95, 92, 59, 99, 98, 61, 85, 84, 96, 93, 91, 100, 
+3. route: 0, 2, 21, 73, 72, 75, 22, 41, 56, 55, 25, 
+4. route: 0, 83, 5, 82, 45, 8, 46, 48, 60, 89, 
+5. route: 0, 33, 76, 12, 29, 79, 78, 34, 35, 77, 
+6. route: 0, 42, 15, 44, 16, 86, 97, 37, 13, 58, 
+7. route: 0, 62, 11, 63, 90, 30, 9, 66, 1, 
+8. route: 0, 23, 39, 67, 26, 54, 68, 80, 
+9. route: 0, 47, 36, 19, 7, 6, 17, 
+10. route: 0, 14, 38, 87, 94, 43, 
+11. route: 0, 64, 18, 50, 24, 
+12. route: 0, 65, 71, 81, 51, 3, 4, 
+13. route: 0, 53, 40, 57, 74, 
+14. route: 0, 49, 
+Total distance: 1703.07
+-----------------------------------------
+/r1/r105.txt
+Printing routes for 13 vehicles
+1. route: 0, 28, 52, 31, 82, 7, 88, 69, 27, 1, 70, 
+2. route: 0, 95, 59, 98, 61, 16, 5, 85, 99, 96, 37, 92, 
+3. route: 0, 2, 21, 73, 72, 75, 22, 57, 15, 42, 100, 91, 
+4. route: 0, 83, 45, 8, 18, 94, 6, 97, 93, 17, 
+5. route: 0, 29, 12, 76, 81, 79, 3, 50, 33, 77, 
+6. route: 0, 30, 63, 90, 19, 49, 11, 48, 89, 
+7. route: 0, 47, 36, 84, 86, 44, 60, 13, 58, 
+8. route: 0, 14, 38, 87, 40, 53, 26, 4, 74, 
+9. route: 0, 62, 71, 51, 9, 34, 78, 35, 
+10. route: 0, 23, 67, 39, 56, 41, 43, 
+11. route: 0, 64, 46, 10, 32, 66, 
+12. route: 0, 65, 68, 80, 54, 55, 25, 24, 
+13. route: 0, 20, 
+Total distance: 1669.17
+-----------------------------------------
+/r1/r106.txt
+Printing routes for 13 vehicles
+1. route: 0, 27, 92, 42, 15, 87, 6, 94, 13, 97, 100, 
+2. route: 0, 28, 62, 11, 64, 49, 19, 7, 48, 82, 
+3. route: 0, 33, 69, 76, 79, 78, 81, 51, 20, 32, 
+4. route: 0, 45, 44, 38, 61, 16, 86, 85, 91, 98, 
+5. route: 0, 52, 30, 88, 8, 18, 83, 60, 5, 93, 59, 
+6. route: 0, 73, 21, 23, 67, 22, 74, 56, 75, 72, 
+7. route: 0, 39, 40, 53, 41, 57, 43, 14, 
+8. route: 0, 12, 50, 1, 9, 71, 66, 35, 34, 77, 
+9. route: 0, 95, 37, 96, 99, 84, 46, 47, 31, 70, 
+10. route: 0, 36, 90, 63, 10, 3, 68, 80, 26, 
+11. route: 0, 65, 29, 24, 55, 25, 54, 58, 
+12. route: 0, 2, 89, 17, 
+13. route: 0, 4, 
+Total distance: 1603.12
+-----------------------------------------
+/r2/r201.txt
+Printing routes for 12 vehicles
+1. route: 0, 27, 28, 76, 12, 80, 68, 79, 81, 51, 9, 35, 
+2. route: 0, 52, 88, 31, 69, 1, 30, 90, 11, 63, 32, 
+3. route: 0, 95, 92, 98, 85, 61, 16, 44, 86, 38, 14, 
+4. route: 0, 21, 73, 72, 75, 22, 41, 87, 2, 57, 97, 37, 13, 
+5. route: 0, 82, 7, 18, 83, 8, 45, 84, 5, 59, 96, 93, 
+6. route: 0, 62, 19, 47, 36, 49, 64, 10, 70, 89, 
+7. route: 0, 33, 78, 34, 29, 3, 77, 50, 26, 54, 
+8. route: 0, 42, 15, 40, 53, 99, 94, 6, 91, 100, 
+9. route: 0, 23, 39, 67, 25, 55, 4, 56, 74, 58, 
+10. route: 0, 71, 66, 20, 65, 24, 
+11. route: 0, 17, 60, 46, 48, 
+12. route: 0, 43, 
+Total distance: 1393.37
+-----------------------------------------
+/r2/r202.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 42, 45, 36, 33, 39, 23, 15, 44, 38, 88, 76, 79, 78, 9, 53, 6, 84, 49, 10, 66, 20, 68, 55, 4, 74, 72, 73, 21, 75, 25, 24, 29, 
+2. route: 0, 28, 26, 27, 69, 62, 11, 64, 65, 30, 51, 81, 67, 40, 99, 87, 41, 22, 56, 54, 12, 3, 50, 1, 31, 52, 18, 83, 60, 5, 61, 16, 91, 100, 37, 98, 85, 93, 13, 94, 95, 97, 96, 14, 
+3. route: 0, 89, 7, 82, 48, 47, 19, 63, 90, 32, 71, 34, 2, 57, 43, 8, 46, 86, 17, 35, 77, 80, 58, 70, 
+Total distance: 1618.15
+-----------------------------------------
+/r2/r203.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 93, 85, 91, 98, 37, 15, 44, 14, 69, 62, 11, 76, 23, 67, 99, 87, 53, 79, 9, 81, 33, 51, 20, 30, 70, 31, 88, 7, 82, 48, 47, 36, 49, 64, 63, 90, 32, 10, 66, 71, 
+2. route: 0, 27, 28, 26, 12, 80, 68, 3, 50, 1, 52, 18, 83, 60, 5, 61, 16, 38, 86, 8, 84, 17, 45, 46, 19, 89, 6, 94, 95, 97, 96, 42, 57, 2, 13, 40, 21, 73, 74, 22, 75, 55, 25, 4, 56, 39, 72, 41, 43, 100, 58, 
+3. route: 0, 54, 24, 29, 78, 34, 35, 65, 77, 
+Total distance: 1159.75
+-----------------------------------------
+/r2/r204.txt
+Printing routes for 4 vehicles
+1. route: 0, 27, 28, 95, 59, 92, 98, 5, 83, 82, 47, 19, 63, 31, 52, 2, 72, 21, 75, 73, 14, 44, 86, 85, 94, 40, 57, 42, 22, 41, 97, 37, 96, 43, 39, 56, 74, 55, 25, 24, 68, 80, 77, 70, 
+2. route: 0, 69, 62, 11, 64, 30, 29, 12, 76, 33, 71, 9, 51, 61, 16, 7, 18, 87, 15, 38, 99, 53, 6, 45, 46, 36, 48, 54, 4, 1, 60, 91, 100, 93, 17, 89, 
+3. route: 0, 23, 88, 65, 78, 79, 67, 81, 90, 49, 8, 84, 3, 50, 34, 20, 10, 32, 66, 35, 58, 13, 
+4. route: 0, 26, 
+Total distance: 1755.61
+-----------------------------------------
+/r2/r205.txt
+Printing routes for 4 vehicles
+1. route: 0, 92, 59, 98, 42, 14, 16, 61, 45, 62, 11, 69, 27, 33, 76, 30, 64, 88, 8, 84, 28, 73, 41, 75, 56, 21, 57, 2, 85, 94, 95, 97, 13, 74, 4, 54, 34, 50, 26, 77, 80, 
+2. route: 0, 52, 31, 7, 82, 36, 47, 19, 15, 23, 39, 67, 38, 99, 87, 40, 53, 29, 78, 81, 51, 90, 10, 12, 68, 55, 3, 20, 35, 5, 60, 17, 96, 93, 37, 100, 
+3. route: 0, 65, 71, 63, 1, 44, 86, 91, 18, 6, 79, 9, 22, 72, 49, 46, 83, 66, 32, 70, 43, 58, 89, 48, 
+4. route: 0, 24, 25, 
+Total distance: 1923.88
+-----------------------------------------
+/r2/r206.txt
+Printing routes for 3 vehicles
+1. route: 0, 27, 28, 12, 29, 33, 76, 69, 31, 88, 62, 11, 19, 47, 36, 82, 7, 52, 18, 83, 5, 61, 16, 44, 98, 92, 95, 2, 73, 72, 87, 99, 85, 59, 94, 6, 14, 37, 97, 96, 46, 48, 66, 35, 68, 80, 24, 77, 
+2. route: 0, 21, 75, 23, 39, 67, 15, 42, 38, 86, 84, 45, 8, 30, 51, 81, 79, 3, 71, 65, 63, 90, 10, 53, 22, 41, 57, 43, 50, 34, 20, 32, 70, 1, 55, 25, 4, 58, 
+3. route: 0, 64, 40, 78, 9, 49, 26, 54, 56, 74, 13, 89, 60, 93, 91, 100, 17, 
+Total distance: 1489.02
+-----------------------------------------
+/rc1/rc101.txt
+Printing routes for 16 vehicles
+1. route: 0, 92, 69, 88, 98, 53, 82, 66, 91, 96, 93, 
+2. route: 0, 65, 83, 64, 99, 86, 57, 74, 58, 
+3. route: 0, 42, 39, 36, 38, 40, 41, 72, 54, 70, 100, 
+4. route: 0, 45, 5, 3, 1, 8, 6, 7, 2, 60, 80, 
+5. route: 0, 95, 71, 67, 84, 51, 85, 50, 
+6. route: 0, 33, 27, 30, 29, 31, 34, 32, 26, 
+7. route: 0, 63, 62, 28, 89, 48, 
+8. route: 0, 47, 14, 15, 16, 9, 10, 12, 13, 
+9. route: 0, 52, 61, 81, 90, 56, 24, 
+10. route: 0, 59, 11, 87, 97, 75, 77, 
+11. route: 0, 21, 19, 23, 18, 22, 49, 20, 25, 
+12. route: 0, 94, 78, 46, 4, 
+13. route: 0, 73, 79, 68, 37, 
+14. route: 0, 44, 43, 35, 
+15. route: 0, 76, 55, 
+16. route: 0, 17, 
+Total distance: 2188.91
+-----------------------------------------
+/rc1/rc102.txt
+Printing routes for 14 vehicles
+1. route: 0, 65, 83, 95, 62, 67, 94, 96, 54, 68, 70, 100, 
+2. route: 0, 92, 64, 82, 52, 99, 57, 20, 24, 91, 
+3. route: 0, 72, 71, 61, 81, 90, 66, 56, 80, 
+4. route: 0, 2, 45, 5, 8, 7, 6, 46, 3, 1, 4, 
+5. route: 0, 42, 44, 39, 38, 36, 40, 41, 37, 35, 93, 
+6. route: 0, 14, 47, 15, 16, 11, 12, 9, 10, 13, 17, 
+7. route: 0, 63, 76, 21, 23, 18, 49, 48, 25, 
+8. route: 0, 59, 86, 87, 97, 58, 77, 74, 
+9. route: 0, 69, 98, 88, 53, 73, 78, 60, 55, 
+10. route: 0, 31, 29, 27, 28, 30, 32, 34, 26, 
+11. route: 0, 33, 85, 51, 84, 50, 
+12. route: 0, 75, 22, 89, 
+13. route: 0, 19, 43, 
+14. route: 0, 79, 
+Total distance: 1852.78
+-----------------------------------------
+/rc1/rc103.txt
+Printing routes for 13 vehicles
+1. route: 0, 69, 98, 82, 83, 52, 86, 87, 97, 58, 
+2. route: 0, 95, 92, 72, 71, 94, 67, 62, 56, 66, 80, 
+3. route: 0, 65, 99, 12, 14, 47, 16, 15, 11, 9, 
+4. route: 0, 2, 6, 7, 5, 3, 45, 46, 8, 4, 1, 
+5. route: 0, 88, 61, 81, 90, 64, 84, 91, 93, 
+6. route: 0, 63, 76, 21, 19, 18, 48, 49, 25, 24, 
+7. route: 0, 31, 29, 28, 30, 32, 34, 26, 27, 
+8. route: 0, 75, 59, 57, 22, 20, 74, 
+9. route: 0, 44, 42, 38, 39, 40, 37, 36, 35, 43, 
+10. route: 0, 23, 51, 85, 50, 33, 68, 
+11. route: 0, 78, 73, 79, 53, 10, 13, 17, 
+12. route: 0, 77, 89, 96, 70, 
+13. route: 0, 41, 100, 55, 54, 60, 
+Total distance: 1860.66
+-----------------------------------------
+/rc1/rc104.txt
+Printing routes for 12 vehicles
+1. route: 0, 69, 98, 88, 53, 82, 99, 86, 52, 57, 74, 
+2. route: 0, 65, 83, 64, 84, 85, 76, 51, 20, 24, 91, 
+3. route: 0, 92, 95, 67, 94, 81, 61, 41, 42, 43, 39, 
+4. route: 0, 71, 93, 38, 40, 44, 37, 36, 35, 72, 
+5. route: 0, 70, 100, 7, 6, 8, 46, 4, 3, 5, 45, 1, 
+6. route: 0, 12, 14, 47, 17, 16, 15, 11, 10, 9, 13, 
+7. route: 0, 73, 79, 78, 60, 2, 55, 68, 80, 
+8. route: 0, 62, 63, 18, 48, 21, 49, 19, 23, 25, 
+9. route: 0, 30, 32, 31, 29, 34, 28, 26, 27, 33, 
+10. route: 0, 59, 58, 87, 97, 75, 77, 
+11. route: 0, 89, 22, 90, 66, 56, 
+12. route: 0, 50, 96, 54, 
+Total distance: 1542.53
+-----------------------------------------
+/rc2/rc201.txt
+Printing routes for 6 vehicles
+1. route: 0, 92, 65, 42, 39, 36, 69, 15, 11, 47, 14, 12, 16, 88, 99, 52, 87, 9, 78, 2, 7, 46, 3, 1, 66, 56, 94, 68, 54, 96, 50, 26, 89, 48, 
+2. route: 0, 45, 5, 33, 27, 28, 62, 63, 64, 67, 30, 29, 31, 34, 84, 95, 51, 21, 49, 57, 10, 97, 20, 74, 13, 17, 60, 70, 93, 91, 80, 
+3. route: 0, 98, 82, 83, 59, 75, 71, 44, 61, 38, 40, 72, 41, 81, 53, 6, 85, 55, 4, 43, 35, 37, 24, 25, 58, 
+4. route: 0, 90, 19, 18, 22, 86, 32, 77, 100, 
+5. route: 0, 23, 73, 79, 8, 
+6. route: 0, 76, 
+Total distance: 2483
+-----------------------------------------
+/rc2/rc202.txt
+Printing routes for 4 vehicles
+1. route: 0, 65, 83, 92, 95, 62, 63, 33, 28, 27, 29, 31, 30, 64, 82, 98, 88, 12, 16, 73, 7, 6, 8, 79, 46, 3, 4, 1, 10, 97, 74, 13, 17, 60, 91, 80, 93, 
+2. route: 0, 72, 39, 42, 36, 45, 5, 2, 14, 47, 15, 59, 52, 11, 9, 75, 99, 86, 87, 53, 78, 49, 20, 24, 50, 56, 66, 68, 35, 70, 100, 
+3. route: 0, 69, 44, 61, 71, 67, 23, 21, 19, 18, 76, 51, 85, 84, 81, 90, 94, 96, 54, 34, 26, 32, 37, 43, 89, 48, 25, 
+4. route: 0, 38, 40, 41, 22, 57, 55, 77, 58, 
+Total distance: 2000.6
+-----------------------------------------
+/rc2/rc203.txt
+Printing routes for 4 vehicles
+1. route: 0, 69, 83, 64, 95, 92, 67, 62, 63, 76, 21, 23, 19, 82, 98, 52, 12, 14, 16, 15, 59, 87, 86, 11, 10, 99, 65, 84, 50, 33, 32, 54, 39, 35, 1, 4, 60, 17, 
+2. route: 0, 72, 44, 42, 36, 38, 2, 5, 45, 6, 7, 47, 73, 79, 81, 94, 85, 57, 49, 22, 20, 24, 97, 58, 77, 25, 48, 66, 56, 91, 80, 68, 55, 100, 70, 
+3. route: 0, 28, 31, 29, 30, 27, 71, 61, 75, 18, 51, 90, 88, 53, 8, 3, 46, 78, 96, 37, 93, 89, 74, 13, 
+4. route: 0, 41, 40, 9, 34, 26, 43, 
+Total distance: 2063.59
+-----------------------------------------
+/rc2/rc204.txt
+Printing routes for 3 vehicles
+1. route: 0, 69, 98, 82, 65, 83, 64, 95, 92, 67, 62, 85, 63, 76, 51, 84, 19, 21, 23, 18, 49, 22, 20, 24, 52, 99, 11, 12, 15, 16, 47, 14, 79, 8, 5, 3, 6, 46, 4, 1, 37, 35, 43, 54, 93, 68, 70, 100, 
+2. route: 0, 2, 45, 88, 61, 44, 42, 39, 38, 40, 36, 41, 72, 71, 94, 81, 90, 53, 73, 78, 7, 87, 86, 57, 9, 10, 59, 97, 58, 77, 25, 48, 56, 96, 66, 55, 60, 
+3. route: 0, 31, 29, 30, 28, 27, 33, 75, 34, 50, 26, 32, 89, 91, 80, 74, 13, 17, 
+Total distance: 1523.42
+-----------------------------------------
+[Training fitness: 91716.4]
+[Test fitness: 84003.4]
+################################
+################################
+################################
+RUN 1
+initializing
+finding best expr in initial population
+best in initial population: 
+(wt + d)
+fitness 177230
+[TRAINING]: iteration 0: best sol so far: 177230
+[TEST]: iteration 0: best sol so far: 111396
+(wt + d)
+[TRAINING]: iteration 500: best sol so far: 154495
+[TEST]: iteration 500: best sol so far: 115307
+(wt - (((d_depot - d) / (wt + dt)) * ((dem / slack_t) * (t_rem max t_ready))))
+[TRAINING]: iteration 1000: best sol so far: 124007
+[TEST]: iteration 1000: best sol so far: 91048.2
+((((dem min d_depot) * wt) + ((slack_t / wt) * (d / q))) + (((wt * t_ready) / slack_t) * dem))
+[TRAINING]: iteration 1500: best sol so far: 120591
+[TEST]: iteration 1500: best sol so far: 109673
+((((slack_t + t) + (q min d)) - (slack_t - (d max t_ready))) - ((slack_t / (wt + dt)) * ((dt / slack_t) * (t_rem max t))))
+[TRAINING]: iteration 2000: best sol so far: 104389
+[TEST]: iteration 2000: best sol so far: 88981.5
+((((t_rem / d_depot) + (dem min d)) max ((wt * d_depot) max (d min q))) + (((wt * t_ready) / slack_t) * ((t_ready max q) * (d + wt))))
+[TRAINING]: iteration 2500: best sol so far: 102238
+[TEST]: iteration 2500: best sol so far: 87889.3
+((((t_rem / d_depot) + (dem min d)) max ((wt * d_depot) max (d min q))) + (((wt min t_ready) / slack_t) * ((t_ready max dt) * (d + wt))))
+[TRAINING]: iteration 3000: best sol so far: 101525
+[TEST]: iteration 3000: best sol so far: 88618.1
+((((t_rem / d_depot) + (dem min d)) max ((wt * d_depot) max (d min q))) + (((wt min t_ready) / slack_t) * ((t_ready max q) * (rt + wt))))
+[TRAINING]: iteration 3500: best sol so far: 100461
+[TEST]: iteration 3500: best sol so far: 92429.4
+((((t_ready / slack_t) - (t_rem min d_depot)) - ((dem min q) min (rt min t_ready))) / ((t_ready / slack_t) max ((dem max dt) * (d + wt))))
+[TRAINING]: iteration 4000: best sol so far: 100425
+[TEST]: iteration 4000: best sol so far: 90247.4
+((((wt / slack_t) - (t_rem min d_depot)) - ((wt min d_depot) min (dem min t_ready))) / ((t_ready / slack_t) max ((t_ready max dt) * (d + wt))))
+[TRAINING]: iteration 4500: best sol so far: 96393
+[TEST]: iteration 4500: best sol so far: 83964
+((((t_rem / d_depot) + (wt min d_depot)) max ((d * t_rem) max (d min d))) + ((wt / slack_t) * ((t_ready max dt) * (t + wt))))
+[TRAINING]: iteration 5000: best sol so far: 94955
+[TEST]: iteration 5000: best sol so far: 83974
+((((q / d_depot) + (d_depot min d_depot)) max ((d * t_rem) max (t_ready min d))) + (((wt min t_ready) / (t_rem - d)) * ((d_depot max q) * (t + wt))))
+[TRAINING]: iteration 5500: best sol so far: 92786.2
+[TEST]: iteration 5500: best sol so far: 82873.8
+((((t_rem / d_depot) + (dem min d_depot)) max ((d * t_rem) max (d min wt))) + (((wt min t_ready) / (slack_t + t_ready)) * ((t_ready max q) * (t + wt))))
+[TRAINING]: iteration 6000: best sol so far: 92405
+[TEST]: iteration 6000: best sol so far: 83236.1
+((((q min rt) + t_rem) max ((d * t_rem) max (t_rem min t_ready))) + (((wt min t_ready) / (slack_t + t_ready)) * ((t_ready max t) * dt)))
+[TRAINING]: iteration 6500: best sol so far: 91692.8
+[TEST]: iteration 6500: best sol so far: 82515.5
+((((q min rt) + t_rem) max ((d * t_rem) max (d min q))) + (((wt min t_ready) / (slack_t + t_ready)) * ((slack_t max t) * dt)))
+[TRAINING]: iteration 7000: best sol so far: 91338
+[TEST]: iteration 7000: best sol so far: 82898.3
+((((q min rt) + (t_rem min d_depot)) max ((d * t_rem) max wt)) + (((wt min t_ready) / (slack_t + t_ready)) * ((t max dt) * (t + dt))))
+[TRAINING]: iteration 7500: best sol so far: 91319.5
+[TEST]: iteration 7500: best sol so far: 83237.6
+((((t_rem min d) + (dem min d_depot)) max ((d * t_rem) max (dt min q))) + (((wt min t_ready) / (slack_t + t_ready)) * ((t_rem max t) * dt)))
+[TRAINING]: iteration 8000: best sol so far: 90978.9
+[TEST]: iteration 8000: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 8500: best sol so far: 90978.9
+[TEST]: iteration 8500: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 9000: best sol so far: 90978.9
+[TEST]: iteration 9000: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 9500: best sol so far: 90978.9
+[TEST]: iteration 9500: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 10000: best sol so far: 90978.9
+[TEST]: iteration 10000: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 10500: best sol so far: 90978.3
+[TEST]: iteration 10500: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min dt))) + (((wt min q) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 11000: best sol so far: 90978.3
+[TEST]: iteration 11000: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min dt))) + (((wt min q) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 11500: best sol so far: 90978.3
+[TEST]: iteration 11500: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min dt))) + (((wt min q) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 12000: best sol so far: 90978.3
+[TEST]: iteration 12000: best sol so far: 82899.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min dt))) + (((wt min q) / (slack_t + t_ready)) * ((d_depot max dt) * (t + dt))))
+[TRAINING]: iteration 12500: best sol so far: 90973.2
+[TEST]: iteration 12500: best sol so far: 83257.6
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min q) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 13000: best sol so far: 90973.2
+[TEST]: iteration 13000: best sol so far: 83257.6
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min q) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 13500: best sol so far: 90615.1
+[TEST]: iteration 13500: best sol so far: 82898.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 14000: best sol so far: 90615.1
+[TEST]: iteration 14000: best sol so far: 82898.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 14500: best sol so far: 90615.1
+[TEST]: iteration 14500: best sol so far: 82898.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 15000: best sol so far: 90615.1
+[TEST]: iteration 15000: best sol so far: 82898.8
+((((q min rt) + t_rem) max ((d * t_rem) max (d_depot min t))) + (((wt min t_ready) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 15500: best sol so far: 90252.9
+[TEST]: iteration 15500: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 16000: best sol so far: 90252.9
+[TEST]: iteration 16000: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 16500: best sol so far: 90252.9
+[TEST]: iteration 16500: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 17000: best sol so far: 90252.9
+[TEST]: iteration 17000: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 17500: best sol so far: 90252.9
+[TEST]: iteration 17500: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 18000: best sol so far: 90252.9
+[TEST]: iteration 18000: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 18500: best sol so far: 90252.9
+[TEST]: iteration 18500: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 19000: best sol so far: 90252.9
+[TEST]: iteration 19000: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+[TRAINING]: iteration 19500: best sol so far: 90252.9
+[TEST]: iteration 19500: best sol so far: 82901.2
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+best after gp: 
+((((q min rt) + (dem + t_rem)) max ((d * t_rem) max (d_depot min t))) + (((wt min dt) / (slack_t + t_ready)) * ((q min dt) * (t + dt))))
+best fitness: 90252.9
+[Training fitness: 90252.9]
+/c1/c101.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 5, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+3. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 
+4. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 21, 
+5. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 
+6. route: 0, 24, 32, 31, 35, 37, 38, 39, 36, 34, 22, 
+7. route: 0, 3, 13, 18, 19, 15, 16, 14, 12, 
+8. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+9. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+10. route: 0, 33, 25, 27, 29, 30, 28, 26, 23, 
+11. route: 0, 17, 
+Total distance: 970.112
+-----------------------------------------
+/c1/c102.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 49, 
+2. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+3. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 47, 
+4. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+5. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+6. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+7. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+8. route: 0, 90, 87, 86, 81, 71, 70, 73, 77, 79, 91, 
+9. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 
+10. route: 0, 78, 76, 83, 82, 84, 85, 88, 89, 80, 
+11. route: 0, 99, 
+Total distance: 1046.07
+-----------------------------------------
+/c1/c103.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 49, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 47, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 99, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 34, 
+8. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 80, 
+9. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 
+Total distance: 1029.27
+-----------------------------------------
+/c1/c104.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 25, 24, 27, 29, 30, 28, 26, 23, 4, 1, 75, 
+2. route: 0, 65, 67, 63, 62, 74, 72, 61, 64, 68, 59, 50, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 2, 89, 91, 47, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 52, 49, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 100, 99, 21, 
+6. route: 0, 17, 13, 18, 19, 15, 16, 14, 12, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 77, 80, 69, 
+8. route: 0, 57, 55, 54, 53, 56, 58, 60, 36, 
+9. route: 0, 32, 33, 31, 35, 37, 38, 39, 34, 
+10. route: 0, 78, 76, 81, 71, 70, 73, 79, 66, 22, 
+Total distance: 1163.22
+-----------------------------------------
+/c2/c201.txt
+Printing routes for 10 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 35, 38, 39, 36, 34, 22, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 59, 50, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 15, 16, 14, 12, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 52, 49, 47, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 2, 
+6. route: 0, 13, 17, 18, 19, 94, 92, 93, 97, 100, 
+7. route: 0, 98, 96, 95, 81, 71, 70, 73, 77, 79, 80, 69, 
+8. route: 0, 32, 33, 31, 37, 53, 56, 58, 
+9. route: 0, 57, 55, 54, 78, 30, 28, 26, 23, 4, 1, 75, 
+10. route: 0, 76, 9, 6, 99, 60, 66, 21, 
+Total distance: 1413.51
+-----------------------------------------
+/c2/c202.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 20, 22, 24, 27, 30, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 48, 21, 
+3. route: 0, 67, 63, 62, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 90, 
+Total distance: 650.437
+-----------------------------------------
+/c2/c203.txt
+Printing routes for 4 vehicles
+1. route: 0, 93, 5, 75, 2, 67, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 21, 8, 
+2. route: 0, 63, 62, 74, 24, 27, 30, 20, 29, 6, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 78, 77, 
+3. route: 0, 22, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 80, 79, 81, 96, 90, 87, 
+4. route: 0, 32, 
+Total distance: 857.855
+-----------------------------------------
+/c2/c204.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 63, 67, 62, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 25, 11, 10, 9, 
+3. route: 0, 24, 27, 30, 29, 22, 20, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 13, 17, 8, 21, 48, 90, 
+Total distance: 711.946
+-----------------------------------------
+/r1/r101.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 83, 82, 86, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 
+2. route: 0, 20, 22, 24, 27, 30, 29, 67, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 
+3. route: 0, 63, 62, 74, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 87, 96, 90, 21, 
+Total distance: 847.579
+-----------------------------------------
+/r1/r102.txt
+Printing routes for 13 vehicles
+1. route: 0, 92, 42, 15, 44, 84, 5, 60, 83, 18, 82, 
+2. route: 0, 27, 69, 62, 88, 31, 10, 90, 63, 32, 70, 
+3. route: 0, 28, 33, 81, 76, 79, 78, 34, 35, 71, 20, 
+4. route: 0, 45, 36, 64, 49, 47, 48, 19, 7, 
+5. route: 0, 89, 94, 95, 97, 40, 53, 6, 96, 59, 98, 37, 91, 
+6. route: 0, 39, 23, 67, 22, 56, 74, 75, 72, 73, 
+7. route: 0, 26, 12, 30, 9, 51, 66, 1, 50, 
+8. route: 0, 52, 65, 3, 29, 68, 24, 80, 
+9. route: 0, 21, 2, 57, 99, 87, 85, 61, 16, 86, 93, 
+10. route: 0, 54, 11, 46, 17, 14, 
+11. route: 0, 43, 38, 55, 4, 25, 
+12. route: 0, 8, 13, 100, 58, 
+13. route: 0, 41, 77, 
+Total distance: 1650.79
+-----------------------------------------
+/r1/r103.txt
+Printing routes for 12 vehicles
+1. route: 0, 92, 59, 93, 85, 44, 38, 14, 91, 16, 
+2. route: 0, 27, 28, 69, 62, 10, 90, 63, 32, 20, 66, 
+3. route: 0, 89, 6, 94, 95, 15, 87, 97, 37, 98, 13, 58, 40, 
+4. route: 0, 26, 12, 80, 68, 76, 79, 9, 81, 33, 78, 34, 
+5. route: 0, 52, 18, 83, 60, 99, 96, 84, 5, 61, 86, 17, 
+6. route: 0, 1, 50, 3, 29, 24, 54, 55, 4, 74, 22, 72, 
+7. route: 0, 31, 88, 11, 19, 8, 45, 46, 36, 47, 
+8. route: 0, 21, 73, 23, 67, 39, 56, 75, 41, 57, 42, 
+9. route: 0, 2, 43, 53, 70, 30, 51, 71, 
+10. route: 0, 7, 82, 48, 49, 64, 65, 
+11. route: 0, 35, 25, 77, 
+12. route: 0, 100, 
+Total distance: 1424.61
+-----------------------------------------
+/r1/r104.txt
+Printing routes for 14 vehicles
+1. route: 0, 27, 28, 69, 31, 52, 88, 10, 20, 32, 70, 
+2. route: 0, 95, 92, 59, 98, 99, 5, 61, 85, 37, 97, 96, 
+3. route: 0, 83, 45, 82, 7, 47, 49, 48, 17, 
+4. route: 0, 2, 21, 72, 73, 75, 22, 41, 74, 56, 4, 80, 
+5. route: 0, 33, 29, 12, 76, 79, 78, 34, 35, 77, 
+6. route: 0, 42, 15, 14, 44, 16, 86, 91, 100, 93, 60, 89, 
+7. route: 0, 62, 11, 19, 63, 90, 66, 1, 58, 
+8. route: 0, 39, 23, 67, 57, 43, 13, 
+9. route: 0, 36, 64, 8, 46, 
+10. route: 0, 30, 51, 81, 9, 3, 50, 68, 24, 
+11. route: 0, 65, 71, 53, 26, 54, 25, 
+12. route: 0, 40, 87, 94, 6, 55, 
+13. route: 0, 18, 84, 
+14. route: 0, 38, 
+Total distance: 1660.58
+-----------------------------------------
+/r1/r105.txt
+Printing routes for 13 vehicles
+1. route: 0, 28, 27, 52, 31, 88, 7, 8, 84, 17, 45, 60, 
+2. route: 0, 95, 59, 98, 61, 16, 85, 99, 96, 6, 97, 92, 93, 
+3. route: 0, 69, 12, 76, 29, 81, 79, 78, 33, 77, 80, 
+4. route: 0, 2, 21, 72, 73, 75, 22, 41, 15, 43, 100, 91, 
+5. route: 0, 83, 5, 82, 18, 94, 53, 26, 58, 13, 89, 
+6. route: 0, 30, 70, 51, 71, 9, 3, 50, 1, 68, 
+7. route: 0, 63, 11, 19, 47, 49, 36, 62, 48, 
+8. route: 0, 42, 14, 44, 86, 38, 37, 74, 56, 
+9. route: 0, 23, 39, 67, 40, 54, 55, 25, 
+10. route: 0, 87, 57, 4, 24, 
+11. route: 0, 64, 90, 66, 20, 10, 32, 
+12. route: 0, 65, 35, 34, 
+13. route: 0, 46, 
+Total distance: 1566.37
+-----------------------------------------
+/r1/r106.txt
+Printing routes for 13 vehicles
+1. route: 0, 27, 92, 59, 42, 87, 97, 6, 94, 13, 95, 96, 93, 
+2. route: 0, 28, 33, 69, 76, 79, 78, 81, 3, 68, 12, 26, 
+3. route: 0, 52, 7, 62, 11, 64, 49, 19, 47, 46, 
+4. route: 0, 45, 44, 38, 86, 16, 85, 91, 100, 37, 98, 
+5. route: 0, 1, 51, 30, 88, 8, 18, 83, 60, 5, 89, 
+6. route: 0, 31, 15, 41, 22, 73, 74, 56, 75, 72, 
+7. route: 0, 21, 39, 23, 67, 29, 24, 80, 77, 50, 
+8. route: 0, 2, 61, 99, 84, 82, 48, 63, 70, 
+9. route: 0, 36, 53, 40, 57, 43, 14, 
+10. route: 0, 65, 71, 9, 66, 20, 32, 58, 
+11. route: 0, 34, 90, 10, 35, 54, 
+12. route: 0, 55, 4, 25, 
+13. route: 0, 17, 
+Total distance: 1639.15
+-----------------------------------------
+/r2/r201.txt
+Printing routes for 11 vehicles
+1. route: 0, 27, 28, 76, 12, 80, 68, 3, 79, 81, 33, 50, 
+2. route: 0, 52, 88, 31, 69, 1, 30, 51, 9, 78, 34, 77, 
+3. route: 0, 95, 92, 59, 99, 93, 85, 98, 37, 61, 16, 5, 
+4. route: 0, 21, 73, 72, 75, 22, 41, 2, 87, 94, 96, 97, 100, 
+5. route: 0, 83, 45, 8, 82, 7, 18, 6, 84, 17, 91, 
+6. route: 0, 62, 11, 19, 47, 36, 49, 64, 63, 32, 
+7. route: 0, 42, 15, 57, 40, 53, 58, 13, 26, 54, 
+8. route: 0, 29, 71, 35, 65, 66, 20, 70, 89, 
+9. route: 0, 44, 14, 38, 86, 43, 74, 56, 
+10. route: 0, 23, 39, 67, 25, 55, 4, 24, 
+11. route: 0, 90, 48, 46, 60, 10, 
+Total distance: 1335.27
+-----------------------------------------
+/r2/r202.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 42, 45, 36, 11, 62, 33, 27, 69, 30, 88, 64, 76, 79, 78, 9, 40, 53, 6, 84, 5, 49, 10, 66, 20, 51, 68, 80, 4, 74, 72, 73, 21, 75, 25, 54, 12, 28, 
+2. route: 0, 89, 18, 83, 60, 96, 94, 95, 97, 15, 39, 23, 67, 44, 38, 99, 87, 41, 22, 8, 82, 48, 47, 19, 7, 52, 31, 1, 50, 3, 81, 35, 71, 55, 24, 29, 77, 13, 58, 2, 57, 43, 
+3. route: 0, 26, 65, 34, 32, 90, 63, 46, 61, 16, 91, 85, 98, 37, 14, 86, 56, 17, 70, 93, 100, 
+Total distance: 1617.06
+-----------------------------------------
+/r2/r203.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 93, 85, 91, 98, 37, 97, 95, 94, 6, 96, 44, 15, 23, 67, 69, 11, 76, 79, 9, 81, 33, 53, 84, 5, 60, 83, 18, 52, 89, 13, 2, 57, 74, 22, 55, 4, 56, 75, 72, 73, 21, 40, 58, 26, 12, 80, 
+2. route: 0, 27, 28, 50, 1, 70, 30, 62, 10, 90, 63, 32, 20, 51, 71, 35, 34, 78, 3, 68, 29, 24, 99, 38, 87, 8, 45, 17, 61, 16, 86, 14, 42, 43, 41, 39, 25, 54, 77, 31, 88, 7, 82, 48, 47, 36, 
+3. route: 0, 19, 49, 64, 46, 66, 65, 100, 
+Total distance: 1307.81
+-----------------------------------------
+/r2/r204.txt
+Printing routes for 3 vehicles
+1. route: 0, 27, 69, 28, 95, 59, 92, 5, 83, 82, 47, 31, 52, 63, 11, 19, 7, 98, 61, 16, 14, 44, 86, 85, 99, 94, 6, 40, 53, 3, 33, 9, 78, 50, 20, 66, 32, 70, 1, 56, 74, 55, 24, 80, 25, 
+2. route: 0, 72, 23, 39, 2, 15, 42, 21, 75, 12, 76, 29, 79, 71, 51, 30, 81, 73, 87, 57, 22, 41, 67, 34, 26, 97, 37, 96, 93, 91, 100, 60, 89, 13, 58, 68, 77, 35, 
+3. route: 0, 62, 64, 36, 88, 45, 38, 65, 90, 18, 8, 84, 17, 46, 49, 10, 43, 54, 4, 48, 
+Total distance: 1752.16
+-----------------------------------------
+/r2/r205.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 98, 42, 14, 16, 45, 36, 62, 11, 69, 27, 76, 39, 67, 99, 87, 40, 53, 28, 61, 6, 18, 7, 90, 10, 31, 52, 12, 68, 3, 4, 54, 80, 77, 34, 50, 1, 70, 89, 
+2. route: 0, 33, 29, 65, 71, 64, 63, 30, 88, 44, 38, 86, 85, 91, 8, 84, 5, 60, 83, 19, 47, 49, 51, 20, 66, 35, 21, 56, 74, 2, 97, 13, 43, 72, 26, 58, 100, 
+3. route: 0, 95, 82, 75, 73, 15, 23, 57, 94, 78, 81, 22, 41, 79, 9, 32, 46, 48, 55, 24, 96, 93, 37, 17, 25, 
+Total distance: 1869.75
+-----------------------------------------
+/r2/r206.txt
+Printing routes for 3 vehicles
+1. route: 0, 27, 28, 69, 31, 52, 82, 83, 5, 61, 16, 44, 14, 42, 15, 57, 2, 87, 95, 92, 98, 85, 99, 59, 94, 6, 18, 7, 88, 62, 11, 64, 19, 47, 36, 49, 8, 84, 17, 46, 10, 20, 50, 26, 56, 54, 55, 25, 4, 74, 
+2. route: 0, 72, 21, 12, 29, 33, 76, 30, 51, 71, 65, 9, 81, 79, 78, 75, 22, 73, 40, 53, 23, 67, 39, 41, 86, 90, 32, 3, 77, 34, 35, 66, 70, 1, 68, 80, 24, 58, 93, 
+3. route: 0, 45, 63, 38, 100, 89, 37, 96, 97, 13, 60, 91, 43, 48, 
+Total distance: 1452.98
+-----------------------------------------
+/rc1/rc101.txt
+Printing routes for 18 vehicles
+1. route: 0, 92, 95, 64, 67, 84, 85, 56, 91, 80, 
+2. route: 0, 65, 82, 69, 88, 98, 53, 10, 12, 17, 60, 
+3. route: 0, 42, 39, 36, 37, 38, 40, 43, 35, 96, 93, 
+4. route: 0, 83, 52, 11, 14, 47, 97, 59, 58, 
+5. route: 0, 45, 5, 3, 1, 6, 7, 2, 46, 4, 
+6. route: 0, 72, 62, 63, 51, 20, 21, 48, 24, 
+7. route: 0, 33, 27, 29, 28, 26, 31, 34, 32, 
+8. route: 0, 61, 71, 81, 54, 94, 50, 
+9. route: 0, 15, 16, 9, 57, 74, 
+10. route: 0, 44, 41, 66, 70, 100, 
+11. route: 0, 99, 86, 75, 77, 
+12. route: 0, 90, 78, 68, 
+13. route: 0, 23, 19, 18, 49, 89, 
+14. route: 0, 73, 8, 13, 
+15. route: 0, 76, 22, 25, 
+16. route: 0, 30, 55, 
+17. route: 0, 79, 
+18. route: 0, 87, 
+Total distance: 2233.65
+-----------------------------------------
+/rc1/rc102.txt
+Printing routes for 13 vehicles
+1. route: 0, 65, 83, 64, 92, 67, 94, 96, 54, 68, 70, 100, 
+2. route: 0, 95, 62, 63, 85, 51, 76, 49, 20, 24, 91, 
+3. route: 0, 69, 98, 82, 52, 99, 86, 57, 74, 58, 
+4. route: 0, 72, 39, 38, 42, 44, 40, 41, 37, 35, 93, 
+5. route: 0, 14, 47, 15, 16, 11, 12, 9, 10, 13, 17, 
+6. route: 0, 2, 45, 5, 8, 7, 6, 46, 3, 1, 4, 
+7. route: 0, 59, 75, 87, 97, 77, 25, 
+8. route: 0, 36, 61, 81, 90, 66, 56, 80, 
+9. route: 0, 88, 78, 73, 79, 55, 60, 
+10. route: 0, 71, 31, 29, 30, 34, 32, 
+11. route: 0, 33, 28, 27, 26, 50, 89, 
+12. route: 0, 23, 21, 18, 19, 22, 84, 48, 
+13. route: 0, 53, 43, 
+Total distance: 1764.75
+-----------------------------------------
+/rc1/rc103.txt
+Printing routes for 13 vehicles
+1. route: 0, 69, 82, 98, 88, 2, 7, 6, 46, 8, 45, 1, 
+2. route: 0, 65, 83, 52, 99, 86, 59, 87, 97, 58, 74, 
+3. route: 0, 95, 92, 71, 72, 81, 94, 96, 54, 93, 91, 
+4. route: 0, 64, 63, 51, 85, 76, 89, 33, 
+5. route: 0, 67, 62, 84, 19, 18, 48, 23, 25, 77, 
+6. route: 0, 14, 47, 17, 16, 15, 12, 11, 10, 9, 13, 
+7. route: 0, 5, 61, 90, 53, 78, 60, 100, 
+8. route: 0, 44, 42, 41, 38, 39, 40, 43, 37, 36, 35, 
+9. route: 0, 31, 29, 28, 30, 34, 32, 26, 27, 80, 
+10. route: 0, 21, 22, 49, 57, 20, 24, 56, 
+11. route: 0, 75, 79, 4, 70, 55, 
+12. route: 0, 73, 3, 68, 66, 
+13. route: 0, 50, 
+Total distance: 1762.29
+-----------------------------------------
+/rc1/rc104.txt
+Printing routes for 12 vehicles
+1. route: 0, 69, 98, 88, 82, 99, 52, 86, 74, 57, 83, 66, 91, 
+2. route: 0, 65, 64, 51, 76, 85, 63, 84, 95, 92, 56, 80, 
+3. route: 0, 71, 67, 62, 50, 30, 32, 34, 31, 29, 
+4. route: 0, 61, 70, 100, 81, 94, 96, 54, 72, 93, 
+5. route: 0, 12, 14, 47, 17, 16, 15, 11, 10, 9, 13, 
+6. route: 0, 44, 42, 40, 38, 39, 41, 37, 36, 35, 43, 
+7. route: 0, 2, 45, 5, 8, 7, 6, 46, 3, 1, 4, 
+8. route: 0, 19, 21, 23, 18, 48, 49, 22, 20, 24, 25, 
+9. route: 0, 90, 53, 87, 59, 97, 58, 
+10. route: 0, 73, 78, 79, 60, 55, 68, 
+11. route: 0, 77, 75, 89, 
+12. route: 0, 33, 28, 27, 26, 
+Total distance: 1486.68
+-----------------------------------------
+/rc2/rc201.txt
+Printing routes for 5 vehicles
+1. route: 0, 92, 65, 82, 98, 45, 5, 39, 69, 11, 47, 14, 12, 16, 88, 61, 81, 53, 52, 90, 57, 10, 97, 66, 68, 54, 96, 50, 26, 89, 48, 
+2. route: 0, 42, 36, 72, 33, 28, 27, 29, 31, 62, 63, 64, 67, 71, 40, 41, 84, 95, 49, 20, 85, 56, 94, 55, 4, 3, 1, 35, 37, 93, 80, 91, 70, 100, 
+3. route: 0, 83, 21, 59, 75, 15, 23, 19, 76, 30, 34, 51, 22, 18, 86, 7, 46, 43, 74, 13, 17, 60, 24, 25, 58, 
+4. route: 0, 2, 44, 73, 99, 79, 8, 6, 78, 32, 77, 
+5. route: 0, 38, 87, 9, 
+Total distance: 2559.89
+-----------------------------------------
+/rc2/rc202.txt
+Printing routes for 4 vehicles
+1. route: 0, 65, 92, 95, 63, 62, 33, 28, 27, 29, 31, 30, 83, 64, 82, 98, 88, 12, 16, 73, 7, 8, 6, 79, 46, 3, 4, 55, 68, 96, 54, 37, 43, 35, 1, 60, 17, 100, 
+2. route: 0, 72, 39, 42, 36, 45, 5, 2, 14, 47, 15, 59, 52, 99, 11, 9, 75, 87, 86, 57, 18, 22, 49, 20, 56, 66, 34, 50, 32, 89, 24, 74, 58, 77, 25, 80, 
+3. route: 0, 69, 23, 21, 19, 76, 67, 71, 44, 38, 40, 61, 81, 90, 53, 78, 41, 10, 13, 97, 48, 91, 93, 70, 
+4. route: 0, 51, 85, 94, 84, 26, 
+Total distance: 1908.52
+-----------------------------------------
+/rc2/rc203.txt
+Printing routes for 4 vehicles
+1. route: 0, 69, 83, 64, 95, 92, 67, 62, 63, 76, 19, 21, 23, 52, 82, 98, 47, 12, 14, 16, 15, 11, 87, 86, 57, 99, 65, 53, 9, 10, 78, 45, 4, 1, 54, 39, 35, 68, 55, 60, 100, 70, 
+2. route: 0, 72, 42, 44, 36, 2, 5, 88, 61, 71, 31, 29, 28, 30, 33, 85, 51, 18, 49, 22, 90, 79, 6, 46, 41, 37, 43, 32, 56, 91, 80, 93, 
+3. route: 0, 59, 38, 75, 73, 7, 8, 81, 94, 84, 50, 34, 27, 26, 96, 20, 24, 25, 48, 77, 58, 74, 66, 89, 
+4. route: 0, 40, 13, 17, 3, 97, 
+Total distance: 2110.16
+-----------------------------------------
+/rc2/rc204.txt
+Printing routes for 3 vehicles
+1. route: 0, 69, 98, 82, 65, 83, 64, 95, 92, 67, 62, 85, 63, 76, 51, 84, 19, 21, 23, 18, 49, 22, 20, 24, 52, 99, 11, 12, 15, 16, 47, 14, 9, 86, 57, 59, 97, 10, 13, 17, 60, 55, 100, 70, 68, 54, 93, 91, 80, 
+2. route: 0, 2, 45, 5, 88, 61, 44, 42, 39, 38, 40, 36, 41, 72, 71, 94, 81, 90, 53, 73, 79, 7, 6, 8, 46, 4, 3, 1, 78, 66, 56, 50, 34, 26, 32, 96, 35, 
+3. route: 0, 31, 29, 27, 28, 30, 33, 75, 87, 89, 25, 48, 77, 58, 74, 37, 43, 
+Total distance: 1442.36
+-----------------------------------------
+[Training fitness: 90252.9]
+[Test fitness: 82901.2]
+################################
+################################
+################################
+RUN 2
+initializing
+finding best expr in initial population
+best in initial population: 
+(t_ready - ((slack_t max (t_ready min t_ready)) / (dem max (wt max wt))))
+fitness 163010
+[TRAINING]: iteration 0: best sol so far: 163010
+[TEST]: iteration 0: best sol so far: 143035
+(t_ready - ((slack_t max (t_ready min t_ready)) / (dem max (wt max wt))))
+[TRAINING]: iteration 500: best sol so far: 125395
+[TEST]: iteration 500: best sol so far: 93560.2
+((((t / t) min (t_ready - t_rem)) + ((rt * slack_t) * (wt min dt))) / (((slack_t + d) * (d max t_ready)) / q))
+[TRAINING]: iteration 1000: best sol so far: 102152
+[TEST]: iteration 1000: best sol so far: 85433.4
+((((t_ready - d) / (rt min slack_t)) * ((d_depot max rt) * rt)) max (((slack_t + d) * (d max d)) / q))
+[TRAINING]: iteration 1500: best sol so far: 94201.9
+[TEST]: iteration 1500: best sol so far: 83611.6
+((((wt - d) / (d min slack_t)) * ((d_depot max d) * rt)) max (((slack_t + d) * (d max d)) / q))
+[TRAINING]: iteration 2000: best sol so far: 94201.9
+[TEST]: iteration 2000: best sol so far: 83611.6
+((((wt - d) / (d min slack_t)) * ((d_depot max d) * rt)) max (((slack_t + d) * (d max d)) / q))
+[TRAINING]: iteration 2500: best sol so far: 90594.8
+[TEST]: iteration 2500: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max (((slack_t + d) * (d max d)) / q))
+[TRAINING]: iteration 3000: best sol so far: 90594.8
+[TEST]: iteration 3000: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max (((slack_t + d) * (d max d)) / q))
+[TRAINING]: iteration 3500: best sol so far: 90594.8
+[TEST]: iteration 3500: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max (((slack_t + d) * (d max d)) / q))
+[TRAINING]: iteration 4000: best sol so far: 90594
+[TEST]: iteration 4000: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 4500: best sol so far: 90594
+[TEST]: iteration 4500: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 5000: best sol so far: 90594
+[TEST]: iteration 5000: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 5500: best sol so far: 90594
+[TEST]: iteration 5500: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 6000: best sol so far: 90594
+[TEST]: iteration 6000: best sol so far: 85401.7
+((((wt - d) / (slack_t min slack_t)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 6500: best sol so far: 90201.3
+[TEST]: iteration 6500: best sol so far: 85032.4
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 7000: best sol so far: 90201.3
+[TEST]: iteration 7000: best sol so far: 85032.4
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / q))
+[TRAINING]: iteration 7500: best sol so far: 90196.5
+[TEST]: iteration 7500: best sol so far: 84670.6
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((slack_t / q) + q)))
+[TRAINING]: iteration 8000: best sol so far: 89841.9
+[TEST]: iteration 8000: best sol so far: 84675
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((rt / t) + q)))
+[TRAINING]: iteration 8500: best sol so far: 89840.5
+[TEST]: iteration 8500: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 9000: best sol so far: 89840.5
+[TEST]: iteration 9000: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 9500: best sol so far: 89840.5
+[TEST]: iteration 9500: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 10000: best sol so far: 89840.5
+[TEST]: iteration 10000: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 10500: best sol so far: 89840.5
+[TEST]: iteration 10500: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 11000: best sol so far: 89840.5
+[TEST]: iteration 11000: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 11500: best sol so far: 89840.5
+[TEST]: iteration 11500: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 12000: best sol so far: 89840.5
+[TEST]: iteration 12000: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 12500: best sol so far: 89840.5
+[TEST]: iteration 12500: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 13000: best sol so far: 89840.5
+[TEST]: iteration 13000: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 13500: best sol so far: 89840.5
+[TEST]: iteration 13500: best sol so far: 85035.9
+((((wt - d) / (slack_t max t_ready)) * dt) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 14000: best sol so far: 89817.3
+[TEST]: iteration 14000: best sol so far: 85729.3
+((((wt - d) / (slack_t max t_ready)) * ((d + d_depot) + (slack_t + d))) max ((t_rem * (d max d)) / ((t_ready / q) + q)))
+[TRAINING]: iteration 14500: best sol so far: 89474.8
+[TEST]: iteration 14500: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 15000: best sol so far: 89474.8
+[TEST]: iteration 15000: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 15500: best sol so far: 89474.8
+[TEST]: iteration 15500: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 16000: best sol so far: 89474.8
+[TEST]: iteration 16000: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 16500: best sol so far: 89474.8
+[TEST]: iteration 16500: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 17000: best sol so far: 89474.8
+[TEST]: iteration 17000: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 17500: best sol so far: 89474.8
+[TEST]: iteration 17500: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 18000: best sol so far: 89474.8
+[TEST]: iteration 18000: best sol so far: 85732.7
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * d) / ((t_ready / q) + q)))
+[TRAINING]: iteration 18500: best sol so far: 89031.7
+[TEST]: iteration 18500: best sol so far: 86077.2
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * (d max d)) / ((t_ready / q) + (slack_t max q))))
+[TRAINING]: iteration 19000: best sol so far: 89031.7
+[TEST]: iteration 19000: best sol so far: 86077.2
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * (d max d)) / ((t_ready / q) + (slack_t max q))))
+[TRAINING]: iteration 19500: best sol so far: 89031.7
+[TEST]: iteration 19500: best sol so far: 86077.2
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + d_depot) + (slack_t + d))) max ((t_rem * (d max d)) / ((t_ready / q) + (slack_t max q))))
+best after gp: 
+((((wt - d) / (slack_t max t_ready)) * ((d_depot + wt) + (slack_t + d))) max ((t_rem * (d max d)) / ((t_ready / q) + (slack_t max q))))
+best fitness: 89026.1
+[Training fitness: 89026.1]
+/c1/c101.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 5, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 
+3. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 
+4. route: 0, 24, 32, 31, 35, 37, 38, 39, 36, 34, 22, 
+5. route: 0, 3, 98, 95, 94, 92, 93, 97, 100, 99, 
+6. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 21, 
+7. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+8. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+9. route: 0, 33, 25, 27, 29, 30, 28, 26, 23, 
+10. route: 0, 96, 76, 71, 70, 73, 77, 79, 80, 
+11. route: 0, 81, 78, 
+Total distance: 1037.38
+-----------------------------------------
+/c1/c102.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 47, 
+2. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 
+3. route: 0, 65, 67, 63, 62, 74, 72, 61, 64, 68, 69, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 
+5. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 99, 
+6. route: 0, 90, 87, 86, 81, 71, 70, 73, 77, 79, 
+7. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+8. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+9. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 91, 89, 
+10. route: 0, 78, 76, 82, 83, 84, 85, 88, 66, 
+11. route: 0, 80, 
+Total distance: 1057.9
+-----------------------------------------
+/c1/c103.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 47, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 69, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 1, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 46, 45, 48, 50, 52, 49, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+7. route: 0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 
+8. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+9. route: 0, 57, 55, 54, 53, 56, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 66, 
+11. route: 0, 51, 2, 
+Total distance: 940.255
+-----------------------------------------
+/c1/c104.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 52, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 69, 66, 
+3. route: 0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 1, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 45, 46, 48, 50, 51, 49, 47, 
+5. route: 0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 
+7. route: 0, 98, 96, 95, 94, 93, 92, 97, 100, 99, 
+8. route: 0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 
+9. route: 0, 55, 57, 54, 56, 53, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+11. route: 0, 2, 
+Total distance: 901.988
+-----------------------------------------
+/c2/c201.txt
+Printing routes for 11 vehicles
+1. route: 0, 20, 24, 25, 27, 29, 35, 38, 39, 36, 34, 52, 49, 
+2. route: 0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 69, 66, 
+3. route: 0, 5, 3, 7, 8, 11, 10, 9, 6, 4, 1, 2, 75, 
+4. route: 0, 43, 42, 41, 40, 44, 45, 46, 48, 50, 51, 47, 21, 
+5. route: 0, 90, 87, 86, 84, 83, 82, 85, 88, 89, 91, 
+6. route: 0, 13, 17, 18, 19, 15, 16, 14, 12, 99, 
+7. route: 0, 98, 96, 95, 94, 93, 92, 97, 100, 22, 
+8. route: 0, 32, 33, 31, 37, 30, 28, 26, 23, 
+9. route: 0, 57, 55, 54, 56, 58, 60, 59, 
+10. route: 0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 
+11. route: 0, 53, 
+Total distance: 1023.09
+-----------------------------------------
+/c2/c202.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 20, 22, 24, 27, 30, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 9, 25, 43, 42, 41, 48, 21, 
+3. route: 0, 67, 63, 62, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 8, 11, 10, 90, 
+Total distance: 681.666
+-----------------------------------------
+/c2/c203.txt
+Printing routes for 4 vehicles
+1. route: 0, 93, 5, 75, 2, 67, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 21, 8, 
+2. route: 0, 63, 62, 74, 24, 27, 30, 20, 29, 6, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 
+3. route: 0, 22, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 83, 86, 82, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 87, 96, 90, 
+4. route: 0, 32, 
+Total distance: 782.473
+-----------------------------------------
+/c2/c204.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 86, 83, 82, 85, 76, 71, 70, 73, 79, 80, 81, 78, 77, 87, 96, 
+2. route: 0, 63, 67, 62, 74, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 40, 44, 46, 45, 50, 51, 52, 47, 43, 42, 41, 48, 21, 8, 10, 
+3. route: 0, 20, 22, 24, 27, 30, 29, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 17, 15, 19, 16, 14, 12, 13, 9, 11, 25, 90, 
+Total distance: 663.134
+-----------------------------------------
+/r1/r101.txt
+Printing routes for 3 vehicles
+1. route: 0, 93, 5, 75, 2, 1, 99, 100, 97, 92, 94, 95, 98, 7, 3, 4, 89, 91, 88, 84, 83, 82, 86, 40, 44, 46, 45, 51, 50, 52, 47, 43, 42, 41, 48, 
+2. route: 0, 20, 22, 24, 27, 30, 29, 67, 72, 61, 64, 66, 69, 68, 65, 49, 55, 54, 53, 56, 58, 60, 59, 57, 16, 14, 12, 15, 17, 13, 25, 9, 11, 10, 8, 
+3. route: 0, 63, 62, 74, 6, 32, 33, 31, 35, 37, 38, 39, 36, 34, 28, 26, 23, 18, 19, 85, 76, 71, 70, 73, 80, 79, 81, 78, 77, 87, 96, 90, 21, 
+Total distance: 847.579
+-----------------------------------------
+/r1/r102.txt
+Printing routes for 13 vehicles
+1. route: 0, 92, 42, 15, 44, 84, 5, 60, 83, 18, 82, 
+2. route: 0, 28, 27, 69, 62, 88, 10, 90, 63, 32, 20, 
+3. route: 0, 33, 81, 76, 79, 78, 34, 35, 71, 51, 70, 
+4. route: 0, 45, 36, 64, 49, 47, 48, 19, 7, 
+5. route: 0, 89, 94, 95, 97, 99, 6, 87, 57, 2, 74, 75, 72, 
+6. route: 0, 39, 23, 67, 22, 56, 55, 25, 54, 
+7. route: 0, 26, 12, 30, 9, 66, 68, 80, 77, 
+8. route: 0, 52, 11, 8, 46, 17, 86, 16, 
+9. route: 0, 1, 50, 65, 3, 29, 24, 21, 
+10. route: 0, 96, 59, 98, 37, 85, 91, 61, 14, 43, 13, 58, 
+11. route: 0, 31, 40, 53, 4, 73, 93, 
+12. route: 0, 38, 100, 
+13. route: 0, 41, 
+Total distance: 1549.03
+-----------------------------------------
+/r1/r103.txt
+Printing routes for 12 vehicles
+1. route: 0, 92, 59, 93, 85, 99, 96, 87, 97, 95, 94, 
+2. route: 0, 27, 28, 69, 62, 10, 90, 63, 32, 20, 66, 
+3. route: 0, 89, 6, 44, 38, 84, 5, 60, 83, 45, 18, 
+4. route: 0, 26, 12, 80, 68, 76, 79, 9, 81, 33, 78, 34, 
+5. route: 0, 40, 21, 73, 72, 23, 67, 39, 55, 25, 56, 
+6. route: 0, 52, 11, 19, 8, 82, 48, 47, 36, 7, 
+7. route: 0, 15, 43, 42, 57, 2, 74, 22, 41, 75, 
+8. route: 0, 1, 50, 3, 29, 24, 54, 4, 13, 37, 
+9. route: 0, 31, 88, 53, 98, 91, 16, 61, 86, 
+10. route: 0, 70, 30, 51, 71, 35, 65, 77, 58, 
+11. route: 0, 17, 46, 49, 64, 100, 
+12. route: 0, 14, 
+Total distance: 1405.5
+-----------------------------------------
+/r1/r104.txt
+Printing routes for 14 vehicles
+1. route: 0, 27, 28, 69, 31, 52, 88, 10, 20, 32, 70, 
+2. route: 0, 95, 92, 59, 98, 85, 5, 61, 84, 17, 60, 93, 89, 
+3. route: 0, 2, 21, 73, 72, 75, 22, 41, 74, 56, 4, 25, 
+4. route: 0, 83, 45, 82, 7, 47, 49, 48, 1, 
+5. route: 0, 33, 76, 12, 29, 79, 78, 34, 35, 77, 
+6. route: 0, 42, 15, 87, 99, 94, 6, 96, 37, 100, 91, 
+7. route: 0, 62, 11, 19, 63, 90, 66, 24, 
+8. route: 0, 30, 51, 81, 9, 3, 50, 68, 80, 
+9. route: 0, 16, 44, 14, 38, 43, 13, 58, 
+10. route: 0, 23, 39, 67, 55, 54, 26, 
+11. route: 0, 71, 65, 46, 
+12. route: 0, 86, 18, 97, 
+13. route: 0, 36, 64, 8, 
+14. route: 0, 57, 40, 53, 
+Total distance: 1606.41
+-----------------------------------------
+/r1/r105.txt
+Printing routes for 12 vehicles
+1. route: 0, 28, 12, 76, 29, 81, 79, 34, 78, 33, 77, 
+2. route: 0, 27, 52, 31, 88, 7, 18, 94, 99, 96, 92, 93, 100, 
+3. route: 0, 95, 59, 98, 61, 16, 85, 86, 44, 91, 42, 
+4. route: 0, 2, 21, 72, 73, 75, 22, 41, 15, 43, 74, 
+5. route: 0, 69, 30, 51, 71, 9, 3, 50, 1, 70, 
+6. route: 0, 83, 5, 82, 8, 47, 49, 11, 48, 89, 
+7. route: 0, 19, 63, 90, 10, 62, 32, 66, 
+8. route: 0, 14, 38, 87, 57, 53, 26, 4, 58, 
+9. route: 0, 45, 17, 84, 6, 40, 97, 37, 13, 
+10. route: 0, 23, 39, 67, 25, 55, 54, 80, 68, 24, 
+11. route: 0, 35, 65, 20, 64, 
+12. route: 0, 36, 46, 60, 56, 
+Total distance: 1524.29
+-----------------------------------------
+/r1/r106.txt
+Printing routes for 14 vehicles
+1. route: 0, 27, 92, 59, 42, 87, 97, 6, 94, 13, 95, 96, 93, 
+2. route: 0, 28, 69, 62, 11, 19, 49, 47, 7, 48, 
+3. route: 0, 52, 76, 33, 79, 78, 81, 3, 68, 80, 77, 
+4. route: 0, 15, 44, 16, 61, 85, 91, 100, 37, 98, 89, 
+5. route: 0, 30, 88, 8, 18, 83, 60, 5, 58, 
+6. route: 0, 73, 21, 40, 53, 22, 74, 56, 75, 72, 
+7. route: 0, 12, 23, 39, 67, 55, 4, 25, 24, 
+8. route: 0, 45, 99, 84, 86, 17, 46, 82, 
+9. route: 0, 1, 50, 51, 9, 71, 66, 20, 32, 70, 
+10. route: 0, 31, 90, 63, 64, 10, 35, 34, 
+11. route: 0, 2, 57, 41, 43, 14, 26, 54, 
+12. route: 0, 38, 
+13. route: 0, 29, 65, 
+14. route: 0, 36, 
+Total distance: 1619.4
+-----------------------------------------
+/r2/r201.txt
+Printing routes for 12 vehicles
+1. route: 0, 27, 28, 76, 12, 80, 68, 3, 79, 81, 33, 50, 
+2. route: 0, 52, 88, 31, 69, 1, 30, 51, 9, 78, 34, 77, 
+3. route: 0, 95, 92, 59, 99, 93, 85, 98, 37, 61, 16, 91, 100, 
+4. route: 0, 21, 73, 72, 75, 22, 41, 2, 87, 94, 96, 97, 13, 
+5. route: 0, 7, 82, 8, 83, 18, 6, 53, 26, 54, 
+6. route: 0, 5, 45, 84, 17, 86, 44, 38, 14, 43, 
+7. route: 0, 57, 15, 42, 40, 58, 74, 56, 4, 
+8. route: 0, 62, 11, 19, 47, 36, 49, 64, 63, 32, 
+9. route: 0, 70, 90, 10, 20, 71, 35, 66, 
+10. route: 0, 29, 24, 55, 25, 39, 23, 67, 
+11. route: 0, 48, 46, 60, 89, 
+12. route: 0, 65, 
+Total distance: 1309.47
+-----------------------------------------
+/r2/r202.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 42, 45, 36, 11, 62, 33, 27, 69, 30, 88, 64, 76, 79, 78, 9, 40, 53, 6, 84, 5, 49, 10, 66, 20, 51, 68, 80, 4, 74, 72, 73, 21, 75, 25, 54, 12, 28, 
+2. route: 0, 89, 18, 83, 60, 96, 94, 95, 97, 15, 39, 23, 67, 44, 38, 99, 87, 41, 22, 8, 82, 48, 47, 19, 7, 52, 31, 1, 50, 3, 81, 35, 71, 55, 24, 29, 77, 13, 58, 2, 57, 43, 
+3. route: 0, 26, 65, 34, 32, 90, 63, 46, 61, 16, 91, 85, 98, 37, 14, 86, 56, 17, 93, 100, 70, 
+Total distance: 1592.47
+-----------------------------------------
+/r2/r203.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 93, 85, 91, 98, 37, 97, 95, 94, 6, 96, 44, 15, 23, 67, 69, 11, 76, 79, 9, 81, 33, 53, 84, 5, 60, 83, 18, 52, 89, 13, 2, 57, 74, 22, 55, 4, 56, 75, 72, 73, 21, 40, 58, 26, 12, 80, 
+2. route: 0, 27, 28, 50, 1, 62, 10, 90, 63, 32, 30, 70, 31, 88, 7, 82, 48, 8, 99, 87, 38, 14, 42, 43, 41, 39, 54, 24, 29, 68, 3, 78, 34, 35, 71, 66, 20, 51, 77, 25, 65, 64, 
+3. route: 0, 61, 16, 86, 17, 45, 46, 47, 36, 49, 19, 100, 
+Total distance: 1239.26
+-----------------------------------------
+/r2/r204.txt
+Printing routes for 4 vehicles
+1. route: 0, 27, 69, 28, 31, 52, 82, 83, 5, 95, 59, 98, 92, 2, 21, 72, 73, 75, 22, 41, 12, 76, 81, 51, 30, 90, 11, 88, 62, 8, 84, 45, 46, 36, 10, 32, 66, 35, 56, 74, 55, 25, 4, 80, 77, 
+2. route: 0, 63, 64, 47, 29, 71, 65, 9, 33, 79, 78, 19, 7, 18, 87, 85, 44, 15, 57, 42, 53, 6, 96, 97, 37, 100, 91, 43, 54, 39, 24, 68, 1, 70, 60, 17, 
+3. route: 0, 14, 23, 67, 61, 16, 99, 40, 86, 38, 94, 13, 58, 3, 50, 34, 20, 26, 89, 93, 48, 
+4. route: 0, 49, 
+Total distance: 1711.51
+-----------------------------------------
+/r2/r205.txt
+Printing routes for 3 vehicles
+1. route: 0, 92, 59, 98, 42, 14, 16, 61, 45, 62, 11, 69, 27, 33, 81, 76, 30, 88, 99, 87, 40, 53, 28, 73, 22, 41, 75, 56, 21, 57, 2, 94, 95, 85, 52, 13, 97, 37, 100, 91, 43, 5, 17, 96, 93, 
+2. route: 0, 12, 29, 39, 72, 65, 71, 51, 15, 23, 67, 79, 78, 9, 8, 84, 6, 18, 47, 7, 90, 10, 31, 82, 46, 83, 60, 3, 77, 50, 34, 26, 58, 89, 
+3. route: 0, 36, 63, 19, 64, 44, 86, 38, 49, 48, 66, 20, 32, 1, 68, 55, 4, 74, 54, 80, 24, 35, 70, 25, 
+Total distance: 1769
+-----------------------------------------
+/r2/r206.txt
+Printing routes for 3 vehicles
+1. route: 0, 27, 28, 12, 29, 33, 76, 69, 31, 88, 62, 11, 19, 47, 36, 82, 7, 52, 18, 83, 5, 61, 16, 44, 98, 92, 95, 2, 73, 72, 40, 53, 94, 85, 59, 6, 14, 37, 97, 96, 93, 91, 100, 26, 56, 54, 55, 25, 4, 74, 58, 
+2. route: 0, 21, 75, 23, 39, 67, 15, 42, 99, 45, 8, 84, 86, 38, 87, 57, 41, 22, 30, 71, 65, 81, 79, 78, 51, 9, 3, 77, 50, 34, 10, 20, 66, 32, 70, 1, 68, 80, 24, 13, 
+3. route: 0, 63, 64, 90, 46, 49, 60, 89, 48, 17, 43, 35, 
+Total distance: 1419.98
+-----------------------------------------
+/rc1/rc101.txt
+Printing routes for 18 vehicles
+1. route: 0, 92, 95, 62, 67, 71, 72, 54, 94, 93, 96, 80, 
+2. route: 0, 65, 82, 69, 88, 53, 98, 55, 68, 70, 100, 
+3. route: 0, 42, 39, 36, 38, 40, 41, 43, 35, 37, 
+4. route: 0, 11, 14, 47, 16, 10, 12, 17, 60, 
+5. route: 0, 83, 52, 64, 84, 51, 85, 89, 
+6. route: 0, 45, 5, 3, 1, 8, 6, 7, 2, 
+7. route: 0, 44, 61, 46, 4, 91, 
+8. route: 0, 15, 87, 86, 57, 74, 58, 
+9. route: 0, 23, 21, 19, 49, 20, 24, 25, 
+10. route: 0, 76, 63, 56, 66, 
+11. route: 0, 33, 27, 29, 28, 26, 31, 34, 32, 
+12. route: 0, 73, 78, 13, 
+13. route: 0, 30, 50, 48, 
+14. route: 0, 18, 22, 59, 97, 
+15. route: 0, 75, 9, 77, 
+16. route: 0, 79, 
+17. route: 0, 81, 90, 
+18. route: 0, 99, 
+Total distance: 2107.31
+-----------------------------------------
+/rc1/rc102.txt
+Printing routes for 14 vehicles
+1. route: 0, 65, 83, 64, 92, 67, 94, 96, 54, 68, 70, 100, 
+2. route: 0, 82, 69, 98, 88, 53, 78, 10, 13, 17, 
+3. route: 0, 95, 62, 63, 85, 51, 76, 49, 20, 24, 91, 
+4. route: 0, 72, 71, 42, 44, 38, 41, 37, 35, 80, 
+5. route: 0, 52, 59, 87, 86, 99, 66, 56, 93, 
+6. route: 0, 2, 45, 5, 8, 7, 6, 46, 4, 3, 1, 
+7. route: 0, 14, 47, 15, 16, 11, 12, 9, 97, 58, 
+8. route: 0, 39, 36, 40, 61, 81, 55, 60, 
+9. route: 0, 19, 21, 23, 18, 22, 48, 25, 
+10. route: 0, 73, 79, 90, 74, 
+11. route: 0, 31, 29, 27, 28, 30, 32, 34, 26, 
+12. route: 0, 33, 84, 50, 89, 
+13. route: 0, 75, 57, 77, 
+14. route: 0, 43, 
+Total distance: 1909.31
+-----------------------------------------
+/rc1/rc103.txt
+Printing routes for 13 vehicles
+1. route: 0, 69, 98, 82, 83, 52, 86, 57, 22, 24, 66, 
+2. route: 0, 65, 99, 95, 63, 85, 76, 89, 80, 
+3. route: 0, 92, 67, 62, 71, 94, 96, 54, 41, 39, 68, 
+4. route: 0, 88, 2, 7, 6, 5, 3, 45, 46, 8, 4, 
+5. route: 0, 72, 61, 81, 90, 64, 84, 56, 91, 
+6. route: 0, 12, 14, 47, 16, 15, 11, 10, 9, 13, 17, 
+7. route: 0, 51, 19, 21, 23, 25, 49, 48, 
+8. route: 0, 73, 78, 79, 53, 60, 55, 100, 
+9. route: 0, 44, 42, 38, 40, 36, 35, 37, 43, 1, 
+10. route: 0, 59, 75, 58, 87, 97, 74, 
+11. route: 0, 31, 29, 28, 30, 34, 32, 26, 27, 93, 
+12. route: 0, 18, 20, 77, 
+13. route: 0, 70, 50, 33, 
+Total distance: 1706.73
+-----------------------------------------
+/rc1/rc104.txt
+Printing routes for 12 vehicles
+1. route: 0, 69, 98, 88, 53, 82, 99, 52, 86, 57, 74, 
+2. route: 0, 65, 83, 64, 84, 85, 63, 76, 51, 20, 24, 
+3. route: 0, 61, 70, 100, 81, 71, 93, 96, 54, 72, 
+4. route: 0, 92, 95, 67, 94, 90, 66, 56, 91, 80, 68, 
+5. route: 0, 7, 6, 2, 8, 46, 4, 3, 5, 45, 1, 
+6. route: 0, 12, 14, 47, 17, 16, 15, 11, 10, 9, 13, 
+7. route: 0, 62, 30, 32, 31, 29, 34, 28, 26, 27, 
+8. route: 0, 44, 42, 40, 38, 39, 41, 37, 36, 35, 43, 
+9. route: 0, 22, 19, 18, 48, 21, 49, 23, 25, 
+10. route: 0, 78, 73, 79, 60, 55, 59, 
+11. route: 0, 50, 33, 89, 
+12. route: 0, 87, 97, 75, 58, 77, 
+Total distance: 1495.28
+-----------------------------------------
+/rc2/rc201.txt
+Printing routes for 6 vehicles
+1. route: 0, 92, 65, 82, 98, 45, 5, 39, 69, 11, 47, 14, 12, 16, 88, 53, 79, 78, 6, 2, 7, 46, 3, 1, 55, 68, 94, 54, 96, 35, 37, 93, 80, 91, 48, 
+2. route: 0, 42, 36, 72, 33, 28, 27, 29, 31, 62, 63, 64, 67, 71, 61, 81, 40, 41, 90, 57, 10, 97, 66, 20, 24, 74, 17, 60, 70, 100, 
+3. route: 0, 83, 52, 59, 75, 21, 15, 23, 19, 76, 30, 34, 84, 95, 51, 49, 85, 56, 50, 32, 26, 43, 77, 25, 58, 
+4. route: 0, 73, 38, 99, 87, 9, 86, 89, 13, 
+5. route: 0, 44, 22, 18, 4, 
+6. route: 0, 8, 
+Total distance: 2495.69
+-----------------------------------------
+/rc2/rc202.txt
+Printing routes for 4 vehicles
+1. route: 0, 65, 92, 95, 63, 62, 33, 28, 27, 29, 31, 30, 83, 64, 82, 98, 88, 12, 16, 73, 7, 6, 8, 79, 46, 3, 4, 1, 10, 97, 74, 58, 77, 25, 24, 48, 89, 93, 
+2. route: 0, 72, 39, 42, 36, 45, 5, 2, 14, 47, 15, 59, 87, 52, 99, 11, 9, 19, 49, 22, 18, 85, 84, 94, 96, 54, 34, 50, 26, 32, 68, 70, 100, 60, 17, 80, 
+3. route: 0, 23, 21, 76, 69, 61, 44, 38, 40, 71, 67, 51, 86, 57, 20, 56, 66, 55, 37, 35, 43, 13, 91, 
+4. route: 0, 75, 90, 81, 41, 53, 78, 
+Total distance: 1952.69
+-----------------------------------------
+/rc2/rc203.txt
+Printing routes for 4 vehicles
+1. route: 0, 69, 83, 64, 95, 92, 67, 62, 63, 76, 19, 21, 23, 52, 82, 98, 47, 12, 14, 16, 15, 11, 87, 86, 57, 99, 65, 53, 9, 10, 78, 45, 4, 1, 54, 39, 35, 68, 55, 60, 100, 70, 
+2. route: 0, 72, 44, 42, 36, 2, 5, 61, 71, 31, 29, 28, 30, 33, 85, 51, 18, 49, 22, 90, 79, 6, 46, 41, 37, 43, 32, 56, 91, 80, 93, 
+3. route: 0, 59, 88, 75, 73, 7, 8, 81, 94, 84, 50, 34, 27, 26, 96, 20, 24, 25, 48, 77, 58, 74, 66, 89, 
+4. route: 0, 38, 13, 17, 3, 40, 97, 
+Total distance: 2069.6
+-----------------------------------------
+/rc2/rc204.txt
+Printing routes for 3 vehicles
+1. route: 0, 69, 98, 82, 65, 83, 64, 95, 92, 67, 62, 85, 63, 76, 51, 84, 19, 21, 23, 18, 49, 22, 20, 24, 52, 99, 11, 12, 15, 16, 47, 14, 9, 86, 57, 59, 97, 10, 13, 17, 60, 55, 100, 70, 68, 54, 93, 91, 80, 
+2. route: 0, 2, 45, 5, 88, 61, 44, 42, 39, 38, 40, 36, 41, 72, 71, 94, 81, 90, 53, 73, 79, 7, 6, 8, 46, 4, 3, 1, 78, 66, 56, 50, 34, 26, 32, 96, 35, 
+3. route: 0, 31, 29, 27, 28, 30, 33, 87, 75, 25, 48, 77, 58, 74, 89, 37, 43, 
+Total distance: 1422.47
+-----------------------------------------
+[Training fitness: 89026.1]
+[Test fitness: 85351.5]
+Elapsed time: 5258.631 seconds

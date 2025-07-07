@@ -1,0 +1,400 @@
+################################
+RUN 0
+initializing
+finding best expr in initial population
+best in initial population: 
+((((dt + next_veh) min (d_depot + t_rem)) + ((q max dem) / (d_depot * slack_t))) max (((q + d) / (t / rt)) max ((d_depot min next_veh) max (q / d))))
+fitness 163374
+[TRAINING]: iteration 0: best sol so far: 163374
+[TEST]: iteration 0: best sol so far: 148463
+((((dt + next_veh) min (d_depot + t_rem)) + ((q max dem) / (d_depot * slack_t))) max (((q + d) / (t / rt)) max ((d_depot min next_veh) max (q / d))))
+[TRAINING]: iteration 500: best sol so far: 141600
+[TEST]: iteration 500: best sol so far: 112776
+((((dt - next_veh) min (wt max dt)) * ((q max d_depot) * (d + t_ready))) - (((rt + d_depot) / (dem * d)) - ((slack_t * t) - (slack_t + dem))))
+[TRAINING]: iteration 1000: best sol so far: 116155
+[TEST]: iteration 1000: best sol so far: 110753
+((d + ((d_depot + slack_t) max (wt * t_rem))) + (((t_rem * d) + (dt min q)) - dem))
+[TRAINING]: iteration 1500: best sol so far: 116155
+[TEST]: iteration 1500: best sol so far: 110753
+((d + ((d_depot + slack_t) max (wt * t_rem))) + (((t_rem * d) + (dt min q)) - dem))
+[TRAINING]: iteration 2000: best sol so far: 113365
+[TEST]: iteration 2000: best sol so far: 108397
+((d + ((q + q) max (wt * t_rem))) * (((t_rem * d) + (dt min q)) * ((t_rem - wt) max (d max slack_t))))
+[TRAINING]: iteration 2500: best sol so far: 111280
+[TEST]: iteration 2500: best sol so far: 106935
+(((d_depot / (q min t)) max ((q + q) max (wt * t_rem))) * ((d + (t_rem / dt)) * ((slack_t - q) max (d max slack_t))))
+[TRAINING]: iteration 3000: best sol so far: 109350
+[TEST]: iteration 3000: best sol so far: 105721
+((dt + ((q + q) max (wt * t_rem))) * ((d + (t_rem / dt)) * ((slack_t - q) max (d max slack_t))))
+[TRAINING]: iteration 3500: best sol so far: 108016
+[TEST]: iteration 3500: best sol so far: 110520
+((d + ((q + t) max (wt * t_rem))) * ((d + (t_rem / dt)) * ((dem - q) max (d max slack_t))))
+[TRAINING]: iteration 4000: best sol so far: 107954
+[TEST]: iteration 4000: best sol so far: 108980
+((t + ((q + t) max (t_rem * wt))) * ((d + (t_rem / dt)) * ((dem - next_veh) max (d max slack_t))))
+[TRAINING]: iteration 4500: best sol so far: 107952
+[TEST]: iteration 4500: best sol so far: 108985
+((t + ((q + t) max (wt * t_rem))) * ((d + (t_rem / dt)) * ((dem - d) max (d max slack_t))))
+best after gp: 
+[Training fitness: 107545]
+[Test fitness: 108627]
+################################
+RUN 1
+initializing
+finding best expr in initial population
+best in initial population: 
+((((dt + dem) min (t_rem / d)) + ((t_ready + d) * (q max slack_t))) - (((next_veh min t) min (wt + d_depot)) / ((dem / t_rem) min (slack_t min wt))))
+fitness 159674
+[TRAINING]: iteration 0: best sol so far: 159674
+[TEST]: iteration 0: best sol so far: 129501
+((((dt + dem) min (t_rem / d)) + ((t_ready + d) * (q max slack_t))) - (((next_veh min t) min (wt + d_depot)) / ((dem / t_rem) min (slack_t min wt))))
+[TRAINING]: iteration 500: best sol so far: 125762
+[TEST]: iteration 500: best sol so far: 104895
+(((q * dt) + ((wt + d) * (q max slack_t))) + t_ready)
+[TRAINING]: iteration 1000: best sol so far: 115460
+[TEST]: iteration 1000: best sol so far: 111830
+(((dt + (t + next_veh)) + ((wt + d) * (t_rem max slack_t))) + ((next_veh max (dem - d_depot)) / ((t max q) - (slack_t min wt))))
+[TRAINING]: iteration 1500: best sol so far: 113285
+[TEST]: iteration 1500: best sol so far: 112218
+(((dt + (next_veh / rt)) + ((wt + d) * (d_depot max t_rem))) + (((next_veh max slack_t) min (slack_t + t_rem)) max ((d max t_rem) + (d_depot max dt))))
+[TRAINING]: iteration 2000: best sol so far: 111513
+[TEST]: iteration 2000: best sol so far: 111528
+((next_veh + ((wt + d) * (d max t_rem))) + (((t_rem - d) min (t_ready + t_rem)) max ((d max next_veh) + next_veh)))
+[TRAINING]: iteration 2500: best sol so far: 110964
+[TEST]: iteration 2500: best sol so far: 109433
+(((dt + (slack_t / dem)) + ((wt + d) * (d max slack_t))) + t)
+[TRAINING]: iteration 3000: best sol so far: 109673
+[TEST]: iteration 3000: best sol so far: 110018
+(((dt + (slack_t / dem)) + ((wt + d) * (d max t_rem))) + (((dem / next_veh) - (t_ready + t_rem)) min (dt + (d_depot max dt))))
+[TRAINING]: iteration 3500: best sol so far: 109673
+[TEST]: iteration 3500: best sol so far: 110018
+(((dt + (slack_t / dem)) + ((wt + d) * (d max t_rem))) + (((dem / next_veh) - (t_ready + t_rem)) min (dt + (d_depot max dt))))
+[TRAINING]: iteration 4000: best sol so far: 108942
+[TEST]: iteration 4000: best sol so far: 110018
+(((dt + (slack_t / dem)) + ((wt + d) * (d max t_rem))) + (((dem / t_ready) - (t_ready + t_rem)) min (dt + (d_depot max dt))))
+[TRAINING]: iteration 4500: best sol so far: 108942
+[TEST]: iteration 4500: best sol so far: 110018
+(((dt + (slack_t / dem)) + ((wt + d) * (d max t_rem))) + (((dem / t_ready) - (t_ready + t_rem)) min (dt + (d_depot max dt))))
+best after gp: 
+[Training fitness: 108941]
+[Test fitness: 110755]
+################################
+RUN 2
+initializing
+finding best expr in initial population
+best in initial population: 
+((((dem max t) - (next_veh + d)) / ((d / next_veh) + (t * t))) max (((d max t_ready) max (t_ready / q)) * ((t_rem + slack_t) + (t max dem))))
+fitness 137704
+[TRAINING]: iteration 0: best sol so far: 137704
+[TEST]: iteration 0: best sol so far: 115719
+((((dem max t) - (next_veh + d)) / ((d / next_veh) + (t * t))) max (((d max t_ready) max (t_ready / q)) * ((t_rem + slack_t) + (t max dem))))
+[TRAINING]: iteration 500: best sol so far: 123606
+[TEST]: iteration 500: best sol so far: 106596
+((((t_rem - rt) + (wt max rt)) min (q max slack_t)) + (((d max d) - (t - wt)) - ((d_depot min next_veh) + (t / d))))
+[TRAINING]: iteration 1000: best sol so far: 120367
+[TEST]: iteration 1000: best sol so far: 118615
+((((t_ready - t_rem) - (dem + d)) / ((t_rem - dt) + (t * t))) max (((d max wt) max (t_ready / q)) * ((t_rem + slack_t) + (t max t_ready))))
+[TRAINING]: iteration 1500: best sol so far: 114078
+[TEST]: iteration 1500: best sol so far: 108590
+(((dt - (t_ready + t)) / ((d / rt) + next_veh)) max (((d max wt) max (t_ready / q)) * ((slack_t + slack_t) + (slack_t max d))))
+[TRAINING]: iteration 2000: best sol so far: 114075
+[TEST]: iteration 2000: best sol so far: 108589
+(((dt - (dem + t)) / ((d / rt) + next_veh)) max (((d max wt) max (t_ready / slack_t)) * ((slack_t + slack_t) + (slack_t max d))))
+[TRAINING]: iteration 2500: best sol so far: 111253
+[TEST]: iteration 2500: best sol so far: 106469
+(((dt - (t_ready + t)) / ((dem / t_ready) + (t * t))) max (((d max wt) max (slack_t / q)) * ((wt + slack_t) + (slack_t max d))))
+[TRAINING]: iteration 3000: best sol so far: 110582
+[TEST]: iteration 3000: best sol so far: 109780
+(((t - (q - wt)) / ((t_ready - dt) + wt)) max (((d max wt) max (rt / t)) * ((wt + wt) + (slack_t max d))))
+[TRAINING]: iteration 3500: best sol so far: 109891
+[TEST]: iteration 3500: best sol so far: 109780
+(((dt - next_veh) / (d min (dt + t_rem))) max (((d max wt) max (slack_t / q)) * ((wt + wt) + (slack_t max d))))
+[TRAINING]: iteration 4000: best sol so far: 107360
+[TEST]: iteration 4000: best sol so far: 109780
+(((q max (rt - t_rem)) - next_veh) max (((d max wt) max (slack_t / q)) * ((wt + wt) + (slack_t max d))))
+[TRAINING]: iteration 4500: best sol so far: 107360
+[TEST]: iteration 4500: best sol so far: 109780
+(((q max (rt - t_rem)) - next_veh) max (((d max wt) max (slack_t / q)) * ((wt + wt) + (slack_t max d))))
+best after gp: 
+[Training fitness: 107358]
+[Test fitness: 109780]
+################################
+RUN 3
+initializing
+finding best expr in initial population
+best in initial population: 
+((dt min ((t_rem max q) - dem)) + (d max t_ready))
+fitness 141628
+[TRAINING]: iteration 0: best sol so far: 141628
+[TEST]: iteration 0: best sol so far: 123921
+((dt min ((t_rem max q) - dem)) + (d max t_ready))
+[TRAINING]: iteration 500: best sol so far: 130059
+[TEST]: iteration 500: best sol so far: 108072
+((((slack_t / d) / d) - ((d_depot min d) - (dt + d))) + (d max (wt min dt)))
+[TRAINING]: iteration 1000: best sol so far: 119073
+[TEST]: iteration 1000: best sol so far: 104650
+((((t_rem max wt) min (d + t_ready)) + (d + (slack_t + wt))) + (d max (dem max (t_ready / dem))))
+[TRAINING]: iteration 1500: best sol so far: 117220
+[TEST]: iteration 1500: best sol so far: 108148
+((((d max d) min t) + ((d - d_depot) + (dt + wt))) + (d max t_ready))
+[TRAINING]: iteration 2000: best sol so far: 115815
+[TEST]: iteration 2000: best sol so far: 102563
+((((t_rem max t_rem) min (d + t_ready)) + ((d - next_veh) + (dt + wt))) + (d max ((wt / rt) max (t_ready / dt))))
+[TRAINING]: iteration 2500: best sol so far: 114538
+[TEST]: iteration 2500: best sol so far: 102997
+((((t_rem max t_rem) min (d + t_ready)) + ((d - next_veh) + (dt + wt))) + (d max ((wt max wt) max (rt / dt))))
+[TRAINING]: iteration 3000: best sol so far: 113289
+[TEST]: iteration 3000: best sol so far: 102567
+((((d max t_rem) min (d + t_ready)) + ((d - next_veh) + (t_rem + wt))) + (d max (d max (rt / dt))))
+[TRAINING]: iteration 3500: best sol so far: 112232
+[TEST]: iteration 3500: best sol so far: 102956
+((((d max t_rem) min (d + t_ready)) + ((d - next_veh) + (t_rem + wt))) + (d max ((next_veh / t) max (t_ready / d_depot))))
+[TRAINING]: iteration 4000: best sol so far: 111875
+[TEST]: iteration 4000: best sol so far: 102595
+((((t_rem max d) min (d + t_ready)) + ((d - next_veh) + (dt + wt))) + (d max ((next_veh / d_depot) max (t_ready / d_depot))))
+[TRAINING]: iteration 4500: best sol so far: 111542
+[TEST]: iteration 4500: best sol so far: 101517
+((((t_rem max d) min (d + t_ready)) + ((d - next_veh) + (dt + wt))) + ((d min (t_ready max t)) max ((next_veh / t) max (t_ready / d_depot))))
+best after gp: 
+[Training fitness: 111542]
+[Test fitness: 101517]
+################################
+RUN 4
+initializing
+finding best expr in initial population
+best in initial population: 
+((slack_t + d) + (q + ((slack_t min rt) / next_veh)))
+fitness 167727
+[TRAINING]: iteration 0: best sol so far: 167727
+[TEST]: iteration 0: best sol so far: 144377
+((slack_t + d) + (q + ((slack_t min rt) / next_veh)))
+[TRAINING]: iteration 500: best sol so far: 125364
+[TEST]: iteration 500: best sol so far: 104176
+((wt + d) + (t_rem + ((slack_t min rt) / (d_depot * d))))
+[TRAINING]: iteration 1000: best sol so far: 115238
+[TEST]: iteration 1000: best sol so far: 115549
+(t_rem max (((wt + d) min (t_rem * t)) * ((slack_t max d) + (t / t_ready))))
+[TRAINING]: iteration 1500: best sol so far: 111668
+[TEST]: iteration 1500: best sol so far: 110505
+((dt + ((d - q) + (t_rem + q))) max (((wt + d) min (t_rem * dt)) * ((slack_t max d) + (t / d_depot))))
+[TRAINING]: iteration 2000: best sol so far: 109137
+[TEST]: iteration 2000: best sol so far: 110908
+((q + (d_depot min dt)) + (((wt + d) min (t_rem * next_veh)) * ((slack_t max d) + (t_ready / d_depot))))
+[TRAINING]: iteration 2500: best sol so far: 108807
+[TEST]: iteration 2500: best sol so far: 110197
+(((d max (d + dt)) + ((t + q) + (d max q))) max (((wt + d) min q) * ((slack_t max d) + (t_ready / d_depot))))
+[TRAINING]: iteration 3000: best sol so far: 108373
+[TEST]: iteration 3000: best sol so far: 109397
+(((d max (q min wt)) + ((d - t_ready) + (d max d))) + (((wt + d) min (t_rem * q)) * ((slack_t max d) + (d / d_depot))))
+[TRAINING]: iteration 3500: best sol so far: 107651
+[TEST]: iteration 3500: best sol so far: 109404
+((d + ((d - t_ready) + (d max d))) + (((wt + d) min q) * ((slack_t max d) + (d / d_depot))))
+[TRAINING]: iteration 4000: best sol so far: 107651
+[TEST]: iteration 4000: best sol so far: 109404
+((d + ((d - t_ready) + (d max d))) + (((wt + d) min q) * ((slack_t max d) + (d / d_depot))))
+[TRAINING]: iteration 4500: best sol so far: 107651
+[TEST]: iteration 4500: best sol so far: 109404
+((d + ((d - t_ready) + (d max d))) + (((wt + d) min q) * ((slack_t max d) + (d / d_depot))))
+best after gp: 
+[Training fitness: 107638]
+[Test fitness: 109758]
+################################
+RUN 5
+initializing
+finding best expr in initial population
+best in initial population: 
+((((slack_t + q) min (rt max d)) min ((d * slack_t) / (t_rem - dt))) + (((d_depot - dt) / (dt - t)) max ((t_rem + d) - (dem - t_ready))))
+fitness 140556
+[TRAINING]: iteration 0: best sol so far: 140556
+[TEST]: iteration 0: best sol so far: 119279
+((((slack_t + q) min (rt max d)) min ((d * slack_t) / (t_rem - dt))) + (((d_depot - dt) / (dt - t)) max ((t_rem + d) - (dem - t_ready))))
+[TRAINING]: iteration 500: best sol so far: 124473
+[TEST]: iteration 500: best sol so far: 114092
+((((dt + q) min (rt max d)) min ((slack_t * dt) / (wt - dem))) + (((dem max t_rem) / (dt - t)) max ((t_rem + d) - (q / d_depot))))
+[TRAINING]: iteration 1000: best sol so far: 115403
+[TEST]: iteration 1000: best sol so far: 105198
+(((wt * (wt - dem)) max (t_rem + (wt + d))) * (((next_veh max t_rem) / (rt - t)) max ((t_rem + d) - (next_veh - d))))
+[TRAINING]: iteration 1500: best sol so far: 115060
+[TEST]: iteration 1500: best sol so far: 104496
+(((wt * (wt - dem)) max (t_rem + (wt + d))) * ((q / (rt - t)) max ((t_rem + d) - (next_veh - d))))
+[TRAINING]: iteration 2000: best sol so far: 112548
+[TEST]: iteration 2000: best sol so far: 109219
+(((wt * (wt - dem)) max (t_rem + (d + d))) * ((slack_t / (dt - t)) max ((t_rem + d) - (next_veh - next_veh))))
+[TRAINING]: iteration 2500: best sol so far: 111974
+[TEST]: iteration 2500: best sol so far: 102787
+(((wt * slack_t) max (t_rem + (d + d))) * ((slack_t / (slack_t - dem)) max ((t_rem + d) - (next_veh - d))))
+[TRAINING]: iteration 3000: best sol so far: 110674
+[TEST]: iteration 3000: best sol so far: 104408
+((((next_veh + wt) * (wt - dem)) max ((q min t) + (wt + d))) * ((t / (dt - rt)) max ((t_rem + d) - (next_veh - d))))
+[TRAINING]: iteration 3500: best sol so far: 110128
+[TEST]: iteration 3500: best sol so far: 104933
+(((wt * slack_t) max (t_rem + (d + d))) * ((slack_t / (rt - t)) max ((t_rem + d) - (next_veh - d))))
+[TRAINING]: iteration 4000: best sol so far: 110128
+[TEST]: iteration 4000: best sol so far: 104933
+(((wt * slack_t) max (t_rem + (d + d))) * ((slack_t / (rt - t)) max ((t_rem + d) - (next_veh - d))))
+[TRAINING]: iteration 4500: best sol so far: 110128
+[TEST]: iteration 4500: best sol so far: 104933
+(((wt * slack_t) max (t_rem + (d + d))) * ((slack_t / (rt - t)) max ((t_rem + d) - (next_veh - d))))
+best after gp: 
+[Training fitness: 110128]
+[Test fitness: 104933]
+################################
+RUN 6
+initializing
+finding best expr in initial population
+best in initial population: 
+((dt + wt) * ((dt + rt) + d))
+fitness 158480
+[TRAINING]: iteration 0: best sol so far: 158480
+[TEST]: iteration 0: best sol so far: 119455
+((dt + wt) * ((dt + rt) + d))
+[TRAINING]: iteration 500: best sol so far: 116901
+[TEST]: iteration 500: best sol so far: 111468
+((((rt / t_rem) max (t_rem + t_rem)) * ((dt / t_rem) + (wt + d))) max t_ready)
+[TRAINING]: iteration 1000: best sol so far: 114275
+[TEST]: iteration 1000: best sol so far: 103387
+((((rt / d) max (d + t_rem)) * ((dt / dt) + (wt + d))) * (((t_rem - d_depot) + d) max ((slack_t / next_veh) * (wt max d))))
+[TRAINING]: iteration 1500: best sol so far: 113869
+[TEST]: iteration 1500: best sol so far: 103346
+((((t_rem / d) max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - d_depot) + d) max ((wt - d_depot) * (wt max d))))
+[TRAINING]: iteration 2000: best sol so far: 109656
+[TEST]: iteration 2000: best sol so far: 102403
+(((next_veh max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - d_depot) + d) max ((t_rem / next_veh) * (wt max d))))
+[TRAINING]: iteration 2500: best sol so far: 109650
+[TEST]: iteration 2500: best sol so far: 102761
+((((t_rem / d) max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - d_depot) + d) max ((t_rem / next_veh) * (wt max d))))
+[TRAINING]: iteration 3000: best sol so far: 108154
+[TEST]: iteration 3000: best sol so far: 109982
+((((next_veh / d) max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - d_depot) + d_depot) max ((dt / next_veh) * (wt max d))))
+[TRAINING]: iteration 3500: best sol so far: 106796
+[TEST]: iteration 3500: best sol so far: 102048
+((((t_rem / t_rem) max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - next_veh) + d) max ((t_rem / next_veh) * (wt max d))))
+[TRAINING]: iteration 4000: best sol so far: 106796
+[TEST]: iteration 4000: best sol so far: 102048
+((((t_rem / t_rem) max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - next_veh) + d) max ((t_rem / next_veh) * (wt max d))))
+[TRAINING]: iteration 4500: best sol so far: 106794
+[TEST]: iteration 4500: best sol so far: 102051
+((((q / d) max (d + t_rem)) * (wt + (wt + d))) * (((t_rem - next_veh) + d) max ((t_rem / next_veh) * (wt max d))))
+best after gp: 
+[Training fitness: 106791]
+[Test fitness: 102048]
+################################
+RUN 7
+initializing
+finding best expr in initial population
+best in initial population: 
+((t_rem max d) max d_depot)
+fitness 171039
+[TRAINING]: iteration 0: best sol so far: 171039
+[TEST]: iteration 0: best sol so far: 151861
+((t_rem max d) max d_depot)
+[TRAINING]: iteration 500: best sol so far: 125006
+[TEST]: iteration 500: best sol so far: 104530
+(d + (((wt + dt) max (wt + t_ready)) max ((t_rem / t) + next_veh)))
+[TRAINING]: iteration 1000: best sol so far: 125006
+[TEST]: iteration 1000: best sol so far: 104530
+(d + (((wt + dt) max (wt + t_ready)) max ((t_rem / t) + next_veh)))
+[TRAINING]: iteration 1500: best sol so far: 118717
+[TEST]: iteration 1500: best sol so far: 113286
+((((wt + d) * t_rem) max (slack_t - (t_rem - q))) + (((wt + dt) max (dem + wt)) max (t_rem min dt)))
+[TRAINING]: iteration 2000: best sol so far: 114379
+[TEST]: iteration 2000: best sol so far: 111834
+((((wt + d) * t_rem) max (dem / (dem - t_rem))) + (((wt + dt) max (d + t)) max ((dt max d_depot) + next_veh)))
+[TRAINING]: iteration 2500: best sol so far: 114355
+[TEST]: iteration 2500: best sol so far: 111830
+((((wt + d) * t_rem) max d_depot) + (slack_t max ((t min slack_t) + d)))
+[TRAINING]: iteration 3000: best sol so far: 114355
+[TEST]: iteration 3000: best sol so far: 111830
+((((wt + d) * t_rem) max d_depot) + (slack_t max ((t min slack_t) + d)))
+[TRAINING]: iteration 3500: best sol so far: 114338
+[TEST]: iteration 3500: best sol so far: 113627
+((((wt + d) * t_rem) max (t / (next_veh / d_depot))) + (((dt max t_ready) max (wt + t_ready)) max ((dt min slack_t) + next_veh)))
+[TRAINING]: iteration 4000: best sol so far: 114338
+[TEST]: iteration 4000: best sol so far: 113627
+((((wt + d) * t_rem) max (t / (next_veh / d_depot))) + (((dt max t_ready) max (wt + t_ready)) max ((dt min slack_t) + next_veh)))
+[TRAINING]: iteration 4500: best sol so far: 114006
+[TEST]: iteration 4500: best sol so far: 113273
+((((wt + d) * t_rem) max ((rt / wt) / t_ready)) + (((dt max dt) max (wt + t_ready)) max ((dt min slack_t) + next_veh)))
+best after gp: 
+[Training fitness: 113966]
+[Test fitness: 112902]
+################################
+RUN 8
+initializing
+finding best expr in initial population
+best in initial population: 
+((((dem / d) / (t min next_veh)) / ((dem * wt) min (d * dem))) max (((wt / next_veh) - (d max dem)) max ((d + slack_t) max (q / d))))
+fitness 170356
+[TRAINING]: iteration 0: best sol so far: 170356
+[TEST]: iteration 0: best sol so far: 151140
+((((dem / d) / (t min next_veh)) / ((dem * wt) min (d * dem))) max (((wt / next_veh) - (d max dem)) max ((d + slack_t) max (q / d))))
+[TRAINING]: iteration 500: best sol so far: 116506
+[TEST]: iteration 500: best sol so far: 111492
+((((dt + wt) + d) - dt) * ((d min (dem / slack_t)) max ((d + slack_t) max (q / d))))
+[TRAINING]: iteration 1000: best sol so far: 115796
+[TEST]: iteration 1000: best sol so far: 108605
+((((dt + wt) + d) - dt) * ((d min (dem / dem)) max ((d + slack_t) max (q / d_depot))))
+[TRAINING]: iteration 1500: best sol so far: 113174
+[TEST]: iteration 1500: best sol so far: 111240
+((((dt + wt) + d) - dt) * ((wt max (slack_t + slack_t)) max ((d + slack_t) max (q / d))))
+[TRAINING]: iteration 2000: best sol so far: 112092
+[TEST]: iteration 2000: best sol so far: 110873
+((((dt + wt) + d) - dt) * ((d_depot max (slack_t + slack_t)) max ((d + slack_t) max (q / d))))
+[TRAINING]: iteration 2500: best sol so far: 110842
+[TEST]: iteration 2500: best sol so far: 109423
+((((dt + wt) + d) - dt) * ((wt max (slack_t + slack_t)) max (t_rem + d)))
+[TRAINING]: iteration 3000: best sol so far: 110842
+[TEST]: iteration 3000: best sol so far: 109423
+((((dt + wt) + d) - dt) * ((wt max (slack_t + slack_t)) max (t_rem + d)))
+[TRAINING]: iteration 3500: best sol so far: 109415
+[TEST]: iteration 3500: best sol so far: 107587
+((((dt + wt) + d) - dt) * ((d max (slack_t + slack_t)) max ((d + slack_t) + d)))
+[TRAINING]: iteration 4000: best sol so far: 109415
+[TEST]: iteration 4000: best sol so far: 107587
+((((dt + wt) + d) - dt) * ((d max (slack_t + slack_t)) max ((d + slack_t) + d)))
+[TRAINING]: iteration 4500: best sol so far: 109395
+[TEST]: iteration 4500: best sol so far: 107586
+((((dt + wt) + d) - dt) * (((rt / next_veh) max (slack_t + slack_t)) max ((d + slack_t) + d)))
+best after gp: 
+[Training fitness: 108695]
+[Test fitness: 107587]
+################################
+RUN 9
+initializing
+finding best expr in initial population
+best in initial population: 
+(t_ready max (t_rem min q))
+fitness 181116
+[TRAINING]: iteration 0: best sol so far: 181116
+[TEST]: iteration 0: best sol so far: 164186
+(t_ready max (t_rem min q))
+[TRAINING]: iteration 500: best sol so far: 127700
+[TEST]: iteration 500: best sol so far: 106574
+((((dt - wt) max (t_rem + rt)) + d) max t_rem)
+[TRAINING]: iteration 1000: best sol so far: 121493
+[TEST]: iteration 1000: best sol so far: 112379
+((q + (t min (q min wt))) + (((d max d) / (next_veh / t_rem)) + q))
+[TRAINING]: iteration 1500: best sol so far: 117538
+[TEST]: iteration 1500: best sol so far: 106691
+(((q min (t_rem - q)) + wt) + (((wt max d) / (next_veh / t)) + t))
+[TRAINING]: iteration 2000: best sol so far: 115991
+[TEST]: iteration 2000: best sol so far: 104400
+((((dt - wt) max (t_rem + t_ready)) + d) + (((d max d) / (next_veh / slack_t)) + q))
+[TRAINING]: iteration 2500: best sol so far: 114947
+[TEST]: iteration 2500: best sol so far: 108294
+(wt + (((d max d) / (next_veh / slack_t)) + (d + wt)))
+[TRAINING]: iteration 3000: best sol so far: 112448
+[TEST]: iteration 3000: best sol so far: 107775
+((((dt - dem) max (t_rem + t_ready)) + d) + (((wt max d) / (next_veh / t)) + (d + wt)))
+[TRAINING]: iteration 3500: best sol so far: 112448
+[TEST]: iteration 3500: best sol so far: 107775
+((((dt - dem) max (t_rem + t_ready)) + d) + (((wt max d) / (next_veh / t)) + (d + wt)))
+[TRAINING]: iteration 4000: best sol so far: 111027
+[TEST]: iteration 4000: best sol so far: 108352
+((((dt - q) min (q - q)) + wt) + (((d max d) / (next_veh / slack_t)) + (d + wt)))
+[TRAINING]: iteration 4500: best sol so far: 111027
+[TEST]: iteration 4500: best sol so far: 108352
+((((dt - q) min (q - q)) + wt) + (((d max d) / (next_veh / slack_t)) + (d + wt)))
+best after gp: 
+[Training fitness: 111027]
+[Test fitness: 108352]

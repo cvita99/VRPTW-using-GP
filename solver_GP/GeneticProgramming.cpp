@@ -47,7 +47,9 @@ void GeneticProgramming::run(){
             break;
         };
         if (i % 500 == 0) {
-            cout << "iteration " << i << ": best sol so far: " << bestFitness << endl;
+            cout << "[TRAINING]: iteration " << i << ": best sol so far: " << bestFitness << endl;
+            cout << "[TEST]: iteration " << i << ": best sol so far: " << fitnessFunction->fitnessTest(best) << endl;
+            cout << best->printExpr() << endl;
         }
     }
 

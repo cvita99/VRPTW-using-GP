@@ -5,4 +5,5 @@
 class FitnessFunction {
     public:
         virtual double fitness(Node *expr) = 0;
+        virtual double fitnessTest(Node *expr) = 0;
     };

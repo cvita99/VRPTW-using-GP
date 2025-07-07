@@ -1,0 +1,544 @@
+################################################################################################################################################################RUN 0initializing
+finding best expr in initial population
+best in initial population: 
+(((((d min dt) min (wt + q)) * ((wt + t) max (t_rem - wt))) max (((t - rt) / (rt min t_ready)) / ((d_depot * q) + (d_depot min q)))) + ((((t_rem * wt) min (dt * wt)) - ((d / slack_t) / (q max dem))) max (((d_depot / wt) - (wt - dt)) - ((dt + dt) * (wt + rt)))))
+fitness 152039
+iteration 0: best sol so far: 152039
+iteration 500: best sol so far: 119963
+iteration 1000: best sol so far: 103505
+iteration 1500: best sol so far: 97322.9
+iteration 2000: best sol so far: 96952
+iteration 2500: best sol so far: 93427.5
+iteration 3000: best sol so far: 93427.5
+iteration 3500: best sol so far: 92334.8
+iteration 4000: best sol so far: 91626.2
+iteration 4500: best sol so far: 91624.6
+iteration 5000: best sol so far: 91624.6
+iteration 5500: best sol so far: 91610.4
+iteration 6000: best sol so far: 91262.7
+iteration 6500: best sol so far: 91259.9
+iteration 7000: best sol so far: 91250.8
+iteration 7500: best sol so far: 91250.8
+iteration 8000: best sol so far: 91245.9
+iteration 8500: best sol so far: 90887.7
+iteration 9000: best sol so far: 90887.7
+iteration 9500: best sol so far: 90887.7
+iteration 10000: best sol so far: 90887.7
+iteration 10500: best sol so far: 90887.7
+iteration 11000: best sol so far: 90887.7
+iteration 11500: best sol so far: 90887.7
+iteration 12000: best sol so far: 90887.7
+iteration 12500: best sol so far: 90887.7
+iteration 13000: best sol so far: 90887.7
+iteration 13500: best sol so far: 90887.7
+iteration 14000: best sol so far: 90887.7
+iteration 14500: best sol so far: 90887.7
+iteration 15000: best sol so far: 90887.7
+iteration 15500: best sol so far: 90887.7
+iteration 16000: best sol so far: 90887.7
+iteration 16500: best sol so far: 90887.7
+iteration 17000: best sol so far: 90887.7
+iteration 17500: best sol so far: 90887.7
+iteration 18000: best sol so far: 90887.7
+iteration 18500: best sol so far: 90887.7
+iteration 19000: best sol so far: 90887.7
+iteration 19500: best sol so far: 90887.7
+best after gp: 
+(wt + (((d_depot / (d min d)) * ((t / q) - (slack_t min slack_t))) * (((q + q) max (dt - dem)) / ((t_rem * slack_t) max (dt / q)))))
+best fitness: 90887.7
+[Training fitness: 90887.7]
+[Training fitness: 90887.7]
+[Test fitness: 83871.1]
+################################################################################################################################################################RUN 1initializing
+finding best expr in initial population
+best in initial population: 
+(((((slack_t max d) - (t_rem - wt)) / ((t - dt) min (t_rem max t_ready))) min (((d_depot + t_rem) - (q - q)) * ((q - q) * (slack_t max dem)))) + ((((dem / q) * (d_depot max dt)) / ((rt - dt) min (wt * t))) - (((t_ready / rt) max (d max t_ready)) min ((dem / t_ready) min (dem * slack_t)))))
+fitness 144510
+iteration 0: best sol so far: 144510
+iteration 500: best sol so far: 126743
+iteration 1000: best sol so far: 100925
+iteration 1500: best sol so far: 96851.9
+iteration 2000: best sol so far: 95436
+iteration 2500: best sol so far: 94340.4
+iteration 3000: best sol so far: 93540.1
+iteration 3500: best sol so far: 93226.1
+iteration 4000: best sol so far: 92535
+iteration 4500: best sol so far: 92180.4
+iteration 5000: best sol so far: 92171.4
+iteration 5500: best sol so far: 91810.9
+iteration 6000: best sol so far: 91794.7
+iteration 6500: best sol so far: 91794.7
+iteration 7000: best sol so far: 91794.7
+iteration 7500: best sol so far: 91438.7
+iteration 8000: best sol so far: 91438.7
+iteration 8500: best sol so far: 91438.7
+iteration 9000: best sol so far: 91438.7
+iteration 9500: best sol so far: 90219.3
+iteration 10000: best sol so far: 89893.3
+iteration 10500: best sol so far: 89893.3
+iteration 11000: best sol so far: 89842.6
+iteration 11500: best sol so far: 89839.3
+iteration 12000: best sol so far: 89479.8
+iteration 12500: best sol so far: 89477.1
+iteration 13000: best sol so far: 89473.1
+iteration 13500: best sol so far: 89472.6
+iteration 14000: best sol so far: 89471.7
+iteration 14500: best sol so far: 89120
+iteration 15000: best sol so far: 89117.2
+iteration 15500: best sol so far: 88764
+iteration 16000: best sol so far: 88764
+iteration 16500: best sol so far: 88764
+iteration 17000: best sol so far: 88763.8
+iteration 17500: best sol so far: 88763.8
+iteration 18000: best sol so far: 88763.8
+iteration 18500: best sol so far: 88763.8
+iteration 19000: best sol so far: 88761.1
+iteration 19500: best sol so far: 88761.1
+best after gp: 
+((wt max ((q min t) / ((dt + q) / (q min slack_t)))) + ((((d_depot + t_rem) / (q + d_depot)) max ((t min wt) - (t_rem min dem))) max (((wt min dem) min dt) max d)))
+best fitness: 88759.1
+[Training fitness: 88759.1]
+[Training fitness: 88759.1]
+[Test fitness: 85489.3]
+################################################################################################################################################################RUN 2initializing
+finding best expr in initial population
+best in initial population: 
+(((((t_rem min dt) * (t_rem / wt)) / ((t max t_ready) * (slack_t * q))) - (((q - d) - (dem max d_depot)) max ((rt * q) / (q + d)))) / ((((dt + dt) + (wt - rt)) * ((slack_t / rt) + (t_ready * q))) max (((dem - t) * (t min dem)) * ((t_rem / dem) + (q / d_depot)))))
+fitness 134786
+iteration 0: best sol so far: 134786
+iteration 500: best sol so far: 120613
+iteration 1000: best sol so far: 116677
+iteration 1500: best sol so far: 109689
+iteration 2000: best sol so far: 100867
+iteration 2500: best sol so far: 99809.7
+iteration 3000: best sol so far: 98363
+iteration 3500: best sol so far: 98356.9
+iteration 4000: best sol so far: 97637.8
+iteration 4500: best sol so far: 96180.2
+iteration 5000: best sol so far: 96166
+iteration 5500: best sol so far: 93240.1
+iteration 6000: best sol so far: 92436.4
+iteration 6500: best sol so far: 92074.2
+iteration 7000: best sol so far: 90274.5
+iteration 7500: best sol so far: 89912.2
+iteration 8000: best sol so far: 89908.3
+iteration 8500: best sol so far: 89193.4
+iteration 9000: best sol so far: 89193.4
+iteration 9500: best sol so far: 89188.5
+iteration 10000: best sol so far: 89188.5
+iteration 10500: best sol so far: 89188.5
+iteration 11000: best sol so far: 89188.5
+iteration 11500: best sol so far: 89188.5
+iteration 12000: best sol so far: 89188.5
+iteration 12500: best sol so far: 89188.5
+iteration 13000: best sol so far: 89188.5
+iteration 13500: best sol so far: 89188.5
+iteration 14000: best sol so far: 89188.5
+iteration 14500: best sol so far: 89188.5
+iteration 15000: best sol so far: 89188.5
+iteration 15500: best sol so far: 89188.5
+iteration 16000: best sol so far: 89188.5
+iteration 16500: best sol so far: 89188.5
+iteration 17000: best sol so far: 89188.5
+iteration 17500: best sol so far: 89188.5
+iteration 18000: best sol so far: 89188.5
+iteration 18500: best sol so far: 89188.5
+iteration 19000: best sol so far: 89188.5
+iteration 19500: best sol so far: 89144.2
+best after gp: 
+(((((rt min dt) * q) / t_rem) - ((t_rem / (q - dem)) max ((rt * q) / (wt max d)))) / ((((dt * d) + (d - rt)) * ((wt / rt) + (t_rem * wt))) max (rt * (t_rem max (slack_t * q)))))
+best fitness: 89144.2
+[Training fitness: 89144.2]
+[Training fitness: 89144.2]
+[Test fitness: 82896.6]
+################################################################################################################################################################RUN 3initializing
+finding best expr in initial population
+best in initial population: 
+(((((d - t_ready) + (t_ready / d)) min ((d_depot max dem) - (d_depot * slack_t))) / (((d / q) min (slack_t / slack_t)) min ((slack_t max rt) + (q * rt)))) - ((((q min q) min (slack_t max dem)) * ((t_ready max d) min (t_rem * rt))) - (((slack_t / d) min (t_ready min d)) * ((dt * d_depot) * (wt min t_ready)))))
+fitness 143635
+iteration 0: best sol so far: 143635
+iteration 500: best sol so far: 125213
+iteration 1000: best sol so far: 112827
+iteration 1500: best sol so far: 106342
+iteration 2000: best sol so far: 104175
+iteration 2500: best sol so far: 103500
+iteration 3000: best sol so far: 102737
+iteration 3500: best sol so far: 102002
+iteration 4000: best sol so far: 101292
+iteration 4500: best sol so far: 101285
+iteration 5000: best sol so far: 100922
+iteration 5500: best sol so far: 100566
+iteration 6000: best sol so far: 100210
+iteration 6500: best sol so far: 100203
+iteration 7000: best sol so far: 100198
+iteration 7500: best sol so far: 99846.1
+iteration 8000: best sol so far: 99846.1
+iteration 8500: best sol so far: 99844.6
+iteration 9000: best sol so far: 99844.6
+iteration 9500: best sol so far: 99844.6
+iteration 10000: best sol so far: 99843.3
+iteration 10500: best sol so far: 99843.3
+iteration 11000: best sol so far: 99843.3
+iteration 11500: best sol so far: 99843.3
+iteration 12000: best sol so far: 99834.3
+iteration 12500: best sol so far: 99482.2
+iteration 13000: best sol so far: 99482.2
+iteration 13500: best sol so far: 99478.3
+iteration 14000: best sol so far: 99478
+iteration 14500: best sol so far: 99478
+iteration 15000: best sol so far: 99478
+iteration 15500: best sol so far: 99478
+iteration 16000: best sol so far: 99478
+iteration 16500: best sol so far: 99478
+iteration 17000: best sol so far: 99478
+iteration 17500: best sol so far: 99478
+iteration 18000: best sol so far: 99478
+iteration 18500: best sol so far: 99478
+iteration 19000: best sol so far: 99478
+iteration 19500: best sol so far: 99478
+best after gp: 
+((((rt + (d - t_rem)) min (d - (d_depot * slack_t))) / (((d / q) min (rt / slack_t)) min ((t_rem + dt) min (q / d_depot)))) - ((((t_rem min wt) - (d - t_ready)) - (d max (d_depot / t_rem))) - (((d_depot min wt) - (t_rem / t_ready)) * ((slack_t * wt) * (wt min wt)))))
+best fitness: 99478
+[Training fitness: 99478]
+
+[Training fitness: 99478]
+[Test fitness: 106390]
+################################################################################################################################################################RUN 4initializing
+finding best expr in initial population
+best in initial population: 
+(((rt / (rt + dem)) / (slack_t * ((wt + t) + t_ready))) + (wt max ((t max t) - (dt + slack_t))))
+fitness 159270
+iteration 0: best sol so far: 159270
+iteration 500: best sol so far: 114618
+iteration 1000: best sol so far: 106010
+iteration 1500: best sol so far: 102781
+iteration 2000: best sol so far: 99371.8
+iteration 2500: best sol so far: 96310.1
+iteration 3000: best sol so far: 94549.3
+iteration 3500: best sol so far: 94215.4
+iteration 4000: best sol so far: 93132.4
+iteration 4500: best sol so far: 92339.6
+iteration 5000: best sol so far: 89473.1
+iteration 5500: best sol so far: 89113.9
+iteration 6000: best sol so far: 89111.5
+iteration 6500: best sol so far: 89111.5
+iteration 7000: best sol so far: 89111.5
+iteration 7500: best sol so far: 89111.5
+iteration 8000: best sol so far: 89111.1
+iteration 8500: best sol so far: 89111.1
+iteration 9000: best sol so far: 89111.1
+iteration 9500: best sol so far: 89097.6
+iteration 10000: best sol so far: 88731.5
+iteration 10500: best sol so far: 88724.7
+iteration 11000: best sol so far: 88724.7
+iteration 11500: best sol so far: 88723.7
+iteration 12000: best sol so far: 88723.7
+iteration 12500: best sol so far: 88723.7
+iteration 13000: best sol so far: 88723.7
+iteration 13500: best sol so far: 88723.7
+iteration 14000: best sol so far: 88723.7
+iteration 14500: best sol so far: 88723.7
+iteration 15000: best sol so far: 88723.7
+iteration 15500: best sol so far: 88715.4
+iteration 16000: best sol so far: 88715.4
+iteration 16500: best sol so far: 88715.4
+iteration 17000: best sol so far: 88715.4
+iteration 17500: best sol so far: 88357.7
+iteration 18000: best sol so far: 88357.7
+iteration 18500: best sol so far: 87944.7
+iteration 19000: best sol so far: 87936.8
+iteration 19500: best sol so far: 87936.8
+best after gp: 
+(((((t_rem min wt) min (slack_t - t)) - ((q / d) min (dem max d))) max (d - t_rem)) max ((rt + (t_ready / dem)) min ((d - (slack_t max q)) / ((d max wt) * t_rem))))
+best fitness: 87936.8
+[Training fitness: 87936.8]
+
+[Training fitness: 87936.8]
+[Test fitness: 82479.2]
+################################################################################################################################################################RUN 5initializing
+finding best expr in initial population
+best in initial population: 
+(((((t_ready min wt) min (d_depot max d)) min ((rt / t_rem) max (q / wt))) - (((t / t_ready) * (d_depot * t_ready)) max ((wt / rt) max (slack_t - wt)))) - ((((dt - rt) max (rt min t_rem)) * ((wt - d_depot) - (rt * d_depot))) * (((dem + t_rem) * (t_ready min slack_t)) max ((wt - dt) / (dt max slack_t)))))
+fitness 159977
+iteration 0: best sol so far: 159977
+iteration 500: best sol so far: 143535
+iteration 1000: best sol so far: 129158
+iteration 1500: best sol so far: 122874
+iteration 2000: best sol so far: 121428
+iteration 2500: best sol so far: 121428
+iteration 3000: best sol so far: 120717
+iteration 3500: best sol so far: 120367
+iteration 4000: best sol so far: 111015
+iteration 4500: best sol so far: 108680
+iteration 5000: best sol so far: 101222
+iteration 5500: best sol so far: 101222
+iteration 6000: best sol so far: 99412.8
+iteration 6500: best sol so far: 96841.6
+iteration 7000: best sol so far: 96841.6
+iteration 7500: best sol so far: 96841.6
+iteration 8000: best sol so far: 96091.6
+iteration 8500: best sol so far: 95375
+iteration 9000: best sol so far: 94987.8
+iteration 9500: best sol so far: 94987.8
+iteration 10000: best sol so far: 94979.5
+iteration 10500: best sol so far: 94632.3
+iteration 11000: best sol so far: 94631.4
+iteration 11500: best sol so far: 94630.5
+iteration 12000: best sol so far: 94273.1
+iteration 12500: best sol so far: 94272.8
+iteration 13000: best sol so far: 94272.8
+iteration 13500: best sol so far: 94272.8
+iteration 14000: best sol so far: 94272.8
+iteration 14500: best sol so far: 94272.8
+iteration 15000: best sol so far: 94272.8
+iteration 15500: best sol so far: 94272.4
+iteration 16000: best sol so far: 94272.2
+iteration 16500: best sol so far: 94269.8
+iteration 17000: best sol so far: 94269.1
+iteration 17500: best sol so far: 94269.1
+iteration 18000: best sol so far: 94268.4
+iteration 18500: best sol so far: 94268.4
+iteration 19000: best sol so far: 93913.1
+iteration 19500: best sol so far: 93910.8
+best after gp: 
+(((((d / rt) / (d_depot * t)) min ((d_depot max slack_t) / t_rem)) / ((q / (dt * d)) + wt)) - (((dem * (t / rt)) / ((d * rt) * d)) min (((d_depot - t_rem) * (wt max t_ready)) min ((t_rem - d) + (dem / t)))))
+best fitness: 93910.8
+[Training fitness: 93910.8]
+
+[Training fitness: 93910.8]
+[Test fitness: 87133.4]
+################################################################################################################################################################RUN 6initializing
+finding best expr in initial population
+best in initial population: 
+(t_ready / slack_t)
+fitness 146298
+iteration 0: best sol so far: 146298
+iteration 500: best sol so far: 130198
+iteration 1000: best sol so far: 113656
+iteration 1500: best sol so far: 106112
+iteration 2000: best sol so far: 97928.9
+iteration 2500: best sol so far: 95062.4
+iteration 3000: best sol so far: 92061.3
+iteration 3500: best sol so far: 92061.3
+iteration 4000: best sol so far: 91673.3
+iteration 4500: best sol so far: 91669.8
+iteration 5000: best sol so far: 91669.8
+iteration 5500: best sol so far: 90923.3
+iteration 6000: best sol so far: 90923.3
+iteration 6500: best sol so far: 90912.4
+iteration 7000: best sol so far: 90912.4
+iteration 7500: best sol so far: 90912.3
+iteration 8000: best sol so far: 90912.2
+iteration 8500: best sol so far: 90912.2
+iteration 9000: best sol so far: 90912.2
+iteration 9500: best sol so far: 90912.2
+iteration 10000: best sol so far: 90912.2
+iteration 10500: best sol so far: 90912.2
+iteration 11000: best sol so far: 90912.2
+iteration 11500: best sol so far: 90912.2
+iteration 12000: best sol so far: 90912.2
+iteration 12500: best sol so far: 90912.2
+iteration 13000: best sol so far: 90912.2
+iteration 13500: best sol so far: 90912.2
+iteration 14000: best sol so far: 90912.2
+iteration 14500: best sol so far: 90912.2
+iteration 15000: best sol so far: 90912.2
+iteration 15500: best sol so far: 90912.2
+iteration 16000: best sol so far: 90910.8
+iteration 16500: best sol so far: 90910.8
+iteration 17000: best sol so far: 90910.8
+iteration 17500: best sol so far: 90910.8
+iteration 18000: best sol so far: 90910.8
+iteration 18500: best sol so far: 90910.5
+iteration 19000: best sol so far: 90910.5
+iteration 19500: best sol so far: 90910.5
+best after gp: 
+(((((dt - t_ready) / slack_t) max ((t - slack_t) + (dt - t_ready))) / ((d_depot / (d * dem)) + ((slack_t min dem) * (t max d)))) + ((wt * ((t_rem max t_ready) min wt)) max (((dt * t_rem) / (d_depot / d)) / ((dt min dt) + (slack_t min t_ready)))))
+best fitness: 90910.5
+[Training fitness: 90910.5]
+[Training fitness: 90910.5]
+[Test fitness: 82141.3]
+################################################################################################################################################################RUN 7initializing
+finding best expr in initial population
+best in initial population: 
+(((((dem / dem) / (d + dt)) + ((q + t) max (t_ready * dem))) - (((d_depot max rt) + (d min q)) * ((rt - slack_t) + (q - rt)))) / ((((q min slack_t) * (d_depot + t_ready)) + ((q - q) min (rt - t_rem))) - (((q min t) / (dt / d_depot)) + ((dt min dem) max (d * t_rem)))))
+fitness 182816
+iteration 0: best sol so far: 182816
+iteration 500: best sol so far: 119522
+iteration 1000: best sol so far: 112927
+iteration 1500: best sol so far: 104981
+iteration 2000: best sol so far: 98684
+iteration 2500: best sol so far: 98684
+iteration 3000: best sol so far: 97267.7
+iteration 3500: best sol so far: 97267.2
+iteration 4000: best sol so far: 94707.9
+iteration 4500: best sol so far: 94707.9
+iteration 5000: best sol so far: 93841.6
+iteration 5500: best sol so far: 93835.5
+iteration 6000: best sol so far: 93833.5
+iteration 6500: best sol so far: 93833.5
+iteration 7000: best sol so far: 93119.7
+iteration 7500: best sol so far: 92757.4
+iteration 8000: best sol so far: 92757.4
+iteration 8500: best sol so far: 92757.4
+iteration 9000: best sol so far: 92757.4
+iteration 9500: best sol so far: 92757.4
+iteration 10000: best sol so far: 92757.4
+iteration 10500: best sol so far: 92757.4
+iteration 11000: best sol so far: 92757.4
+iteration 11500: best sol so far: 92757.4
+iteration 12000: best sol so far: 92757.4
+iteration 12500: best sol so far: 92757.4
+iteration 13000: best sol so far: 92757.4
+iteration 13500: best sol so far: 92757.4
+iteration 14000: best sol so far: 92757.4
+iteration 14500: best sol so far: 92757.4
+iteration 15000: best sol so far: 92757.4
+iteration 15500: best sol so far: 92757.4
+iteration 16000: best sol so far: 92754.6
+iteration 16500: best sol so far: 92754.6
+iteration 17000: best sol so far: 92754.6
+iteration 17500: best sol so far: 92754.6
+iteration 18000: best sol so far: 92754.6
+iteration 18500: best sol so far: 92754.6
+iteration 19000: best sol so far: 92754.6
+iteration 19500: best sol so far: 92754.6
+best after gp: 
+(((wt * (wt min (t_rem - wt))) max d) max ((t_rem min ((rt min t_rem) - (d + wt))) * (((slack_t min rt) - rt) - d)))
+best fitness: 92754.6
+[Training fitness: 92754.6]
+
+[Training fitness: 92754.6]
+[Test fitness: 86021.9]
+################################################################################################################################################################RUN 8initializing
+finding best expr in initial population
+best in initial population: 
+(((((t min wt) - (t_ready - wt)) - ((q * t) min (q max t_rem))) max (((wt max d) max (rt * t)) max ((d - dt) / (t_ready / t)))) * ((((rt - t) / (wt min t_ready)) - ((q min t) max (q / t_ready))) / (((t_ready + rt) + (dem max d)) min ((t_rem - t_rem) max (rt min slack_t)))))
+fitness 153712
+iteration 0: best sol so far: 153712
+iteration 500: best sol so far: 127803
+iteration 1000: best sol so far: 125244
+iteration 1500: best sol so far: 121605
+iteration 2000: best sol so far: 121541
+iteration 2500: best sol so far: 110776
+iteration 3000: best sol so far: 106933
+iteration 3500: best sol so far: 100768
+iteration 4000: best sol so far: 97148.6
+iteration 4500: best sol so far: 93199
+iteration 5000: best sol so far: 92830.5
+iteration 5500: best sol so far: 92480.1
+iteration 6000: best sol so far: 92120.4
+iteration 6500: best sol so far: 92120.4
+iteration 7000: best sol so far: 92119.3
+iteration 7500: best sol so far: 92119.3
+iteration 8000: best sol so far: 92118.7
+iteration 8500: best sol so far: 92117.6
+iteration 9000: best sol so far: 92117.6
+iteration 9500: best sol so far: 92083.4
+iteration 10000: best sol so far: 92072.6
+iteration 10500: best sol so far: 91720.5
+iteration 11000: best sol so far: 91713.7
+iteration 11500: best sol so far: 91713.7
+iteration 12000: best sol so far: 91713.1
+iteration 12500: best sol so far: 91712.2
+iteration 13000: best sol so far: 91712.1
+iteration 13500: best sol so far: 91712.1
+iteration 14000: best sol so far: 91712.1
+iteration 14500: best sol so far: 91712.1
+iteration 15000: best sol so far: 91712.1
+iteration 15500: best sol so far: 91712.1
+iteration 16000: best sol so far: 91712.1
+iteration 16500: best sol so far: 91360.4
+iteration 17000: best sol so far: 91360.4
+iteration 17500: best sol so far: 91360.4
+iteration 18000: best sol so far: 91360.4
+iteration 18500: best sol so far: 91360.4
+iteration 19000: best sol so far: 91360.4
+iteration 19500: best sol so far: 91360.4
+best after gp: 
+(((((rt / d) + rt) * ((wt - dem) - t)) max (((wt max d) max (d - t_rem)) max ((t_rem / wt) / (d - wt)))) * ((slack_t / q) / ((q + (dem / wt)) min ((t_rem - t_rem) max (d_depot min slack_t)))))
+best fitness: 91360.4
+[Training fitness: 91360.4]
+
+[Training fitness: 91360.4]
+[Test fitness: 87965.1]
+################################################################################################################################################################RUN 9initializing
+finding best expr in initial population
+best in initial population: 
+(((((d_depot max t_rem) / (rt min t_rem)) - ((dt min dem) * (rt + wt))) - (((t_rem + d) / (q * slack_t)) / ((slack_t + dt) min (rt + t_ready)))) max ((((t - dem) min (t_ready + slack_t)) + ((t min dt) / (dt min slack_t))) + (((t_ready - t) / (slack_t / t)) + ((d_depot - q) + (t / slack_t)))))
+fitness 185494
+iteration 0: best sol so far: 185494
+iteration 500: best sol so far: 102338
+iteration 1000: best sol so far: 102338
+iteration 1500: best sol so far: 101987
+iteration 2000: best sol so far: 95588.9
+iteration 2500: best sol so far: 94871.4
+iteration 3000: best sol so far: 94871.4
+iteration 3500: best sol so far: 94871.4
+iteration 4000: best sol so far: 94871.4
+iteration 4500: best sol so far: 94871.4
+iteration 5000: best sol so far: 94871.4
+iteration 5500: best sol so far: 94871.4
+iteration 6000: best sol so far: 94871.4
+iteration 6500: best sol so far: 94871.4
+iteration 7000: best sol so far: 94747.9
+iteration 7500: best sol so far: 93069.1
+iteration 8000: best sol so far: 93069.1
+iteration 8500: best sol so far: 93069.1
+iteration 9000: best sol so far: 91984.8
+iteration 9500: best sol so far: 91897.8
+iteration 10000: best sol so far: 91628
+iteration 10500: best sol so far: 91628
+iteration 11000: best sol so far: 91628
+iteration 11500: best sol so far: 91628
+iteration 12000: best sol so far: 91628
+iteration 12500: best sol so far: 91628
+iteration 13000: best sol so far: 91628
+iteration 13500: best sol so far: 91628
+iteration 14000: best sol so far: 91548
+iteration 14500: best sol so far: 91548
+iteration 15000: best sol so far: 91548
+iteration 15500: best sol so far: 91548
+iteration 16000: best sol so far: 91285.3
+iteration 16500: best sol so far: 91180.5
+iteration 17000: best sol so far: 91179.6
+iteration 17500: best sol so far: 91173.6
+iteration 18000: best sol so far: 90464.4
+iteration 18500: best sol so far: 90464.4
+iteration 19000: best sol so far: 90457.7
+iteration 19500: best sol so far: 90457.7
+
+[Training fitness: 90457.7]
+[Test fitness: 91435.5]
+Program ran for 29573.6 seconds.
+
+run1
+[Training fitness: 90887.7]
+[Test fitness: 83871.1]
+run2
+[Training fitness: 88759.1]
+[Test fitness: 85489.3]
+run3
+[Training fitness: 89144.2]
+[Test fitness: 82896.6]
+run4
+[Training fitness: 99478]
+[Test fitness: 106390]
+run5
+[Training fitness: 87936.8]
+[Test fitness: 82479.2]
+run6
+[Training fitness: 93910.8]
+[Test fitness: 87133.4]
+run7
+[Training fitness: 90910.5]
+[Test fitness: 82141.3]
+run8
+[Training fitness: 92754.6]
+[Test fitness: 86021.9]
+run9
+[Training fitness: 91360.4]
+[Test fitness: 87965.1]
+run10
+[Training fitness: 90457.7]
+[Test fitness: 91435.5]
